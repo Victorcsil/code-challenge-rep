@@ -1,0 +1,63 @@
+2025-01-27T17:18:22.722386Z [error    ] Cannot start plugin tap-csv: Catalog discovery failed: command ['/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/bin/tap-csv', '--config', '/home/victor/Desktop/TESTE/code-challenge/.meltano/run/tap-csv/tap.92290163-a83a-4ccd-aa48-08dce86b17f3.config.json', '--discover'] returned 1 with stderr:
+ Traceback (most recent call last):
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/bin/tap-csv", line 8, in <module>
+    sys.exit(TapCSV.cli())
+             ^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/click/core.py", line 1161, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/click/core.py", line 1081, in main
+    with self.make_context(prog_name, args, **extra) as ctx:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/click/core.py", line 949, in make_context
+    self.parse_args(ctx, args)
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/click/core.py", line 1417, in parse_args
+    value, args = param.handle_parse_result(ctx, opts, args)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/click/core.py", line 2403, in handle_parse_result
+    value = self.process_value(ctx, value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/click/core.py", line 2365, in process_value
+    value = self.callback(ctx, self, value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/singer_sdk/tap_base.py", line 554, in cb_discover
+    tap.run_discovery()
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/singer_sdk/tap_base.py", line 309, in run_discovery
+    catalog_text = self.catalog_json_text
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/singer_sdk/tap_base.py", line 329, in catalog_json_text
+    return dump_json(self.catalog_dict, indent=2)
+                     ^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/singer_sdk/tap_base.py", line 320, in catalog_dict
+    return t.cast("dict", self._singer_catalog.to_dict())
+                          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/singer_sdk/tap_base.py", line 340, in _singer_catalog
+    for stream in self.streams.values()
+                  ^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/singer_sdk/tap_base.py", line 149, in streams
+    for stream in self.load_streams():
+                  ^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/singer_sdk/tap_base.py", line 373, in load_streams
+    for stream in self.discover_streams():
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/tap_csv/tap.py", line 89, in discover_streams
+    return [
+           ^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/tap_csv/tap.py", line 90, in <listcomp>
+    CSVStream(
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/tap_csv/client.py", line 32, in __init__
+    super().__init__(*args, **kwargs)
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/singer_sdk/streams/core.py", line 182, in __init__
+    if not self.schema:
+           ^^^^^^^^^^^
+  File "/usr/lib/python3.11/functools.py", line 1001, in __get__
+    val = self.func(instance)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/tap_csv/client.py", line 137, in schema
+    for file_path in self.get_file_paths():
+                     ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/tap_csv/client.py", line 82, in get_file_paths
+    raise Exception(f"File path does not exist {file_path}")
+Exception: File path does not exist data/postgres/public-categories/2025-01-27/categories.csv
+
+2025-01-27T17:18:22.722602Z [error    ] Block run completed.           block_type=ExtractLoadBlocks err=RunnerError('Cannot start plugin tap-csv: Catalog discovery failed: command [\'/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/bin/tap-csv\', \'--config\', \'/home/victor/Desktop/TESTE/code-challenge/.meltano/run/tap-csv/tap.92290163-a83a-4ccd-aa48-08dce86b17f3.config.json\', \'--discover\'] returned 1 with stderr:\n Traceback (most recent call last):\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/bin/tap-csv", line 8, in <module>\n    sys.exit(TapCSV.cli())\n             ^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/click/core.py", line 1161, in __call__\n    return self.main(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/click/core.py", line 1081, in main\n    with self.make_context(prog_name, args, **extra) as ctx:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/click/core.py", line 949, in make_context\n    self.parse_args(ctx, args)\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/click/core.py", line 1417, in parse_args\n    value, args = param.handle_parse_result(ctx, opts, args)\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/click/core.py", line 2403, in handle_parse_result\n    value = self.process_value(ctx, value)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/click/core.py", line 2365, in process_value\n    value = self.callback(ctx, self, value)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/singer_sdk/tap_base.py", line 554, in cb_discover\n    tap.run_discovery()\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/singer_sdk/tap_base.py", line 309, in run_discovery\n    catalog_text = self.catalog_json_text\n                   ^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/singer_sdk/tap_base.py", line 329, in catalog_json_text\n    return dump_json(self.catalog_dict, indent=2)\n                     ^^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/singer_sdk/tap_base.py", line 320, in catalog_dict\n    return t.cast("dict", self._singer_catalog.to_dict())\n                          ^^^^^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/singer_sdk/tap_base.py", line 340, in _singer_catalog\n    for stream in self.streams.values()\n                  ^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/singer_sdk/tap_base.py", line 149, in streams\n    for stream in self.load_streams():\n                  ^^^^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/singer_sdk/tap_base.py", line 373, in load_streams\n    for stream in self.discover_streams():\n                  ^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/tap_csv/tap.py", line 89, in discover_streams\n    return [\n           ^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/tap_csv/tap.py", line 90, in <listcomp>\n    CSVStream(\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/tap_csv/client.py", line 32, in __init__\n    super().__init__(*args, **kwargs)\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/singer_sdk/streams/core.py", line 182, in __init__\n    if not self.schema:\n           ^^^^^^^^^^^\n  File "/usr/lib/python3.11/functools.py", line 1001, in __get__\n    val = self.func(instance)\n          ^^^^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/tap_csv/client.py", line 137, in schema\n    for file_path in self.get_file_paths():\n                     ^^^^^^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/tap_csv/client.py", line 82, in get_file_paths\n    raise Exception(f"File path does not exist {file_path}")\nException: File path does not exist data/postgres/public-categories/2025-01-27/categories.csv\n') exit_codes={} set_number=0 success=False

@@ -1,0 +1,19 @@
+[2025-01-27T18:57:07.106-0300] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: load_data.wait_step_1 manual__2025-01-27T21:51:20+00:00 [queued]>
+[2025-01-27T18:57:07.109-0300] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: load_data.wait_step_1 manual__2025-01-27T21:51:20+00:00 [queued]>
+[2025-01-27T18:57:07.109-0300] {taskinstance.py:2170} INFO - Starting attempt 2 of 1
+[2025-01-27T18:57:07.262-0300] {taskinstance.py:2191} INFO - Executing <Task(ExternalTaskSensor): wait_step_1> on 2025-01-27 21:51:20+00:00
+[2025-01-27T18:57:07.265-0300] {standard_task_runner.py:60} INFO - Started process 180909 to run task
+[2025-01-27T18:57:07.267-0300] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'load_data', 'wait_step_1', 'manual__2025-01-27T21:51:20+00:00', '--job-id', '69', '--raw', '--subdir', 'DAGS_FOLDER/step2.py', '--cfg-path', '/tmp/tmp5odhaweu']
+[2025-01-27T18:57:07.268-0300] {standard_task_runner.py:88} INFO - Job 69: Subtask wait_step_1
+[2025-01-27T18:57:07.367-0300] {task_command.py:423} INFO - Running <TaskInstance: load_data.wait_step_1 manual__2025-01-27T21:51:20+00:00 [running]> on host victor-MS-7C52
+[2025-01-27T18:57:07.482-0300] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='load_data' AIRFLOW_CTX_TASK_ID='wait_step_1' AIRFLOW_CTX_EXECUTION_DATE='2025-01-27T21:51:20+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-27T21:51:20+00:00'
+[2025-01-27T18:57:07.482-0300] {external_task.py:244} INFO - Poking for tasks ['organize_folders'] in dag extract_data on 2025-01-27T21:51:20+00:00 ... 
+[2025-01-27T18:57:37.485-0300] {external_task.py:244} INFO - Poking for tasks ['organize_folders'] in dag extract_data on 2025-01-27T21:51:20+00:00 ... 
+[2025-01-27T18:58:07.487-0300] {external_task.py:244} INFO - Poking for tasks ['organize_folders'] in dag extract_data on 2025-01-27T21:51:20+00:00 ... 
+[2025-01-27T18:58:37.490-0300] {external_task.py:244} INFO - Poking for tasks ['organize_folders'] in dag extract_data on 2025-01-27T21:51:20+00:00 ... 
+[2025-01-27T18:59:07.492-0300] {external_task.py:244} INFO - Poking for tasks ['organize_folders'] in dag extract_data on 2025-01-27T21:51:20+00:00 ... 
+[2025-01-27T18:59:26.578-0300] {local_task_job_runner.py:302} WARNING - State of this instance has been externally set to failed. Terminating instance.
+[2025-01-27T18:59:26.587-0300] {process_utils.py:131} INFO - Sending 15 to group 180909. PIDs of all processes in the group: [180909]
+[2025-01-27T18:59:26.588-0300] {process_utils.py:86} INFO - Sending the signal 15 to group 180909
+[2025-01-27T18:59:26.588-0300] {taskinstance.py:2450} ERROR - Received SIGTERM. Terminating subprocesses.
+[2025-01-27T18:59:26.719-0300] {process_utils.py:79} INFO - Process psutil.Process(pid=180909, status='terminated', exitcode=0, started='18:57:06') (180909) terminated with exit code 0

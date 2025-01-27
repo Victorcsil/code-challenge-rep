@@ -1,0 +1,97 @@
+[
+    {
+        "entity": "order_details",
+        "path": "data/csv/2025-01-15/order_details.csv",
+        "keys": [
+            "order_id",
+            "product_id"
+        ]
+    },
+    {
+        "entity": "categories",
+        "path": "data/postgres/categories/2025-01-15/categories.csv",
+        "keys": [
+            "category_id"
+        ]
+    },
+    {
+        "entity": "customers",
+        "path": "data/postgres/customers/2025-01-15/customers.csv",
+        "encoding": "UTF-8",
+        "keys": [
+            "customer_id"
+        ]
+    },
+    {
+        "entity": "employee_territories",
+        "path": "data/postgres/employee_territories/2025-01-15/employee_territories.csv",
+        "keys": [
+            "employee_id",
+            "territory_id"
+        ]
+    },
+    {
+        "entity": "employees",
+        "path": "data/postgres/employees/2025-01-15/employees.csv",
+        "keys": [
+            "employee_id"
+        ]
+    },
+    {
+        "entity": "orders",
+        "path": "data/postgres/orders/2025-01-15/orders.csv",
+        "encoding": "UTF-8",
+        "keys": [
+            "order_id",
+            "customer_id",
+            "employee_id"
+        ]
+    },
+    {
+        "entity": "products",
+        "path": "data/postgres/products/2025-01-15/products.csv",
+        "encoding": "UTF-8",
+        "keys": [
+            "product_id",
+            "supplier_id",
+            "category_id"
+        ]
+    },
+    {
+        "entity": "region",
+        "path": "data/postgres/region/2025-01-15/region.csv",
+        "keys": [
+            "region_id"
+        ]
+    },
+    {
+        "entity": "shippers",
+        "path": "data/postgres/shippers/2025-01-15/shippers.csv",
+        "keys": [
+            "shipper_id"
+        ]
+    },
+    {
+        "entity": "suppliers",
+        "path": "data/postgres/suppliers/2025-01-15/suppliers.csv",
+        "encoding": "UTF-8",
+        "keys": [
+            "supplier_id"
+        ]
+    },
+    {
+        "entity": "territories",
+        "path": "data/postgres/territories/2025-01-15/territories.csv",
+        "keys": [
+            "territory_id",
+            "region_id"
+        ]
+    },
+    {
+        "entity": "us_states",
+        "path": "data/postgres/us_states/2025-01-15/us_states.csv",
+        "keys": [
+            "state_id"
+        ]
+    }
+]

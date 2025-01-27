@@ -1,0 +1,25 @@
+[2025-01-27T20:03:44.289-0300] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_data.organize_folders manual__2025-01-27T23:03:13+00:00 [queued]>
+[2025-01-27T20:03:44.292-0300] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_data.organize_folders manual__2025-01-27T23:03:13+00:00 [queued]>
+[2025-01-27T20:03:44.292-0300] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-01-27T20:03:44.380-0300] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): organize_folders> on 2025-01-27 23:03:13+00:00
+[2025-01-27T20:03:44.384-0300] {standard_task_runner.py:60} INFO - Started process 204803 to run task
+[2025-01-27T20:03:44.386-0300] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'extract_data', 'organize_folders', 'manual__2025-01-27T23:03:13+00:00', '--job-id', '82', '--raw', '--subdir', 'DAGS_FOLDER/step1.py', '--cfg-path', '/tmp/tmp6bcmxew5']
+[2025-01-27T20:03:44.388-0300] {standard_task_runner.py:88} INFO - Job 82: Subtask organize_folders
+[2025-01-27T20:03:44.494-0300] {task_command.py:423} INFO - Running <TaskInstance: extract_data.organize_folders manual__2025-01-27T23:03:13+00:00 [running]> on host victor-MS-7C52
+[2025-01-27T20:03:44.701-0300] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='extract_data' AIRFLOW_CTX_TASK_ID='organize_folders' AIRFLOW_CTX_EXECUTION_DATE='2025-01-27T23:03:13+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-27T23:03:13+00:00'
+[2025-01-27T20:03:44.704-0300] {logging_mixin.py:188} INFO - Movido: data/dump/employee_territories.csv -> data/postgres/employee_territories/2025-01-15/employee_territories.csv
+[2025-01-27T20:03:44.704-0300] {logging_mixin.py:188} INFO - Movido: data/dump/customers.csv -> data/postgres/customers/2025-01-15/customers.csv
+[2025-01-27T20:03:44.705-0300] {logging_mixin.py:188} INFO - Movido: data/dump/order_details.csv -> data/csv/2025-01-15/order_details.csv
+[2025-01-27T20:03:44.705-0300] {logging_mixin.py:188} INFO - Movido: data/dump/territories.csv -> data/postgres/territories/2025-01-15/territories.csv
+[2025-01-27T20:03:44.705-0300] {logging_mixin.py:188} INFO - Movido: data/dump/employees.csv -> data/postgres/employees/2025-01-15/employees.csv
+[2025-01-27T20:03:44.705-0300] {logging_mixin.py:188} INFO - Movido: data/dump/region.csv -> data/postgres/region/2025-01-15/region.csv
+[2025-01-27T20:03:44.705-0300] {logging_mixin.py:188} INFO - Movido: data/dump/categories.csv -> data/postgres/categories/2025-01-15/categories.csv
+[2025-01-27T20:03:44.706-0300] {logging_mixin.py:188} INFO - Movido: data/dump/suppliers.csv -> data/postgres/suppliers/2025-01-15/suppliers.csv
+[2025-01-27T20:03:44.706-0300] {logging_mixin.py:188} INFO - Movido: data/dump/products.csv -> data/postgres/products/2025-01-15/products.csv
+[2025-01-27T20:03:44.706-0300] {logging_mixin.py:188} INFO - Movido: data/dump/orders.csv -> data/postgres/orders/2025-01-15/orders.csv
+[2025-01-27T20:03:44.706-0300] {logging_mixin.py:188} INFO - Movido: data/dump/shippers.csv -> data/postgres/shippers/2025-01-15/shippers.csv
+[2025-01-27T20:03:44.706-0300] {logging_mixin.py:188} INFO - Movido: data/dump/us_states.csv -> data/postgres/us_states/2025-01-15/us_states.csv
+[2025-01-27T20:03:44.706-0300] {python.py:201} INFO - Done. Returned value was: None
+[2025-01-27T20:03:44.712-0300] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=extract_data, task_id=organize_folders, execution_date=20250127T230313, start_date=20250127T230344, end_date=20250127T230344
+[2025-01-27T20:03:44.882-0300] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-01-27T20:03:45.321-0300] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

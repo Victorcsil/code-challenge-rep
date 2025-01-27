@@ -1,0 +1,10 @@
+[
+    {
+      "entity": "order_details",
+      "path": "data/order_details.csv",
+      "keys": [
+        "order_id",
+        "product_id"
+      ]
+    }
+]

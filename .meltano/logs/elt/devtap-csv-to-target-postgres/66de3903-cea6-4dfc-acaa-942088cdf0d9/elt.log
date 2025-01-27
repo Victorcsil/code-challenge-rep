@@ -1,0 +1,1183 @@
+2025-01-27T17:15:27.626942Z [debug    ] Created configuration at /home/victor/Desktop/TESTE/code-challenge/.meltano/run/tap-csv/tap.84888a67-9856-47c6-a4d9-1b9eca3b4562.config.json
+2025-01-27T17:15:27.627340Z [debug    ] Could not find tap.properties.json in /home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/tap.properties.json, skipping.
+2025-01-27T17:15:27.627517Z [debug    ] Could not find tap.properties.cache_key in /home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/tap.properties.cache_key, skipping.
+2025-01-27T17:15:27.627679Z [debug    ] Could not find state.json in /home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/state.json, skipping.
+2025-01-27T17:15:27.628313Z [debug    ] Using cached catalog file
+2025-01-27T17:15:27.628908Z [debug    ] Visiting CatalogNode.STREAM at '.streams[0]'.
+2025-01-27T17:15:27.629173Z [debug    ] Setting '.streams[0].selected' to 'False'
+2025-01-27T17:15:27.629338Z [debug    ] Setting '.streams[0].selected' to 'True'
+2025-01-27T17:15:27.629453Z [debug    ] Skipping node at '.streams[0].tap_stream_id'
+2025-01-27T17:15:27.629540Z [debug    ] Skipping node at '.streams[0].replication_method'
+2025-01-27T17:15:27.629614Z [debug    ] Skipping node at '.streams[0].key_properties[0]'
+2025-01-27T17:15:27.629693Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[0].schema.properties.customer_id'.
+2025-01-27T17:15:27.629784Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[0].schema.properties.company_name'.
+2025-01-27T17:15:27.629885Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[0].schema.properties.contact_name'.
+2025-01-27T17:15:27.629966Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[0].schema.properties.contact_title'.
+2025-01-27T17:15:27.630037Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[0].schema.properties.address'.
+2025-01-27T17:15:27.630107Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[0].schema.properties.city'.
+2025-01-27T17:15:27.630178Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[0].schema.properties.region'.
+2025-01-27T17:15:27.630249Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[0].schema.properties.postal_code'.
+2025-01-27T17:15:27.630320Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[0].schema.properties.country'.
+2025-01-27T17:15:27.630390Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[0].schema.properties.phone'.
+2025-01-27T17:15:27.630458Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[0].schema.properties.fax'.
+2025-01-27T17:15:27.630534Z [debug    ] Skipping node at '.streams[0].schema.type'
+2025-01-27T17:15:27.630596Z [debug    ] Skipping node at '.streams[0].schema.$schema'
+2025-01-27T17:15:27.630654Z [debug    ] Skipping node at '.streams[0].stream'
+2025-01-27T17:15:27.630717Z [debug    ] Visiting CatalogNode.METADATA at '.streams[0].metadata[0]'.
+2025-01-27T17:15:27.630793Z [debug    ] Visiting metadata node for tap_stream_id 'customers', breadcrumb '['properties', 'customer_id']'
+2025-01-27T17:15:27.630919Z [debug    ] Setting '.streams[0].metadata[0].metadata.selected' to 'False'
+2025-01-27T17:15:27.631010Z [debug    ] Setting '.streams[0].metadata[0].metadata.selected' to 'True'
+2025-01-27T17:15:27.631114Z [debug    ] Skipping node at '.streams[0].metadata[0].breadcrumb[0]'
+2025-01-27T17:15:27.631208Z [debug    ] Skipping node at '.streams[0].metadata[0].breadcrumb[1]'
+2025-01-27T17:15:27.631314Z [debug    ] Skipping node at '.streams[0].metadata[0].metadata.inclusion'
+2025-01-27T17:15:27.631438Z [debug    ] Skipping node at '.streams[0].metadata[0].metadata.selected'
+2025-01-27T17:15:27.631546Z [debug    ] Visiting CatalogNode.METADATA at '.streams[0].metadata[1]'.
+2025-01-27T17:15:27.631646Z [debug    ] Visiting metadata node for tap_stream_id 'customers', breadcrumb '['properties', 'company_name']'
+2025-01-27T17:15:27.631756Z [debug    ] Setting '.streams[0].metadata[1].metadata.selected' to 'False'
+2025-01-27T17:15:27.631862Z [debug    ] Setting '.streams[0].metadata[1].metadata.selected' to 'True'
+2025-01-27T17:15:27.631967Z [debug    ] Skipping node at '.streams[0].metadata[1].breadcrumb[0]'
+2025-01-27T17:15:27.632078Z [debug    ] Skipping node at '.streams[0].metadata[1].breadcrumb[1]'
+2025-01-27T17:15:27.632181Z [debug    ] Skipping node at '.streams[0].metadata[1].metadata.inclusion'
+2025-01-27T17:15:27.632265Z [debug    ] Skipping node at '.streams[0].metadata[1].metadata.selected'
+2025-01-27T17:15:27.632373Z [debug    ] Visiting CatalogNode.METADATA at '.streams[0].metadata[2]'.
+2025-01-27T17:15:27.632467Z [debug    ] Visiting metadata node for tap_stream_id 'customers', breadcrumb '['properties', 'contact_name']'
+2025-01-27T17:15:27.632588Z [debug    ] Setting '.streams[0].metadata[2].metadata.selected' to 'False'
+2025-01-27T17:15:27.632688Z [debug    ] Setting '.streams[0].metadata[2].metadata.selected' to 'True'
+2025-01-27T17:15:27.632785Z [debug    ] Skipping node at '.streams[0].metadata[2].breadcrumb[0]'
+2025-01-27T17:15:27.632874Z [debug    ] Skipping node at '.streams[0].metadata[2].breadcrumb[1]'
+2025-01-27T17:15:27.632980Z [debug    ] Skipping node at '.streams[0].metadata[2].metadata.inclusion'
+2025-01-27T17:15:27.633087Z [debug    ] Skipping node at '.streams[0].metadata[2].metadata.selected'
+2025-01-27T17:15:27.633183Z [debug    ] Visiting CatalogNode.METADATA at '.streams[0].metadata[3]'.
+2025-01-27T17:15:27.633282Z [debug    ] Visiting metadata node for tap_stream_id 'customers', breadcrumb '['properties', 'contact_title']'
+2025-01-27T17:15:27.633397Z [debug    ] Setting '.streams[0].metadata[3].metadata.selected' to 'False'
+2025-01-27T17:15:27.633485Z [debug    ] Setting '.streams[0].metadata[3].metadata.selected' to 'True'
+2025-01-27T17:15:27.633593Z [debug    ] Skipping node at '.streams[0].metadata[3].breadcrumb[0]'
+2025-01-27T17:15:27.633687Z [debug    ] Skipping node at '.streams[0].metadata[3].breadcrumb[1]'
+2025-01-27T17:15:27.633788Z [debug    ] Skipping node at '.streams[0].metadata[3].metadata.inclusion'
+2025-01-27T17:15:27.633879Z [debug    ] Skipping node at '.streams[0].metadata[3].metadata.selected'
+2025-01-27T17:15:27.633977Z [debug    ] Visiting CatalogNode.METADATA at '.streams[0].metadata[4]'.
+2025-01-27T17:15:27.634069Z [debug    ] Visiting metadata node for tap_stream_id 'customers', breadcrumb '['properties', 'address']'
+2025-01-27T17:15:27.634178Z [debug    ] Setting '.streams[0].metadata[4].metadata.selected' to 'False'
+2025-01-27T17:15:27.634266Z [debug    ] Setting '.streams[0].metadata[4].metadata.selected' to 'True'
+2025-01-27T17:15:27.634363Z [debug    ] Skipping node at '.streams[0].metadata[4].breadcrumb[0]'
+2025-01-27T17:15:27.634453Z [debug    ] Skipping node at '.streams[0].metadata[4].breadcrumb[1]'
+2025-01-27T17:15:27.634570Z [debug    ] Skipping node at '.streams[0].metadata[4].metadata.inclusion'
+2025-01-27T17:15:27.634657Z [debug    ] Skipping node at '.streams[0].metadata[4].metadata.selected'
+2025-01-27T17:15:27.634756Z [debug    ] Visiting CatalogNode.METADATA at '.streams[0].metadata[5]'.
+2025-01-27T17:15:27.634846Z [debug    ] Visiting metadata node for tap_stream_id 'customers', breadcrumb '['properties', 'city']'
+2025-01-27T17:15:27.634968Z [debug    ] Setting '.streams[0].metadata[5].metadata.selected' to 'False'
+2025-01-27T17:15:27.635051Z [debug    ] Setting '.streams[0].metadata[5].metadata.selected' to 'True'
+2025-01-27T17:15:27.635144Z [debug    ] Skipping node at '.streams[0].metadata[5].breadcrumb[0]'
+2025-01-27T17:15:27.635235Z [debug    ] Skipping node at '.streams[0].metadata[5].breadcrumb[1]'
+2025-01-27T17:15:27.635337Z [debug    ] Skipping node at '.streams[0].metadata[5].metadata.inclusion'
+2025-01-27T17:15:27.635423Z [debug    ] Skipping node at '.streams[0].metadata[5].metadata.selected'
+2025-01-27T17:15:27.635535Z [debug    ] Visiting CatalogNode.METADATA at '.streams[0].metadata[6]'.
+2025-01-27T17:15:27.635637Z [debug    ] Visiting metadata node for tap_stream_id 'customers', breadcrumb '['properties', 'region']'
+2025-01-27T17:15:27.635750Z [debug    ] Setting '.streams[0].metadata[6].metadata.selected' to 'False'
+2025-01-27T17:15:27.635842Z [debug    ] Setting '.streams[0].metadata[6].metadata.selected' to 'True'
+2025-01-27T17:15:27.635924Z [debug    ] Skipping node at '.streams[0].metadata[6].breadcrumb[0]'
+2025-01-27T17:15:27.635987Z [debug    ] Skipping node at '.streams[0].metadata[6].breadcrumb[1]'
+2025-01-27T17:15:27.636052Z [debug    ] Skipping node at '.streams[0].metadata[6].metadata.inclusion'
+2025-01-27T17:15:27.636112Z [debug    ] Skipping node at '.streams[0].metadata[6].metadata.selected'
+2025-01-27T17:15:27.636175Z [debug    ] Visiting CatalogNode.METADATA at '.streams[0].metadata[7]'.
+2025-01-27T17:15:27.636237Z [debug    ] Visiting metadata node for tap_stream_id 'customers', breadcrumb '['properties', 'postal_code']'
+2025-01-27T17:15:27.636307Z [debug    ] Setting '.streams[0].metadata[7].metadata.selected' to 'False'
+2025-01-27T17:15:27.636365Z [debug    ] Setting '.streams[0].metadata[7].metadata.selected' to 'True'
+2025-01-27T17:15:27.636425Z [debug    ] Skipping node at '.streams[0].metadata[7].breadcrumb[0]'
+2025-01-27T17:15:27.636500Z [debug    ] Skipping node at '.streams[0].metadata[7].breadcrumb[1]'
+2025-01-27T17:15:27.636598Z [debug    ] Skipping node at '.streams[0].metadata[7].metadata.inclusion'
+2025-01-27T17:15:27.636666Z [debug    ] Skipping node at '.streams[0].metadata[7].metadata.selected'
+2025-01-27T17:15:27.636729Z [debug    ] Visiting CatalogNode.METADATA at '.streams[0].metadata[8]'.
+2025-01-27T17:15:27.636788Z [debug    ] Visiting metadata node for tap_stream_id 'customers', breadcrumb '['properties', 'country']'
+2025-01-27T17:15:27.636860Z [debug    ] Setting '.streams[0].metadata[8].metadata.selected' to 'False'
+2025-01-27T17:15:27.636918Z [debug    ] Setting '.streams[0].metadata[8].metadata.selected' to 'True'
+2025-01-27T17:15:27.636977Z [debug    ] Skipping node at '.streams[0].metadata[8].breadcrumb[0]'
+2025-01-27T17:15:27.637035Z [debug    ] Skipping node at '.streams[0].metadata[8].breadcrumb[1]'
+2025-01-27T17:15:27.637096Z [debug    ] Skipping node at '.streams[0].metadata[8].metadata.inclusion'
+2025-01-27T17:15:27.637154Z [debug    ] Skipping node at '.streams[0].metadata[8].metadata.selected'
+2025-01-27T17:15:27.637216Z [debug    ] Visiting CatalogNode.METADATA at '.streams[0].metadata[9]'.
+2025-01-27T17:15:27.637276Z [debug    ] Visiting metadata node for tap_stream_id 'customers', breadcrumb '['properties', 'phone']'
+2025-01-27T17:15:27.637350Z [debug    ] Setting '.streams[0].metadata[9].metadata.selected' to 'False'
+2025-01-27T17:15:27.637408Z [debug    ] Setting '.streams[0].metadata[9].metadata.selected' to 'True'
+2025-01-27T17:15:27.637468Z [debug    ] Skipping node at '.streams[0].metadata[9].breadcrumb[0]'
+2025-01-27T17:15:27.637538Z [debug    ] Skipping node at '.streams[0].metadata[9].breadcrumb[1]'
+2025-01-27T17:15:27.637603Z [debug    ] Skipping node at '.streams[0].metadata[9].metadata.inclusion'
+2025-01-27T17:15:27.637660Z [debug    ] Skipping node at '.streams[0].metadata[9].metadata.selected'
+2025-01-27T17:15:27.637721Z [debug    ] Visiting CatalogNode.METADATA at '.streams[0].metadata[10]'.
+2025-01-27T17:15:27.637779Z [debug    ] Visiting metadata node for tap_stream_id 'customers', breadcrumb '['properties', 'fax']'
+2025-01-27T17:15:27.637844Z [debug    ] Setting '.streams[0].metadata[10].metadata.selected' to 'False'
+2025-01-27T17:15:27.637898Z [debug    ] Setting '.streams[0].metadata[10].metadata.selected' to 'True'
+2025-01-27T17:15:27.637981Z [debug    ] Skipping node at '.streams[0].metadata[10].breadcrumb[0]'
+2025-01-27T17:15:27.638041Z [debug    ] Skipping node at '.streams[0].metadata[10].breadcrumb[1]'
+2025-01-27T17:15:27.638101Z [debug    ] Skipping node at '.streams[0].metadata[10].metadata.inclusion'
+2025-01-27T17:15:27.638157Z [debug    ] Skipping node at '.streams[0].metadata[10].metadata.selected'
+2025-01-27T17:15:27.638217Z [debug    ] Visiting CatalogNode.METADATA at '.streams[0].metadata[11]'.
+2025-01-27T17:15:27.638274Z [debug    ] Visiting metadata node for tap_stream_id 'customers', breadcrumb '[]'
+2025-01-27T17:15:27.638338Z [debug    ] Setting '.streams[0].metadata[11].metadata.selected' to 'False'
+2025-01-27T17:15:27.638400Z [debug    ] Setting '.streams[0].metadata[11].metadata.selected' to 'True'
+2025-01-27T17:15:27.638464Z [debug    ] Skipping node at '.streams[0].metadata[11].metadata.inclusion'
+2025-01-27T17:15:27.638536Z [debug    ] Skipping node at '.streams[0].metadata[11].metadata.selected'
+2025-01-27T17:15:27.638596Z [debug    ] Skipping node at '.streams[0].metadata[11].metadata.selected-by-default'
+2025-01-27T17:15:27.638653Z [debug    ] Skipping node at '.streams[0].metadata[11].metadata.table-key-properties[0]'
+2025-01-27T17:15:27.638713Z [debug    ] Skipping node at '.streams[0].selected'
+2025-01-27T17:15:27.638778Z [debug    ] Visiting CatalogNode.STREAM at '.streams[1]'.
+2025-01-27T17:15:27.638852Z [debug    ] Setting '.streams[1].selected' to 'False'
+2025-01-27T17:15:27.638911Z [debug    ] Setting '.streams[1].selected' to 'True'
+2025-01-27T17:15:27.638969Z [debug    ] Skipping node at '.streams[1].tap_stream_id'
+2025-01-27T17:15:27.639026Z [debug    ] Skipping node at '.streams[1].replication_method'
+2025-01-27T17:15:27.639085Z [debug    ] Skipping node at '.streams[1].key_properties[0]'
+2025-01-27T17:15:27.639141Z [debug    ] Skipping node at '.streams[1].key_properties[1]'
+2025-01-27T17:15:27.639210Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[1].schema.properties.employee_id'.
+2025-01-27T17:15:27.639280Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[1].schema.properties.territory_id'.
+2025-01-27T17:15:27.639344Z [debug    ] Skipping node at '.streams[1].schema.type'
+2025-01-27T17:15:27.639402Z [debug    ] Skipping node at '.streams[1].schema.$schema'
+2025-01-27T17:15:27.639459Z [debug    ] Skipping node at '.streams[1].stream'
+2025-01-27T17:15:27.639533Z [debug    ] Visiting CatalogNode.METADATA at '.streams[1].metadata[0]'.
+2025-01-27T17:15:27.639622Z [debug    ] Visiting metadata node for tap_stream_id 'employee_territories', breadcrumb '['properties', 'employee_id']'
+2025-01-27T17:15:27.639706Z [debug    ] Setting '.streams[1].metadata[0].metadata.selected' to 'False'
+2025-01-27T17:15:27.639763Z [debug    ] Setting '.streams[1].metadata[0].metadata.selected' to 'True'
+2025-01-27T17:15:27.639827Z [debug    ] Skipping node at '.streams[1].metadata[0].breadcrumb[0]'
+2025-01-27T17:15:27.639915Z [debug    ] Skipping node at '.streams[1].metadata[0].breadcrumb[1]'
+2025-01-27T17:15:27.640006Z [debug    ] Skipping node at '.streams[1].metadata[0].metadata.inclusion'
+2025-01-27T17:15:27.640068Z [debug    ] Skipping node at '.streams[1].metadata[0].metadata.selected'
+2025-01-27T17:15:27.640149Z [debug    ] Visiting CatalogNode.METADATA at '.streams[1].metadata[1]'.
+2025-01-27T17:15:27.640225Z [debug    ] Visiting metadata node for tap_stream_id 'employee_territories', breadcrumb '['properties', 'territory_id']'
+2025-01-27T17:15:27.640295Z [debug    ] Setting '.streams[1].metadata[1].metadata.selected' to 'False'
+2025-01-27T17:15:27.640350Z [debug    ] Setting '.streams[1].metadata[1].metadata.selected' to 'True'
+2025-01-27T17:15:27.640407Z [debug    ] Skipping node at '.streams[1].metadata[1].breadcrumb[0]'
+2025-01-27T17:15:27.640464Z [debug    ] Skipping node at '.streams[1].metadata[1].breadcrumb[1]'
+2025-01-27T17:15:27.640536Z [debug    ] Skipping node at '.streams[1].metadata[1].metadata.inclusion'
+2025-01-27T17:15:27.640595Z [debug    ] Skipping node at '.streams[1].metadata[1].metadata.selected'
+2025-01-27T17:15:27.640654Z [debug    ] Visiting CatalogNode.METADATA at '.streams[1].metadata[2]'.
+2025-01-27T17:15:27.640711Z [debug    ] Visiting metadata node for tap_stream_id 'employee_territories', breadcrumb '[]'
+2025-01-27T17:15:27.640776Z [debug    ] Setting '.streams[1].metadata[2].metadata.selected' to 'False'
+2025-01-27T17:15:27.640830Z [debug    ] Setting '.streams[1].metadata[2].metadata.selected' to 'True'
+2025-01-27T17:15:27.640891Z [debug    ] Skipping node at '.streams[1].metadata[2].metadata.inclusion'
+2025-01-27T17:15:27.640957Z [debug    ] Skipping node at '.streams[1].metadata[2].metadata.selected'
+2025-01-27T17:15:27.641030Z [debug    ] Skipping node at '.streams[1].metadata[2].metadata.selected-by-default'
+2025-01-27T17:15:27.641095Z [debug    ] Skipping node at '.streams[1].metadata[2].metadata.table-key-properties[0]'
+2025-01-27T17:15:27.641152Z [debug    ] Skipping node at '.streams[1].metadata[2].metadata.table-key-properties[1]'
+2025-01-27T17:15:27.641210Z [debug    ] Skipping node at '.streams[1].selected'
+2025-01-27T17:15:27.641271Z [debug    ] Visiting CatalogNode.STREAM at '.streams[2]'.
+2025-01-27T17:15:27.641348Z [debug    ] Setting '.streams[2].selected' to 'False'
+2025-01-27T17:15:27.641406Z [debug    ] Setting '.streams[2].selected' to 'True'
+2025-01-27T17:15:27.641462Z [debug    ] Skipping node at '.streams[2].tap_stream_id'
+2025-01-27T17:15:27.641528Z [debug    ] Skipping node at '.streams[2].replication_method'
+2025-01-27T17:15:27.641589Z [debug    ] Skipping node at '.streams[2].key_properties[0]'
+2025-01-27T17:15:27.641653Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[2].schema.properties.employee_id'.
+2025-01-27T17:15:27.641721Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[2].schema.properties.last_name'.
+2025-01-27T17:15:27.641787Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[2].schema.properties.first_name'.
+2025-01-27T17:15:27.641853Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[2].schema.properties.title'.
+2025-01-27T17:15:27.641919Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[2].schema.properties.title_of_courtesy'.
+2025-01-27T17:15:27.641985Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[2].schema.properties.birth_date'.
+2025-01-27T17:15:27.642049Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[2].schema.properties.hire_date'.
+2025-01-27T17:15:27.642116Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[2].schema.properties.address'.
+2025-01-27T17:15:27.642181Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[2].schema.properties.city'.
+2025-01-27T17:15:27.642248Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[2].schema.properties.region'.
+2025-01-27T17:15:27.642314Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[2].schema.properties.postal_code'.
+2025-01-27T17:15:27.642380Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[2].schema.properties.country'.
+2025-01-27T17:15:27.642444Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[2].schema.properties.home_phone'.
+2025-01-27T17:15:27.642516Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[2].schema.properties.extension'.
+2025-01-27T17:15:27.642587Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[2].schema.properties.photo'.
+2025-01-27T17:15:27.642654Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[2].schema.properties.notes'.
+2025-01-27T17:15:27.642720Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[2].schema.properties.reports_to'.
+2025-01-27T17:15:27.642786Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[2].schema.properties.photo_path'.
+2025-01-27T17:15:27.642849Z [debug    ] Skipping node at '.streams[2].schema.type'
+2025-01-27T17:15:27.642905Z [debug    ] Skipping node at '.streams[2].schema.$schema'
+2025-01-27T17:15:27.642995Z [debug    ] Skipping node at '.streams[2].stream'
+2025-01-27T17:15:27.643106Z [debug    ] Visiting CatalogNode.METADATA at '.streams[2].metadata[0]'.
+2025-01-27T17:15:27.643210Z [debug    ] Visiting metadata node for tap_stream_id 'employees', breadcrumb '['properties', 'employee_id']'
+2025-01-27T17:15:27.643330Z [debug    ] Setting '.streams[2].metadata[0].metadata.selected' to 'False'
+2025-01-27T17:15:27.643429Z [debug    ] Setting '.streams[2].metadata[0].metadata.selected' to 'True'
+2025-01-27T17:15:27.643548Z [debug    ] Skipping node at '.streams[2].metadata[0].breadcrumb[0]'
+2025-01-27T17:15:27.643648Z [debug    ] Skipping node at '.streams[2].metadata[0].breadcrumb[1]'
+2025-01-27T17:15:27.643744Z [debug    ] Skipping node at '.streams[2].metadata[0].metadata.inclusion'
+2025-01-27T17:15:27.643834Z [debug    ] Skipping node at '.streams[2].metadata[0].metadata.selected'
+2025-01-27T17:15:27.643934Z [debug    ] Visiting CatalogNode.METADATA at '.streams[2].metadata[1]'.
+2025-01-27T17:15:27.644035Z [debug    ] Visiting metadata node for tap_stream_id 'employees', breadcrumb '['properties', 'last_name']'
+2025-01-27T17:15:27.644141Z [debug    ] Setting '.streams[2].metadata[1].metadata.selected' to 'False'
+2025-01-27T17:15:27.644234Z [debug    ] Setting '.streams[2].metadata[1].metadata.selected' to 'True'
+2025-01-27T17:15:27.644317Z [debug    ] Skipping node at '.streams[2].metadata[1].breadcrumb[0]'
+2025-01-27T17:15:27.644377Z [debug    ] Skipping node at '.streams[2].metadata[1].breadcrumb[1]'
+2025-01-27T17:15:27.644439Z [debug    ] Skipping node at '.streams[2].metadata[1].metadata.inclusion'
+2025-01-27T17:15:27.644497Z [debug    ] Skipping node at '.streams[2].metadata[1].metadata.selected'
+2025-01-27T17:15:27.644572Z [debug    ] Visiting CatalogNode.METADATA at '.streams[2].metadata[2]'.
+2025-01-27T17:15:27.644632Z [debug    ] Visiting metadata node for tap_stream_id 'employees', breadcrumb '['properties', 'first_name']'
+2025-01-27T17:15:27.644698Z [debug    ] Setting '.streams[2].metadata[2].metadata.selected' to 'False'
+2025-01-27T17:15:27.644755Z [debug    ] Setting '.streams[2].metadata[2].metadata.selected' to 'True'
+2025-01-27T17:15:27.644812Z [debug    ] Skipping node at '.streams[2].metadata[2].breadcrumb[0]'
+2025-01-27T17:15:27.644868Z [debug    ] Skipping node at '.streams[2].metadata[2].breadcrumb[1]'
+2025-01-27T17:15:27.644927Z [debug    ] Skipping node at '.streams[2].metadata[2].metadata.inclusion'
+2025-01-27T17:15:27.644983Z [debug    ] Skipping node at '.streams[2].metadata[2].metadata.selected'
+2025-01-27T17:15:27.645054Z [debug    ] Visiting CatalogNode.METADATA at '.streams[2].metadata[3]'.
+2025-01-27T17:15:27.645137Z [debug    ] Visiting metadata node for tap_stream_id 'employees', breadcrumb '['properties', 'title']'
+2025-01-27T17:15:27.645234Z [debug    ] Setting '.streams[2].metadata[3].metadata.selected' to 'False'
+2025-01-27T17:15:27.645319Z [debug    ] Setting '.streams[2].metadata[3].metadata.selected' to 'True'
+2025-01-27T17:15:27.645415Z [debug    ] Skipping node at '.streams[2].metadata[3].breadcrumb[0]'
+2025-01-27T17:15:27.645525Z [debug    ] Skipping node at '.streams[2].metadata[3].breadcrumb[1]'
+2025-01-27T17:15:27.645609Z [debug    ] Skipping node at '.streams[2].metadata[3].metadata.inclusion'
+2025-01-27T17:15:27.645668Z [debug    ] Skipping node at '.streams[2].metadata[3].metadata.selected'
+2025-01-27T17:15:27.645727Z [debug    ] Visiting CatalogNode.METADATA at '.streams[2].metadata[4]'.
+2025-01-27T17:15:27.645785Z [debug    ] Visiting metadata node for tap_stream_id 'employees', breadcrumb '['properties', 'title_of_courtesy']'
+2025-01-27T17:15:27.645851Z [debug    ] Setting '.streams[2].metadata[4].metadata.selected' to 'False'
+2025-01-27T17:15:27.645906Z [debug    ] Setting '.streams[2].metadata[4].metadata.selected' to 'True'
+2025-01-27T17:15:27.645962Z [debug    ] Skipping node at '.streams[2].metadata[4].breadcrumb[0]'
+2025-01-27T17:15:27.646018Z [debug    ] Skipping node at '.streams[2].metadata[4].breadcrumb[1]'
+2025-01-27T17:15:27.646080Z [debug    ] Skipping node at '.streams[2].metadata[4].metadata.inclusion'
+2025-01-27T17:15:27.646163Z [debug    ] Skipping node at '.streams[2].metadata[4].metadata.selected'
+2025-01-27T17:15:27.646238Z [debug    ] Visiting CatalogNode.METADATA at '.streams[2].metadata[5]'.
+2025-01-27T17:15:27.646297Z [debug    ] Visiting metadata node for tap_stream_id 'employees', breadcrumb '['properties', 'birth_date']'
+2025-01-27T17:15:27.646360Z [debug    ] Setting '.streams[2].metadata[5].metadata.selected' to 'False'
+2025-01-27T17:15:27.646416Z [debug    ] Setting '.streams[2].metadata[5].metadata.selected' to 'True'
+2025-01-27T17:15:27.646472Z [debug    ] Skipping node at '.streams[2].metadata[5].breadcrumb[0]'
+2025-01-27T17:15:27.646540Z [debug    ] Skipping node at '.streams[2].metadata[5].breadcrumb[1]'
+2025-01-27T17:15:27.646602Z [debug    ] Skipping node at '.streams[2].metadata[5].metadata.inclusion'
+2025-01-27T17:15:27.646657Z [debug    ] Skipping node at '.streams[2].metadata[5].metadata.selected'
+2025-01-27T17:15:27.646725Z [debug    ] Visiting CatalogNode.METADATA at '.streams[2].metadata[6]'.
+2025-01-27T17:15:27.646784Z [debug    ] Visiting metadata node for tap_stream_id 'employees', breadcrumb '['properties', 'hire_date']'
+2025-01-27T17:15:27.646852Z [debug    ] Setting '.streams[2].metadata[6].metadata.selected' to 'False'
+2025-01-27T17:15:27.646908Z [debug    ] Setting '.streams[2].metadata[6].metadata.selected' to 'True'
+2025-01-27T17:15:27.646965Z [debug    ] Skipping node at '.streams[2].metadata[6].breadcrumb[0]'
+2025-01-27T17:15:27.647020Z [debug    ] Skipping node at '.streams[2].metadata[6].breadcrumb[1]'
+2025-01-27T17:15:27.647079Z [debug    ] Skipping node at '.streams[2].metadata[6].metadata.inclusion'
+2025-01-27T17:15:27.647136Z [debug    ] Skipping node at '.streams[2].metadata[6].metadata.selected'
+2025-01-27T17:15:27.647195Z [debug    ] Visiting CatalogNode.METADATA at '.streams[2].metadata[7]'.
+2025-01-27T17:15:27.647251Z [debug    ] Visiting metadata node for tap_stream_id 'employees', breadcrumb '['properties', 'address']'
+2025-01-27T17:15:27.647317Z [debug    ] Setting '.streams[2].metadata[7].metadata.selected' to 'False'
+2025-01-27T17:15:27.647373Z [debug    ] Setting '.streams[2].metadata[7].metadata.selected' to 'True'
+2025-01-27T17:15:27.647431Z [debug    ] Skipping node at '.streams[2].metadata[7].breadcrumb[0]'
+2025-01-27T17:15:27.647486Z [debug    ] Skipping node at '.streams[2].metadata[7].breadcrumb[1]'
+2025-01-27T17:15:27.647557Z [debug    ] Skipping node at '.streams[2].metadata[7].metadata.inclusion'
+2025-01-27T17:15:27.647614Z [debug    ] Skipping node at '.streams[2].metadata[7].metadata.selected'
+2025-01-27T17:15:27.647674Z [debug    ] Visiting CatalogNode.METADATA at '.streams[2].metadata[8]'.
+2025-01-27T17:15:27.647729Z [debug    ] Visiting metadata node for tap_stream_id 'employees', breadcrumb '['properties', 'city']'
+2025-01-27T17:15:27.647793Z [debug    ] Setting '.streams[2].metadata[8].metadata.selected' to 'False'
+2025-01-27T17:15:27.647848Z [debug    ] Setting '.streams[2].metadata[8].metadata.selected' to 'True'
+2025-01-27T17:15:27.647909Z [debug    ] Skipping node at '.streams[2].metadata[8].breadcrumb[0]'
+2025-01-27T17:15:27.647994Z [debug    ] Skipping node at '.streams[2].metadata[8].breadcrumb[1]'
+2025-01-27T17:15:27.648058Z [debug    ] Skipping node at '.streams[2].metadata[8].metadata.inclusion'
+2025-01-27T17:15:27.648115Z [debug    ] Skipping node at '.streams[2].metadata[8].metadata.selected'
+2025-01-27T17:15:27.648177Z [debug    ] Visiting CatalogNode.METADATA at '.streams[2].metadata[9]'.
+2025-01-27T17:15:27.648235Z [debug    ] Visiting metadata node for tap_stream_id 'employees', breadcrumb '['properties', 'region']'
+2025-01-27T17:15:27.648300Z [debug    ] Setting '.streams[2].metadata[9].metadata.selected' to 'False'
+2025-01-27T17:15:27.648356Z [debug    ] Setting '.streams[2].metadata[9].metadata.selected' to 'True'
+2025-01-27T17:15:27.648413Z [debug    ] Skipping node at '.streams[2].metadata[9].breadcrumb[0]'
+2025-01-27T17:15:27.648467Z [debug    ] Skipping node at '.streams[2].metadata[9].breadcrumb[1]'
+2025-01-27T17:15:27.648555Z [debug    ] Skipping node at '.streams[2].metadata[9].metadata.inclusion'
+2025-01-27T17:15:27.648617Z [debug    ] Skipping node at '.streams[2].metadata[9].metadata.selected'
+2025-01-27T17:15:27.648678Z [debug    ] Visiting CatalogNode.METADATA at '.streams[2].metadata[10]'.
+2025-01-27T17:15:27.648736Z [debug    ] Visiting metadata node for tap_stream_id 'employees', breadcrumb '['properties', 'postal_code']'
+2025-01-27T17:15:27.648801Z [debug    ] Setting '.streams[2].metadata[10].metadata.selected' to 'False'
+2025-01-27T17:15:27.648856Z [debug    ] Setting '.streams[2].metadata[10].metadata.selected' to 'True'
+2025-01-27T17:15:27.648913Z [debug    ] Skipping node at '.streams[2].metadata[10].breadcrumb[0]'
+2025-01-27T17:15:27.648969Z [debug    ] Skipping node at '.streams[2].metadata[10].breadcrumb[1]'
+2025-01-27T17:15:27.649029Z [debug    ] Skipping node at '.streams[2].metadata[10].metadata.inclusion'
+2025-01-27T17:15:27.649092Z [debug    ] Skipping node at '.streams[2].metadata[10].metadata.selected'
+2025-01-27T17:15:27.649156Z [debug    ] Visiting CatalogNode.METADATA at '.streams[2].metadata[11]'.
+2025-01-27T17:15:27.649213Z [debug    ] Visiting metadata node for tap_stream_id 'employees', breadcrumb '['properties', 'country']'
+2025-01-27T17:15:27.649278Z [debug    ] Setting '.streams[2].metadata[11].metadata.selected' to 'False'
+2025-01-27T17:15:27.649332Z [debug    ] Setting '.streams[2].metadata[11].metadata.selected' to 'True'
+2025-01-27T17:15:27.649389Z [debug    ] Skipping node at '.streams[2].metadata[11].breadcrumb[0]'
+2025-01-27T17:15:27.649445Z [debug    ] Skipping node at '.streams[2].metadata[11].breadcrumb[1]'
+2025-01-27T17:15:27.649503Z [debug    ] Skipping node at '.streams[2].metadata[11].metadata.inclusion'
+2025-01-27T17:15:27.649570Z [debug    ] Skipping node at '.streams[2].metadata[11].metadata.selected'
+2025-01-27T17:15:27.649630Z [debug    ] Visiting CatalogNode.METADATA at '.streams[2].metadata[12]'.
+2025-01-27T17:15:27.649686Z [debug    ] Visiting metadata node for tap_stream_id 'employees', breadcrumb '['properties', 'home_phone']'
+2025-01-27T17:15:27.649750Z [debug    ] Setting '.streams[2].metadata[12].metadata.selected' to 'False'
+2025-01-27T17:15:27.649805Z [debug    ] Setting '.streams[2].metadata[12].metadata.selected' to 'True'
+2025-01-27T17:15:27.649886Z [debug    ] Skipping node at '.streams[2].metadata[12].breadcrumb[0]'
+2025-01-27T17:15:27.649944Z [debug    ] Skipping node at '.streams[2].metadata[12].breadcrumb[1]'
+2025-01-27T17:15:27.650005Z [debug    ] Skipping node at '.streams[2].metadata[12].metadata.inclusion'
+2025-01-27T17:15:27.650061Z [debug    ] Skipping node at '.streams[2].metadata[12].metadata.selected'
+2025-01-27T17:15:27.650120Z [debug    ] Visiting CatalogNode.METADATA at '.streams[2].metadata[13]'.
+2025-01-27T17:15:27.650177Z [debug    ] Visiting metadata node for tap_stream_id 'employees', breadcrumb '['properties', 'extension']'
+2025-01-27T17:15:27.650272Z [debug    ] Setting '.streams[2].metadata[13].metadata.selected' to 'False'
+2025-01-27T17:15:27.650354Z [debug    ] Setting '.streams[2].metadata[13].metadata.selected' to 'True'
+2025-01-27T17:15:27.650420Z [debug    ] Skipping node at '.streams[2].metadata[13].breadcrumb[0]'
+2025-01-27T17:15:27.650481Z [debug    ] Skipping node at '.streams[2].metadata[13].breadcrumb[1]'
+2025-01-27T17:15:27.650565Z [debug    ] Skipping node at '.streams[2].metadata[13].metadata.inclusion'
+2025-01-27T17:15:27.650641Z [debug    ] Skipping node at '.streams[2].metadata[13].metadata.selected'
+2025-01-27T17:15:27.650770Z [debug    ] Visiting CatalogNode.METADATA at '.streams[2].metadata[14]'.
+2025-01-27T17:15:27.650894Z [debug    ] Visiting metadata node for tap_stream_id 'employees', breadcrumb '['properties', 'photo']'
+2025-01-27T17:15:27.650987Z [debug    ] Setting '.streams[2].metadata[14].metadata.selected' to 'False'
+2025-01-27T17:15:27.651051Z [debug    ] Setting '.streams[2].metadata[14].metadata.selected' to 'True'
+2025-01-27T17:15:27.651111Z [debug    ] Skipping node at '.streams[2].metadata[14].breadcrumb[0]'
+2025-01-27T17:15:27.651169Z [debug    ] Skipping node at '.streams[2].metadata[14].breadcrumb[1]'
+2025-01-27T17:15:27.651231Z [debug    ] Skipping node at '.streams[2].metadata[14].metadata.inclusion'
+2025-01-27T17:15:27.651299Z [debug    ] Skipping node at '.streams[2].metadata[14].metadata.selected'
+2025-01-27T17:15:27.651390Z [debug    ] Visiting CatalogNode.METADATA at '.streams[2].metadata[15]'.
+2025-01-27T17:15:27.651479Z [debug    ] Visiting metadata node for tap_stream_id 'employees', breadcrumb '['properties', 'notes']'
+2025-01-27T17:15:27.651566Z [debug    ] Setting '.streams[2].metadata[15].metadata.selected' to 'False'
+2025-01-27T17:15:27.651644Z [debug    ] Setting '.streams[2].metadata[15].metadata.selected' to 'True'
+2025-01-27T17:15:27.651716Z [debug    ] Skipping node at '.streams[2].metadata[15].breadcrumb[0]'
+2025-01-27T17:15:27.651777Z [debug    ] Skipping node at '.streams[2].metadata[15].breadcrumb[1]'
+2025-01-27T17:15:27.651850Z [debug    ] Skipping node at '.streams[2].metadata[15].metadata.inclusion'
+2025-01-27T17:15:27.651910Z [debug    ] Skipping node at '.streams[2].metadata[15].metadata.selected'
+2025-01-27T17:15:27.651982Z [debug    ] Visiting CatalogNode.METADATA at '.streams[2].metadata[16]'.
+2025-01-27T17:15:27.652046Z [debug    ] Visiting metadata node for tap_stream_id 'employees', breadcrumb '['properties', 'reports_to']'
+2025-01-27T17:15:27.652136Z [debug    ] Setting '.streams[2].metadata[16].metadata.selected' to 'False'
+2025-01-27T17:15:27.652200Z [debug    ] Setting '.streams[2].metadata[16].metadata.selected' to 'True'
+2025-01-27T17:15:27.652271Z [debug    ] Skipping node at '.streams[2].metadata[16].breadcrumb[0]'
+2025-01-27T17:15:27.652350Z [debug    ] Skipping node at '.streams[2].metadata[16].breadcrumb[1]'
+2025-01-27T17:15:27.652435Z [debug    ] Skipping node at '.streams[2].metadata[16].metadata.inclusion'
+2025-01-27T17:15:27.652532Z [debug    ] Skipping node at '.streams[2].metadata[16].metadata.selected'
+2025-01-27T17:15:27.652635Z [debug    ] Visiting CatalogNode.METADATA at '.streams[2].metadata[17]'.
+2025-01-27T17:15:27.652725Z [debug    ] Visiting metadata node for tap_stream_id 'employees', breadcrumb '['properties', 'photo_path']'
+2025-01-27T17:15:27.652826Z [debug    ] Setting '.streams[2].metadata[17].metadata.selected' to 'False'
+2025-01-27T17:15:27.652924Z [debug    ] Setting '.streams[2].metadata[17].metadata.selected' to 'True'
+2025-01-27T17:15:27.652999Z [debug    ] Skipping node at '.streams[2].metadata[17].breadcrumb[0]'
+2025-01-27T17:15:27.653095Z [debug    ] Skipping node at '.streams[2].metadata[17].breadcrumb[1]'
+2025-01-27T17:15:27.653204Z [debug    ] Skipping node at '.streams[2].metadata[17].metadata.inclusion'
+2025-01-27T17:15:27.653302Z [debug    ] Skipping node at '.streams[2].metadata[17].metadata.selected'
+2025-01-27T17:15:27.653403Z [debug    ] Visiting CatalogNode.METADATA at '.streams[2].metadata[18]'.
+2025-01-27T17:15:27.653499Z [debug    ] Visiting metadata node for tap_stream_id 'employees', breadcrumb '[]'
+2025-01-27T17:15:27.653629Z [debug    ] Setting '.streams[2].metadata[18].metadata.selected' to 'False'
+2025-01-27T17:15:27.653731Z [debug    ] Setting '.streams[2].metadata[18].metadata.selected' to 'True'
+2025-01-27T17:15:27.653841Z [debug    ] Skipping node at '.streams[2].metadata[18].metadata.inclusion'
+2025-01-27T17:15:27.653944Z [debug    ] Skipping node at '.streams[2].metadata[18].metadata.selected'
+2025-01-27T17:15:27.654043Z [debug    ] Skipping node at '.streams[2].metadata[18].metadata.selected-by-default'
+2025-01-27T17:15:27.654129Z [debug    ] Skipping node at '.streams[2].metadata[18].metadata.table-key-properties[0]'
+2025-01-27T17:15:27.654215Z [debug    ] Skipping node at '.streams[2].selected'
+2025-01-27T17:15:27.654325Z [debug    ] Visiting CatalogNode.STREAM at '.streams[3]'.
+2025-01-27T17:15:27.654457Z [debug    ] Setting '.streams[3].selected' to 'False'
+2025-01-27T17:15:27.654574Z [debug    ] Setting '.streams[3].selected' to 'True'
+2025-01-27T17:15:27.654647Z [debug    ] Skipping node at '.streams[3].tap_stream_id'
+2025-01-27T17:15:27.654710Z [debug    ] Skipping node at '.streams[3].replication_method'
+2025-01-27T17:15:27.654771Z [debug    ] Skipping node at '.streams[3].key_properties[0]'
+2025-01-27T17:15:27.654829Z [debug    ] Skipping node at '.streams[3].key_properties[1]'
+2025-01-27T17:15:27.654899Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[3].schema.properties.order_id'.
+2025-01-27T17:15:27.654973Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[3].schema.properties.product_id'.
+2025-01-27T17:15:27.655049Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[3].schema.properties.unit_price'.
+2025-01-27T17:15:27.655143Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[3].schema.properties.quantity'.
+2025-01-27T17:15:27.655245Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[3].schema.properties.discount'.
+2025-01-27T17:15:27.655332Z [debug    ] Skipping node at '.streams[3].schema.type'
+2025-01-27T17:15:27.655419Z [debug    ] Skipping node at '.streams[3].schema.$schema'
+2025-01-27T17:15:27.655495Z [debug    ] Skipping node at '.streams[3].stream'
+2025-01-27T17:15:27.655592Z [debug    ] Visiting CatalogNode.METADATA at '.streams[3].metadata[0]'.
+2025-01-27T17:15:27.655669Z [debug    ] Visiting metadata node for tap_stream_id 'order_details', breadcrumb '['properties', 'order_id']'
+2025-01-27T17:15:27.655759Z [debug    ] Setting '.streams[3].metadata[0].metadata.selected' to 'False'
+2025-01-27T17:15:27.655832Z [debug    ] Setting '.streams[3].metadata[0].metadata.selected' to 'True'
+2025-01-27T17:15:27.655909Z [debug    ] Skipping node at '.streams[3].metadata[0].breadcrumb[0]'
+2025-01-27T17:15:27.655984Z [debug    ] Skipping node at '.streams[3].metadata[0].breadcrumb[1]'
+2025-01-27T17:15:27.656064Z [debug    ] Skipping node at '.streams[3].metadata[0].metadata.inclusion'
+2025-01-27T17:15:27.656136Z [debug    ] Skipping node at '.streams[3].metadata[0].metadata.selected'
+2025-01-27T17:15:27.656217Z [debug    ] Visiting CatalogNode.METADATA at '.streams[3].metadata[1]'.
+2025-01-27T17:15:27.656301Z [debug    ] Visiting metadata node for tap_stream_id 'order_details', breadcrumb '['properties', 'product_id']'
+2025-01-27T17:15:27.656396Z [debug    ] Setting '.streams[3].metadata[1].metadata.selected' to 'False'
+2025-01-27T17:15:27.656470Z [debug    ] Setting '.streams[3].metadata[1].metadata.selected' to 'True'
+2025-01-27T17:15:27.656562Z [debug    ] Skipping node at '.streams[3].metadata[1].breadcrumb[0]'
+2025-01-27T17:15:27.656624Z [debug    ] Skipping node at '.streams[3].metadata[1].breadcrumb[1]'
+2025-01-27T17:15:27.656707Z [debug    ] Skipping node at '.streams[3].metadata[1].metadata.inclusion'
+2025-01-27T17:15:27.656771Z [debug    ] Skipping node at '.streams[3].metadata[1].metadata.selected'
+2025-01-27T17:15:27.656834Z [debug    ] Visiting CatalogNode.METADATA at '.streams[3].metadata[2]'.
+2025-01-27T17:15:27.656908Z [debug    ] Visiting metadata node for tap_stream_id 'order_details', breadcrumb '['properties', 'unit_price']'
+2025-01-27T17:15:27.656993Z [debug    ] Setting '.streams[3].metadata[2].metadata.selected' to 'False'
+2025-01-27T17:15:27.657064Z [debug    ] Setting '.streams[3].metadata[2].metadata.selected' to 'True'
+2025-01-27T17:15:27.657141Z [debug    ] Skipping node at '.streams[3].metadata[2].breadcrumb[0]'
+2025-01-27T17:15:27.657213Z [debug    ] Skipping node at '.streams[3].metadata[2].breadcrumb[1]'
+2025-01-27T17:15:27.657293Z [debug    ] Skipping node at '.streams[3].metadata[2].metadata.inclusion'
+2025-01-27T17:15:27.657366Z [debug    ] Skipping node at '.streams[3].metadata[2].metadata.selected'
+2025-01-27T17:15:27.657447Z [debug    ] Visiting CatalogNode.METADATA at '.streams[3].metadata[3]'.
+2025-01-27T17:15:27.657531Z [debug    ] Visiting metadata node for tap_stream_id 'order_details', breadcrumb '['properties', 'quantity']'
+2025-01-27T17:15:27.657605Z [debug    ] Setting '.streams[3].metadata[3].metadata.selected' to 'False'
+2025-01-27T17:15:27.657665Z [debug    ] Setting '.streams[3].metadata[3].metadata.selected' to 'True'
+2025-01-27T17:15:27.657726Z [debug    ] Skipping node at '.streams[3].metadata[3].breadcrumb[0]'
+2025-01-27T17:15:27.657800Z [debug    ] Skipping node at '.streams[3].metadata[3].breadcrumb[1]'
+2025-01-27T17:15:27.657870Z [debug    ] Skipping node at '.streams[3].metadata[3].metadata.inclusion'
+2025-01-27T17:15:27.657929Z [debug    ] Skipping node at '.streams[3].metadata[3].metadata.selected'
+2025-01-27T17:15:27.657992Z [debug    ] Visiting CatalogNode.METADATA at '.streams[3].metadata[4]'.
+2025-01-27T17:15:27.658050Z [debug    ] Visiting metadata node for tap_stream_id 'order_details', breadcrumb '['properties', 'discount']'
+2025-01-27T17:15:27.658118Z [debug    ] Setting '.streams[3].metadata[4].metadata.selected' to 'False'
+2025-01-27T17:15:27.658175Z [debug    ] Setting '.streams[3].metadata[4].metadata.selected' to 'True'
+2025-01-27T17:15:27.658235Z [debug    ] Skipping node at '.streams[3].metadata[4].breadcrumb[0]'
+2025-01-27T17:15:27.658300Z [debug    ] Skipping node at '.streams[3].metadata[4].breadcrumb[1]'
+2025-01-27T17:15:27.658364Z [debug    ] Skipping node at '.streams[3].metadata[4].metadata.inclusion'
+2025-01-27T17:15:27.658423Z [debug    ] Skipping node at '.streams[3].metadata[4].metadata.selected'
+2025-01-27T17:15:27.658483Z [debug    ] Visiting CatalogNode.METADATA at '.streams[3].metadata[5]'.
+2025-01-27T17:15:27.658555Z [debug    ] Visiting metadata node for tap_stream_id 'order_details', breadcrumb '[]'
+2025-01-27T17:15:27.658621Z [debug    ] Setting '.streams[3].metadata[5].metadata.selected' to 'False'
+2025-01-27T17:15:27.658676Z [debug    ] Setting '.streams[3].metadata[5].metadata.selected' to 'True'
+2025-01-27T17:15:27.658737Z [debug    ] Skipping node at '.streams[3].metadata[5].metadata.inclusion'
+2025-01-27T17:15:27.658795Z [debug    ] Skipping node at '.streams[3].metadata[5].metadata.selected'
+2025-01-27T17:15:27.658850Z [debug    ] Skipping node at '.streams[3].metadata[5].metadata.selected-by-default'
+2025-01-27T17:15:27.658905Z [debug    ] Skipping node at '.streams[3].metadata[5].metadata.table-key-properties[0]'
+2025-01-27T17:15:27.658961Z [debug    ] Skipping node at '.streams[3].metadata[5].metadata.table-key-properties[1]'
+2025-01-27T17:15:27.659018Z [debug    ] Skipping node at '.streams[3].selected'
+2025-01-27T17:15:27.659079Z [debug    ] Visiting CatalogNode.STREAM at '.streams[4]'.
+2025-01-27T17:15:27.659151Z [debug    ] Setting '.streams[4].selected' to 'False'
+2025-01-27T17:15:27.659207Z [debug    ] Setting '.streams[4].selected' to 'True'
+2025-01-27T17:15:27.659263Z [debug    ] Skipping node at '.streams[4].tap_stream_id'
+2025-01-27T17:15:27.659319Z [debug    ] Skipping node at '.streams[4].replication_method'
+2025-01-27T17:15:27.659375Z [debug    ] Skipping node at '.streams[4].key_properties[0]'
+2025-01-27T17:15:27.659431Z [debug    ] Skipping node at '.streams[4].key_properties[1]'
+2025-01-27T17:15:27.659487Z [debug    ] Skipping node at '.streams[4].key_properties[2]'
+2025-01-27T17:15:27.659567Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[4].schema.properties.order_id'.
+2025-01-27T17:15:27.659637Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[4].schema.properties.customer_id'.
+2025-01-27T17:15:27.659702Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[4].schema.properties.employee_id'.
+2025-01-27T17:15:27.659767Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[4].schema.properties.order_date'.
+2025-01-27T17:15:27.659833Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[4].schema.properties.required_date'.
+2025-01-27T17:15:27.659898Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[4].schema.properties.shipped_date'.
+2025-01-27T17:15:27.659963Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[4].schema.properties.ship_via'.
+2025-01-27T17:15:27.660029Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[4].schema.properties.freight'.
+2025-01-27T17:15:27.660094Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[4].schema.properties.ship_name'.
+2025-01-27T17:15:27.660160Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[4].schema.properties.ship_address'.
+2025-01-27T17:15:27.660226Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[4].schema.properties.ship_city'.
+2025-01-27T17:15:27.660292Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[4].schema.properties.ship_region'.
+2025-01-27T17:15:27.660358Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[4].schema.properties.ship_postal_code'.
+2025-01-27T17:15:27.660425Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[4].schema.properties.ship_country'.
+2025-01-27T17:15:27.660490Z [debug    ] Skipping node at '.streams[4].schema.type'
+2025-01-27T17:15:27.660579Z [debug    ] Skipping node at '.streams[4].schema.$schema'
+2025-01-27T17:15:27.660661Z [debug    ] Skipping node at '.streams[4].stream'
+2025-01-27T17:15:27.660743Z [debug    ] Visiting CatalogNode.METADATA at '.streams[4].metadata[0]'.
+2025-01-27T17:15:27.660817Z [debug    ] Visiting metadata node for tap_stream_id 'orders', breadcrumb '['properties', 'order_id']'
+2025-01-27T17:15:27.660918Z [debug    ] Setting '.streams[4].metadata[0].metadata.selected' to 'False'
+2025-01-27T17:15:27.660994Z [debug    ] Setting '.streams[4].metadata[0].metadata.selected' to 'True'
+2025-01-27T17:15:27.661076Z [debug    ] Skipping node at '.streams[4].metadata[0].breadcrumb[0]'
+2025-01-27T17:15:27.661151Z [debug    ] Skipping node at '.streams[4].metadata[0].breadcrumb[1]'
+2025-01-27T17:15:27.661250Z [debug    ] Skipping node at '.streams[4].metadata[0].metadata.inclusion'
+2025-01-27T17:15:27.661327Z [debug    ] Skipping node at '.streams[4].metadata[0].metadata.selected'
+2025-01-27T17:15:27.661418Z [debug    ] Visiting CatalogNode.METADATA at '.streams[4].metadata[1]'.
+2025-01-27T17:15:27.661504Z [debug    ] Visiting metadata node for tap_stream_id 'orders', breadcrumb '['properties', 'customer_id']'
+2025-01-27T17:15:27.661616Z [debug    ] Setting '.streams[4].metadata[1].metadata.selected' to 'False'
+2025-01-27T17:15:27.661699Z [debug    ] Setting '.streams[4].metadata[1].metadata.selected' to 'True'
+2025-01-27T17:15:27.661764Z [debug    ] Skipping node at '.streams[4].metadata[1].breadcrumb[0]'
+2025-01-27T17:15:27.661828Z [debug    ] Skipping node at '.streams[4].metadata[1].breadcrumb[1]'
+2025-01-27T17:15:27.661897Z [debug    ] Skipping node at '.streams[4].metadata[1].metadata.inclusion'
+2025-01-27T17:15:27.661961Z [debug    ] Skipping node at '.streams[4].metadata[1].metadata.selected'
+2025-01-27T17:15:27.662028Z [debug    ] Visiting CatalogNode.METADATA at '.streams[4].metadata[2]'.
+2025-01-27T17:15:27.662095Z [debug    ] Visiting metadata node for tap_stream_id 'orders', breadcrumb '['properties', 'employee_id']'
+2025-01-27T17:15:27.662169Z [debug    ] Setting '.streams[4].metadata[2].metadata.selected' to 'False'
+2025-01-27T17:15:27.662234Z [debug    ] Setting '.streams[4].metadata[2].metadata.selected' to 'True'
+2025-01-27T17:15:27.662299Z [debug    ] Skipping node at '.streams[4].metadata[2].breadcrumb[0]'
+2025-01-27T17:15:27.662381Z [debug    ] Skipping node at '.streams[4].metadata[2].breadcrumb[1]'
+2025-01-27T17:15:27.662447Z [debug    ] Skipping node at '.streams[4].metadata[2].metadata.inclusion'
+2025-01-27T17:15:27.662516Z [debug    ] Skipping node at '.streams[4].metadata[2].metadata.selected'
+2025-01-27T17:15:27.662587Z [debug    ] Visiting CatalogNode.METADATA at '.streams[4].metadata[3]'.
+2025-01-27T17:15:27.662650Z [debug    ] Visiting metadata node for tap_stream_id 'orders', breadcrumb '['properties', 'order_date']'
+2025-01-27T17:15:27.662720Z [debug    ] Setting '.streams[4].metadata[3].metadata.selected' to 'False'
+2025-01-27T17:15:27.662798Z [debug    ] Setting '.streams[4].metadata[3].metadata.selected' to 'True'
+2025-01-27T17:15:27.662880Z [debug    ] Skipping node at '.streams[4].metadata[3].breadcrumb[0]'
+2025-01-27T17:15:27.662971Z [debug    ] Skipping node at '.streams[4].metadata[3].breadcrumb[1]'
+2025-01-27T17:15:27.663055Z [debug    ] Skipping node at '.streams[4].metadata[3].metadata.inclusion'
+2025-01-27T17:15:27.663132Z [debug    ] Skipping node at '.streams[4].metadata[3].metadata.selected'
+2025-01-27T17:15:27.663211Z [debug    ] Visiting CatalogNode.METADATA at '.streams[4].metadata[4]'.
+2025-01-27T17:15:27.663293Z [debug    ] Visiting metadata node for tap_stream_id 'orders', breadcrumb '['properties', 'required_date']'
+2025-01-27T17:15:27.663391Z [debug    ] Setting '.streams[4].metadata[4].metadata.selected' to 'False'
+2025-01-27T17:15:27.663477Z [debug    ] Setting '.streams[4].metadata[4].metadata.selected' to 'True'
+2025-01-27T17:15:27.663576Z [debug    ] Skipping node at '.streams[4].metadata[4].breadcrumb[0]'
+2025-01-27T17:15:27.663652Z [debug    ] Skipping node at '.streams[4].metadata[4].breadcrumb[1]'
+2025-01-27T17:15:27.663739Z [debug    ] Skipping node at '.streams[4].metadata[4].metadata.inclusion'
+2025-01-27T17:15:27.663825Z [debug    ] Skipping node at '.streams[4].metadata[4].metadata.selected'
+2025-01-27T17:15:27.663911Z [debug    ] Visiting CatalogNode.METADATA at '.streams[4].metadata[5]'.
+2025-01-27T17:15:27.664000Z [debug    ] Visiting metadata node for tap_stream_id 'orders', breadcrumb '['properties', 'shipped_date']'
+2025-01-27T17:15:27.664091Z [debug    ] Setting '.streams[4].metadata[5].metadata.selected' to 'False'
+2025-01-27T17:15:27.664166Z [debug    ] Setting '.streams[4].metadata[5].metadata.selected' to 'True'
+2025-01-27T17:15:27.664243Z [debug    ] Skipping node at '.streams[4].metadata[5].breadcrumb[0]'
+2025-01-27T17:15:27.664317Z [debug    ] Skipping node at '.streams[4].metadata[5].breadcrumb[1]'
+2025-01-27T17:15:27.664393Z [debug    ] Skipping node at '.streams[4].metadata[5].metadata.inclusion'
+2025-01-27T17:15:27.664470Z [debug    ] Skipping node at '.streams[4].metadata[5].metadata.selected'
+2025-01-27T17:15:27.664566Z [debug    ] Visiting CatalogNode.METADATA at '.streams[4].metadata[6]'.
+2025-01-27T17:15:27.664640Z [debug    ] Visiting metadata node for tap_stream_id 'orders', breadcrumb '['properties', 'ship_via']'
+2025-01-27T17:15:27.664732Z [debug    ] Setting '.streams[4].metadata[6].metadata.selected' to 'False'
+2025-01-27T17:15:27.664803Z [debug    ] Setting '.streams[4].metadata[6].metadata.selected' to 'True'
+2025-01-27T17:15:27.664882Z [debug    ] Skipping node at '.streams[4].metadata[6].breadcrumb[0]'
+2025-01-27T17:15:27.664957Z [debug    ] Skipping node at '.streams[4].metadata[6].breadcrumb[1]'
+2025-01-27T17:15:27.665035Z [debug    ] Skipping node at '.streams[4].metadata[6].metadata.inclusion'
+2025-01-27T17:15:27.665108Z [debug    ] Skipping node at '.streams[4].metadata[6].metadata.selected'
+2025-01-27T17:15:27.665187Z [debug    ] Visiting CatalogNode.METADATA at '.streams[4].metadata[7]'.
+2025-01-27T17:15:27.665262Z [debug    ] Visiting metadata node for tap_stream_id 'orders', breadcrumb '['properties', 'freight']'
+2025-01-27T17:15:27.665350Z [debug    ] Setting '.streams[4].metadata[7].metadata.selected' to 'False'
+2025-01-27T17:15:27.665420Z [debug    ] Setting '.streams[4].metadata[7].metadata.selected' to 'True'
+2025-01-27T17:15:27.665496Z [debug    ] Skipping node at '.streams[4].metadata[7].breadcrumb[0]'
+2025-01-27T17:15:27.665580Z [debug    ] Skipping node at '.streams[4].metadata[7].breadcrumb[1]'
+2025-01-27T17:15:27.665661Z [debug    ] Skipping node at '.streams[4].metadata[7].metadata.inclusion'
+2025-01-27T17:15:27.665733Z [debug    ] Skipping node at '.streams[4].metadata[7].metadata.selected'
+2025-01-27T17:15:27.665809Z [debug    ] Visiting CatalogNode.METADATA at '.streams[4].metadata[8]'.
+2025-01-27T17:15:27.665882Z [debug    ] Visiting metadata node for tap_stream_id 'orders', breadcrumb '['properties', 'ship_name']'
+2025-01-27T17:15:27.665967Z [debug    ] Setting '.streams[4].metadata[8].metadata.selected' to 'False'
+2025-01-27T17:15:27.666036Z [debug    ] Setting '.streams[4].metadata[8].metadata.selected' to 'True'
+2025-01-27T17:15:27.666112Z [debug    ] Skipping node at '.streams[4].metadata[8].breadcrumb[0]'
+2025-01-27T17:15:27.666183Z [debug    ] Skipping node at '.streams[4].metadata[8].breadcrumb[1]'
+2025-01-27T17:15:27.666266Z [debug    ] Skipping node at '.streams[4].metadata[8].metadata.inclusion'
+2025-01-27T17:15:27.666337Z [debug    ] Skipping node at '.streams[4].metadata[8].metadata.selected'
+2025-01-27T17:15:27.666416Z [debug    ] Visiting CatalogNode.METADATA at '.streams[4].metadata[9]'.
+2025-01-27T17:15:27.666490Z [debug    ] Visiting metadata node for tap_stream_id 'orders', breadcrumb '['properties', 'ship_address']'
+2025-01-27T17:15:27.666579Z [debug    ] Setting '.streams[4].metadata[9].metadata.selected' to 'False'
+2025-01-27T17:15:27.666639Z [debug    ] Setting '.streams[4].metadata[9].metadata.selected' to 'True'
+2025-01-27T17:15:27.666699Z [debug    ] Skipping node at '.streams[4].metadata[9].breadcrumb[0]'
+2025-01-27T17:15:27.666755Z [debug    ] Skipping node at '.streams[4].metadata[9].breadcrumb[1]'
+2025-01-27T17:15:27.666822Z [debug    ] Skipping node at '.streams[4].metadata[9].metadata.inclusion'
+2025-01-27T17:15:27.666892Z [debug    ] Skipping node at '.streams[4].metadata[9].metadata.selected'
+2025-01-27T17:15:27.666982Z [debug    ] Visiting CatalogNode.METADATA at '.streams[4].metadata[10]'.
+2025-01-27T17:15:27.667054Z [debug    ] Visiting metadata node for tap_stream_id 'orders', breadcrumb '['properties', 'ship_city']'
+2025-01-27T17:15:27.667143Z [debug    ] Setting '.streams[4].metadata[10].metadata.selected' to 'False'
+2025-01-27T17:15:27.667212Z [debug    ] Setting '.streams[4].metadata[10].metadata.selected' to 'True'
+2025-01-27T17:15:27.667286Z [debug    ] Skipping node at '.streams[4].metadata[10].breadcrumb[0]'
+2025-01-27T17:15:27.667358Z [debug    ] Skipping node at '.streams[4].metadata[10].breadcrumb[1]'
+2025-01-27T17:15:27.667436Z [debug    ] Skipping node at '.streams[4].metadata[10].metadata.inclusion'
+2025-01-27T17:15:27.667514Z [debug    ] Skipping node at '.streams[4].metadata[10].metadata.selected'
+2025-01-27T17:15:27.667585Z [debug    ] Visiting CatalogNode.METADATA at '.streams[4].metadata[11]'.
+2025-01-27T17:15:27.667645Z [debug    ] Visiting metadata node for tap_stream_id 'orders', breadcrumb '['properties', 'ship_region']'
+2025-01-27T17:15:27.667711Z [debug    ] Setting '.streams[4].metadata[11].metadata.selected' to 'False'
+2025-01-27T17:15:27.667778Z [debug    ] Setting '.streams[4].metadata[11].metadata.selected' to 'True'
+2025-01-27T17:15:27.667855Z [debug    ] Skipping node at '.streams[4].metadata[11].breadcrumb[0]'
+2025-01-27T17:15:27.667929Z [debug    ] Skipping node at '.streams[4].metadata[11].breadcrumb[1]'
+2025-01-27T17:15:27.668007Z [debug    ] Skipping node at '.streams[4].metadata[11].metadata.inclusion'
+2025-01-27T17:15:27.668078Z [debug    ] Skipping node at '.streams[4].metadata[11].metadata.selected'
+2025-01-27T17:15:27.668157Z [debug    ] Visiting CatalogNode.METADATA at '.streams[4].metadata[12]'.
+2025-01-27T17:15:27.668227Z [debug    ] Visiting metadata node for tap_stream_id 'orders', breadcrumb '['properties', 'ship_postal_code']'
+2025-01-27T17:15:27.668314Z [debug    ] Setting '.streams[4].metadata[12].metadata.selected' to 'False'
+2025-01-27T17:15:27.668393Z [debug    ] Setting '.streams[4].metadata[12].metadata.selected' to 'True'
+2025-01-27T17:15:27.668464Z [debug    ] Skipping node at '.streams[4].metadata[12].breadcrumb[0]'
+2025-01-27T17:15:27.668533Z [debug    ] Skipping node at '.streams[4].metadata[12].breadcrumb[1]'
+2025-01-27T17:15:27.668609Z [debug    ] Skipping node at '.streams[4].metadata[12].metadata.inclusion'
+2025-01-27T17:15:27.668687Z [debug    ] Skipping node at '.streams[4].metadata[12].metadata.selected'
+2025-01-27T17:15:27.668770Z [debug    ] Visiting CatalogNode.METADATA at '.streams[4].metadata[13]'.
+2025-01-27T17:15:27.668854Z [debug    ] Visiting metadata node for tap_stream_id 'orders', breadcrumb '['properties', 'ship_country']'
+2025-01-27T17:15:27.668949Z [debug    ] Setting '.streams[4].metadata[13].metadata.selected' to 'False'
+2025-01-27T17:15:27.669024Z [debug    ] Setting '.streams[4].metadata[13].metadata.selected' to 'True'
+2025-01-27T17:15:27.669099Z [debug    ] Skipping node at '.streams[4].metadata[13].breadcrumb[0]'
+2025-01-27T17:15:27.669186Z [debug    ] Skipping node at '.streams[4].metadata[13].breadcrumb[1]'
+2025-01-27T17:15:27.669258Z [debug    ] Skipping node at '.streams[4].metadata[13].metadata.inclusion'
+2025-01-27T17:15:27.669339Z [debug    ] Skipping node at '.streams[4].metadata[13].metadata.selected'
+2025-01-27T17:15:27.669404Z [debug    ] Visiting CatalogNode.METADATA at '.streams[4].metadata[14]'.
+2025-01-27T17:15:27.669475Z [debug    ] Visiting metadata node for tap_stream_id 'orders', breadcrumb '[]'
+2025-01-27T17:15:27.669579Z [debug    ] Setting '.streams[4].metadata[14].metadata.selected' to 'False'
+2025-01-27T17:15:27.669651Z [debug    ] Setting '.streams[4].metadata[14].metadata.selected' to 'True'
+2025-01-27T17:15:27.669733Z [debug    ] Skipping node at '.streams[4].metadata[14].metadata.inclusion'
+2025-01-27T17:15:27.669808Z [debug    ] Skipping node at '.streams[4].metadata[14].metadata.selected'
+2025-01-27T17:15:27.669889Z [debug    ] Skipping node at '.streams[4].metadata[14].metadata.selected-by-default'
+2025-01-27T17:15:27.669983Z [debug    ] Skipping node at '.streams[4].metadata[14].metadata.table-key-properties[0]'
+2025-01-27T17:15:27.670062Z [debug    ] Skipping node at '.streams[4].metadata[14].metadata.table-key-properties[1]'
+2025-01-27T17:15:27.670132Z [debug    ] Skipping node at '.streams[4].metadata[14].metadata.table-key-properties[2]'
+2025-01-27T17:15:27.670208Z [debug    ] Skipping node at '.streams[4].selected'
+2025-01-27T17:15:27.670292Z [debug    ] Visiting CatalogNode.STREAM at '.streams[5]'.
+2025-01-27T17:15:27.670384Z [debug    ] Setting '.streams[5].selected' to 'False'
+2025-01-27T17:15:27.670458Z [debug    ] Setting '.streams[5].selected' to 'True'
+2025-01-27T17:15:27.670544Z [debug    ] Skipping node at '.streams[5].tap_stream_id'
+2025-01-27T17:15:27.670618Z [debug    ] Skipping node at '.streams[5].replication_method'
+2025-01-27T17:15:27.670695Z [debug    ] Skipping node at '.streams[5].key_properties[0]'
+2025-01-27T17:15:27.670768Z [debug    ] Skipping node at '.streams[5].key_properties[1]'
+2025-01-27T17:15:27.670840Z [debug    ] Skipping node at '.streams[5].key_properties[2]'
+2025-01-27T17:15:27.670927Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[5].schema.properties.product_id'.
+2025-01-27T17:15:27.671014Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[5].schema.properties.product_name'.
+2025-01-27T17:15:27.671099Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[5].schema.properties.supplier_id'.
+2025-01-27T17:15:27.671184Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[5].schema.properties.category_id'.
+2025-01-27T17:15:27.671264Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[5].schema.properties.quantity_per_unit'.
+2025-01-27T17:15:27.671352Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[5].schema.properties.unit_price'.
+2025-01-27T17:15:27.671435Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[5].schema.properties.units_in_stock'.
+2025-01-27T17:15:27.671537Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[5].schema.properties.units_on_order'.
+2025-01-27T17:15:27.671642Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[5].schema.properties.reorder_level'.
+2025-01-27T17:15:27.671720Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[5].schema.properties.discontinued'.
+2025-01-27T17:15:27.671786Z [debug    ] Skipping node at '.streams[5].schema.type'
+2025-01-27T17:15:27.671858Z [debug    ] Skipping node at '.streams[5].schema.$schema'
+2025-01-27T17:15:27.671934Z [debug    ] Skipping node at '.streams[5].stream'
+2025-01-27T17:15:27.672011Z [debug    ] Visiting CatalogNode.METADATA at '.streams[5].metadata[0]'.
+2025-01-27T17:15:27.672073Z [debug    ] Visiting metadata node for tap_stream_id 'products', breadcrumb '['properties', 'product_id']'
+2025-01-27T17:15:27.672141Z [debug    ] Setting '.streams[5].metadata[0].metadata.selected' to 'False'
+2025-01-27T17:15:27.672198Z [debug    ] Setting '.streams[5].metadata[0].metadata.selected' to 'True'
+2025-01-27T17:15:27.672256Z [debug    ] Skipping node at '.streams[5].metadata[0].breadcrumb[0]'
+2025-01-27T17:15:27.672314Z [debug    ] Skipping node at '.streams[5].metadata[0].breadcrumb[1]'
+2025-01-27T17:15:27.672375Z [debug    ] Skipping node at '.streams[5].metadata[0].metadata.inclusion'
+2025-01-27T17:15:27.672433Z [debug    ] Skipping node at '.streams[5].metadata[0].metadata.selected'
+2025-01-27T17:15:27.672529Z [debug    ] Visiting CatalogNode.METADATA at '.streams[5].metadata[1]'.
+2025-01-27T17:15:27.672595Z [debug    ] Visiting metadata node for tap_stream_id 'products', breadcrumb '['properties', 'product_name']'
+2025-01-27T17:15:27.672662Z [debug    ] Setting '.streams[5].metadata[1].metadata.selected' to 'False'
+2025-01-27T17:15:27.672717Z [debug    ] Setting '.streams[5].metadata[1].metadata.selected' to 'True'
+2025-01-27T17:15:27.672772Z [debug    ] Skipping node at '.streams[5].metadata[1].breadcrumb[0]'
+2025-01-27T17:15:27.672827Z [debug    ] Skipping node at '.streams[5].metadata[1].breadcrumb[1]'
+2025-01-27T17:15:27.672907Z [debug    ] Skipping node at '.streams[5].metadata[1].metadata.inclusion'
+2025-01-27T17:15:27.673005Z [debug    ] Skipping node at '.streams[5].metadata[1].metadata.selected'
+2025-01-27T17:15:27.673074Z [debug    ] Visiting CatalogNode.METADATA at '.streams[5].metadata[2]'.
+2025-01-27T17:15:27.673131Z [debug    ] Visiting metadata node for tap_stream_id 'products', breadcrumb '['properties', 'supplier_id']'
+2025-01-27T17:15:27.673197Z [debug    ] Setting '.streams[5].metadata[2].metadata.selected' to 'False'
+2025-01-27T17:15:27.673252Z [debug    ] Setting '.streams[5].metadata[2].metadata.selected' to 'True'
+2025-01-27T17:15:27.673309Z [debug    ] Skipping node at '.streams[5].metadata[2].breadcrumb[0]'
+2025-01-27T17:15:27.673388Z [debug    ] Skipping node at '.streams[5].metadata[2].breadcrumb[1]'
+2025-01-27T17:15:27.673473Z [debug    ] Skipping node at '.streams[5].metadata[2].metadata.inclusion'
+2025-01-27T17:15:27.673544Z [debug    ] Skipping node at '.streams[5].metadata[2].metadata.selected'
+2025-01-27T17:15:27.673607Z [debug    ] Visiting CatalogNode.METADATA at '.streams[5].metadata[3]'.
+2025-01-27T17:15:27.673664Z [debug    ] Visiting metadata node for tap_stream_id 'products', breadcrumb '['properties', 'category_id']'
+2025-01-27T17:15:27.673729Z [debug    ] Setting '.streams[5].metadata[3].metadata.selected' to 'False'
+2025-01-27T17:15:27.673785Z [debug    ] Setting '.streams[5].metadata[3].metadata.selected' to 'True'
+2025-01-27T17:15:27.673842Z [debug    ] Skipping node at '.streams[5].metadata[3].breadcrumb[0]'
+2025-01-27T17:15:27.673897Z [debug    ] Skipping node at '.streams[5].metadata[3].breadcrumb[1]'
+2025-01-27T17:15:27.673956Z [debug    ] Skipping node at '.streams[5].metadata[3].metadata.inclusion'
+2025-01-27T17:15:27.674011Z [debug    ] Skipping node at '.streams[5].metadata[3].metadata.selected'
+2025-01-27T17:15:27.674068Z [debug    ] Visiting CatalogNode.METADATA at '.streams[5].metadata[4]'.
+2025-01-27T17:15:27.674125Z [debug    ] Visiting metadata node for tap_stream_id 'products', breadcrumb '['properties', 'quantity_per_unit']'
+2025-01-27T17:15:27.674189Z [debug    ] Setting '.streams[5].metadata[4].metadata.selected' to 'False'
+2025-01-27T17:15:27.674244Z [debug    ] Setting '.streams[5].metadata[4].metadata.selected' to 'True'
+2025-01-27T17:15:27.674300Z [debug    ] Skipping node at '.streams[5].metadata[4].breadcrumb[0]'
+2025-01-27T17:15:27.674356Z [debug    ] Skipping node at '.streams[5].metadata[4].breadcrumb[1]'
+2025-01-27T17:15:27.674413Z [debug    ] Skipping node at '.streams[5].metadata[4].metadata.inclusion'
+2025-01-27T17:15:27.674468Z [debug    ] Skipping node at '.streams[5].metadata[4].metadata.selected'
+2025-01-27T17:15:27.674536Z [debug    ] Visiting CatalogNode.METADATA at '.streams[5].metadata[5]'.
+2025-01-27T17:15:27.674594Z [debug    ] Visiting metadata node for tap_stream_id 'products', breadcrumb '['properties', 'unit_price']'
+2025-01-27T17:15:27.674656Z [debug    ] Setting '.streams[5].metadata[5].metadata.selected' to 'False'
+2025-01-27T17:15:27.674711Z [debug    ] Setting '.streams[5].metadata[5].metadata.selected' to 'True'
+2025-01-27T17:15:27.674768Z [debug    ] Skipping node at '.streams[5].metadata[5].breadcrumb[0]'
+2025-01-27T17:15:27.674822Z [debug    ] Skipping node at '.streams[5].metadata[5].breadcrumb[1]'
+2025-01-27T17:15:27.674879Z [debug    ] Skipping node at '.streams[5].metadata[5].metadata.inclusion'
+2025-01-27T17:15:27.674934Z [debug    ] Skipping node at '.streams[5].metadata[5].metadata.selected'
+2025-01-27T17:15:27.674992Z [debug    ] Visiting CatalogNode.METADATA at '.streams[5].metadata[6]'.
+2025-01-27T17:15:27.675048Z [debug    ] Visiting metadata node for tap_stream_id 'products', breadcrumb '['properties', 'units_in_stock']'
+2025-01-27T17:15:27.675111Z [debug    ] Setting '.streams[5].metadata[6].metadata.selected' to 'False'
+2025-01-27T17:15:27.675166Z [debug    ] Setting '.streams[5].metadata[6].metadata.selected' to 'True'
+2025-01-27T17:15:27.675223Z [debug    ] Skipping node at '.streams[5].metadata[6].breadcrumb[0]'
+2025-01-27T17:15:27.675278Z [debug    ] Skipping node at '.streams[5].metadata[6].breadcrumb[1]'
+2025-01-27T17:15:27.675342Z [debug    ] Skipping node at '.streams[5].metadata[6].metadata.inclusion'
+2025-01-27T17:15:27.675399Z [debug    ] Skipping node at '.streams[5].metadata[6].metadata.selected'
+2025-01-27T17:15:27.675458Z [debug    ] Visiting CatalogNode.METADATA at '.streams[5].metadata[7]'.
+2025-01-27T17:15:27.675520Z [debug    ] Visiting metadata node for tap_stream_id 'products', breadcrumb '['properties', 'units_on_order']'
+2025-01-27T17:15:27.675588Z [debug    ] Setting '.streams[5].metadata[7].metadata.selected' to 'False'
+2025-01-27T17:15:27.675645Z [debug    ] Setting '.streams[5].metadata[7].metadata.selected' to 'True'
+2025-01-27T17:15:27.675702Z [debug    ] Skipping node at '.streams[5].metadata[7].breadcrumb[0]'
+2025-01-27T17:15:27.675757Z [debug    ] Skipping node at '.streams[5].metadata[7].breadcrumb[1]'
+2025-01-27T17:15:27.675815Z [debug    ] Skipping node at '.streams[5].metadata[7].metadata.inclusion'
+2025-01-27T17:15:27.675871Z [debug    ] Skipping node at '.streams[5].metadata[7].metadata.selected'
+2025-01-27T17:15:27.675929Z [debug    ] Visiting CatalogNode.METADATA at '.streams[5].metadata[8]'.
+2025-01-27T17:15:27.675984Z [debug    ] Visiting metadata node for tap_stream_id 'products', breadcrumb '['properties', 'reorder_level']'
+2025-01-27T17:15:27.676048Z [debug    ] Setting '.streams[5].metadata[8].metadata.selected' to 'False'
+2025-01-27T17:15:27.676103Z [debug    ] Setting '.streams[5].metadata[8].metadata.selected' to 'True'
+2025-01-27T17:15:27.676160Z [debug    ] Skipping node at '.streams[5].metadata[8].breadcrumb[0]'
+2025-01-27T17:15:27.676215Z [debug    ] Skipping node at '.streams[5].metadata[8].breadcrumb[1]'
+2025-01-27T17:15:27.676273Z [debug    ] Skipping node at '.streams[5].metadata[8].metadata.inclusion'
+2025-01-27T17:15:27.676329Z [debug    ] Skipping node at '.streams[5].metadata[8].metadata.selected'
+2025-01-27T17:15:27.676387Z [debug    ] Visiting CatalogNode.METADATA at '.streams[5].metadata[9]'.
+2025-01-27T17:15:27.676443Z [debug    ] Visiting metadata node for tap_stream_id 'products', breadcrumb '['properties', 'discontinued']'
+2025-01-27T17:15:27.676505Z [debug    ] Setting '.streams[5].metadata[9].metadata.selected' to 'False'
+2025-01-27T17:15:27.676569Z [debug    ] Setting '.streams[5].metadata[9].metadata.selected' to 'True'
+2025-01-27T17:15:27.676626Z [debug    ] Skipping node at '.streams[5].metadata[9].breadcrumb[0]'
+2025-01-27T17:15:27.676681Z [debug    ] Skipping node at '.streams[5].metadata[9].breadcrumb[1]'
+2025-01-27T17:15:27.676739Z [debug    ] Skipping node at '.streams[5].metadata[9].metadata.inclusion'
+2025-01-27T17:15:27.676794Z [debug    ] Skipping node at '.streams[5].metadata[9].metadata.selected'
+2025-01-27T17:15:27.676854Z [debug    ] Visiting CatalogNode.METADATA at '.streams[5].metadata[10]'.
+2025-01-27T17:15:27.676910Z [debug    ] Visiting metadata node for tap_stream_id 'products', breadcrumb '[]'
+2025-01-27T17:15:27.676972Z [debug    ] Setting '.streams[5].metadata[10].metadata.selected' to 'False'
+2025-01-27T17:15:27.677027Z [debug    ] Setting '.streams[5].metadata[10].metadata.selected' to 'True'
+2025-01-27T17:15:27.677087Z [debug    ] Skipping node at '.streams[5].metadata[10].metadata.inclusion'
+2025-01-27T17:15:27.677143Z [debug    ] Skipping node at '.streams[5].metadata[10].metadata.selected'
+2025-01-27T17:15:27.677197Z [debug    ] Skipping node at '.streams[5].metadata[10].metadata.selected-by-default'
+2025-01-27T17:15:27.677268Z [debug    ] Skipping node at '.streams[5].metadata[10].metadata.table-key-properties[0]'
+2025-01-27T17:15:27.677371Z [debug    ] Skipping node at '.streams[5].metadata[10].metadata.table-key-properties[1]'
+2025-01-27T17:15:27.677452Z [debug    ] Skipping node at '.streams[5].metadata[10].metadata.table-key-properties[2]'
+2025-01-27T17:15:27.677549Z [debug    ] Skipping node at '.streams[5].selected'
+2025-01-27T17:15:27.677646Z [debug    ] Visiting CatalogNode.STREAM at '.streams[6]'.
+2025-01-27T17:15:27.677755Z [debug    ] Setting '.streams[6].selected' to 'False'
+2025-01-27T17:15:27.677843Z [debug    ] Setting '.streams[6].selected' to 'True'
+2025-01-27T17:15:27.677920Z [debug    ] Skipping node at '.streams[6].tap_stream_id'
+2025-01-27T17:15:27.677993Z [debug    ] Skipping node at '.streams[6].replication_method'
+2025-01-27T17:15:27.678078Z [debug    ] Skipping node at '.streams[6].key_properties[0]'
+2025-01-27T17:15:27.678171Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[6].schema.properties.category_id'.
+2025-01-27T17:15:27.678279Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[6].schema.properties.category_name'.
+2025-01-27T17:15:27.678373Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[6].schema.properties.description'.
+2025-01-27T17:15:27.678477Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[6].schema.properties.picture'.
+2025-01-27T17:15:27.678585Z [debug    ] Skipping node at '.streams[6].schema.type'
+2025-01-27T17:15:27.678664Z [debug    ] Skipping node at '.streams[6].schema.$schema'
+2025-01-27T17:15:27.678740Z [debug    ] Skipping node at '.streams[6].stream'
+2025-01-27T17:15:27.678831Z [debug    ] Visiting CatalogNode.METADATA at '.streams[6].metadata[0]'.
+2025-01-27T17:15:27.678920Z [debug    ] Visiting metadata node for tap_stream_id 'public-categories', breadcrumb '['properties', 'category_id']'
+2025-01-27T17:15:27.679017Z [debug    ] Setting '.streams[6].metadata[0].metadata.selected' to 'False'
+2025-01-27T17:15:27.679099Z [debug    ] Setting '.streams[6].metadata[0].metadata.selected' to 'True'
+2025-01-27T17:15:27.679186Z [debug    ] Skipping node at '.streams[6].metadata[0].breadcrumb[0]'
+2025-01-27T17:15:27.679262Z [debug    ] Skipping node at '.streams[6].metadata[0].breadcrumb[1]'
+2025-01-27T17:15:27.679345Z [debug    ] Skipping node at '.streams[6].metadata[0].metadata.inclusion'
+2025-01-27T17:15:27.679421Z [debug    ] Skipping node at '.streams[6].metadata[0].metadata.selected'
+2025-01-27T17:15:27.679504Z [debug    ] Visiting CatalogNode.METADATA at '.streams[6].metadata[1]'.
+2025-01-27T17:15:27.679599Z [debug    ] Visiting metadata node for tap_stream_id 'public-categories', breadcrumb '['properties', 'category_name']'
+2025-01-27T17:15:27.679697Z [debug    ] Setting '.streams[6].metadata[1].metadata.selected' to 'False'
+2025-01-27T17:15:27.679773Z [debug    ] Setting '.streams[6].metadata[1].metadata.selected' to 'True'
+2025-01-27T17:15:27.679858Z [debug    ] Skipping node at '.streams[6].metadata[1].breadcrumb[0]'
+2025-01-27T17:15:27.679935Z [debug    ] Skipping node at '.streams[6].metadata[1].breadcrumb[1]'
+2025-01-27T17:15:27.680015Z [debug    ] Skipping node at '.streams[6].metadata[1].metadata.inclusion'
+2025-01-27T17:15:27.680089Z [debug    ] Skipping node at '.streams[6].metadata[1].metadata.selected'
+2025-01-27T17:15:27.680165Z [debug    ] Visiting CatalogNode.METADATA at '.streams[6].metadata[2]'.
+2025-01-27T17:15:27.680243Z [debug    ] Visiting metadata node for tap_stream_id 'public-categories', breadcrumb '['properties', 'description']'
+2025-01-27T17:15:27.680327Z [debug    ] Setting '.streams[6].metadata[2].metadata.selected' to 'False'
+2025-01-27T17:15:27.680402Z [debug    ] Setting '.streams[6].metadata[2].metadata.selected' to 'True'
+2025-01-27T17:15:27.680477Z [debug    ] Skipping node at '.streams[6].metadata[2].breadcrumb[0]'
+2025-01-27T17:15:27.680567Z [debug    ] Skipping node at '.streams[6].metadata[2].breadcrumb[1]'
+2025-01-27T17:15:27.680650Z [debug    ] Skipping node at '.streams[6].metadata[2].metadata.inclusion'
+2025-01-27T17:15:27.680729Z [debug    ] Skipping node at '.streams[6].metadata[2].metadata.selected'
+2025-01-27T17:15:27.680811Z [debug    ] Visiting CatalogNode.METADATA at '.streams[6].metadata[3]'.
+2025-01-27T17:15:27.680894Z [debug    ] Visiting metadata node for tap_stream_id 'public-categories', breadcrumb '['properties', 'picture']'
+2025-01-27T17:15:27.680987Z [debug    ] Setting '.streams[6].metadata[3].metadata.selected' to 'False'
+2025-01-27T17:15:27.681066Z [debug    ] Setting '.streams[6].metadata[3].metadata.selected' to 'True'
+2025-01-27T17:15:27.681162Z [debug    ] Skipping node at '.streams[6].metadata[3].breadcrumb[0]'
+2025-01-27T17:15:27.681247Z [debug    ] Skipping node at '.streams[6].metadata[3].breadcrumb[1]'
+2025-01-27T17:15:27.681335Z [debug    ] Skipping node at '.streams[6].metadata[3].metadata.inclusion'
+2025-01-27T17:15:27.681418Z [debug    ] Skipping node at '.streams[6].metadata[3].metadata.selected'
+2025-01-27T17:15:27.681505Z [debug    ] Visiting CatalogNode.METADATA at '.streams[6].metadata[4]'.
+2025-01-27T17:15:27.681600Z [debug    ] Visiting metadata node for tap_stream_id 'public-categories', breadcrumb '[]'
+2025-01-27T17:15:27.681697Z [debug    ] Setting '.streams[6].metadata[4].metadata.selected' to 'False'
+2025-01-27T17:15:27.681781Z [debug    ] Setting '.streams[6].metadata[4].metadata.selected' to 'True'
+2025-01-27T17:15:27.681867Z [debug    ] Skipping node at '.streams[6].metadata[4].metadata.inclusion'
+2025-01-27T17:15:27.681949Z [debug    ] Skipping node at '.streams[6].metadata[4].metadata.selected'
+2025-01-27T17:15:27.682028Z [debug    ] Skipping node at '.streams[6].metadata[4].metadata.selected-by-default'
+2025-01-27T17:15:27.682106Z [debug    ] Skipping node at '.streams[6].metadata[4].metadata.table-key-properties[0]'
+2025-01-27T17:15:27.682188Z [debug    ] Skipping node at '.streams[6].selected'
+2025-01-27T17:15:27.682272Z [debug    ] Visiting CatalogNode.STREAM at '.streams[7]'.
+2025-01-27T17:15:27.682371Z [debug    ] Setting '.streams[7].selected' to 'False'
+2025-01-27T17:15:27.682449Z [debug    ] Setting '.streams[7].selected' to 'True'
+2025-01-27T17:15:27.682541Z [debug    ] Skipping node at '.streams[7].tap_stream_id'
+2025-01-27T17:15:27.682626Z [debug    ] Skipping node at '.streams[7].replication_method'
+2025-01-27T17:15:27.682706Z [debug    ] Skipping node at '.streams[7].key_properties[0]'
+2025-01-27T17:15:27.682800Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[7].schema.properties.region_id'.
+2025-01-27T17:15:27.682900Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[7].schema.properties.region_description'.
+2025-01-27T17:15:27.682999Z [debug    ] Skipping node at '.streams[7].schema.type'
+2025-01-27T17:15:27.683081Z [debug    ] Skipping node at '.streams[7].schema.$schema'
+2025-01-27T17:15:27.683163Z [debug    ] Skipping node at '.streams[7].stream'
+2025-01-27T17:15:27.683258Z [debug    ] Visiting CatalogNode.METADATA at '.streams[7].metadata[0]'.
+2025-01-27T17:15:27.683346Z [debug    ] Visiting metadata node for tap_stream_id 'region', breadcrumb '['properties', 'region_id']'
+2025-01-27T17:15:27.683445Z [debug    ] Setting '.streams[7].metadata[0].metadata.selected' to 'False'
+2025-01-27T17:15:27.683541Z [debug    ] Setting '.streams[7].metadata[0].metadata.selected' to 'True'
+2025-01-27T17:15:27.683626Z [debug    ] Skipping node at '.streams[7].metadata[0].breadcrumb[0]'
+2025-01-27T17:15:27.683703Z [debug    ] Skipping node at '.streams[7].metadata[0].breadcrumb[1]'
+2025-01-27T17:15:27.683787Z [debug    ] Skipping node at '.streams[7].metadata[0].metadata.inclusion'
+2025-01-27T17:15:27.683866Z [debug    ] Skipping node at '.streams[7].metadata[0].metadata.selected'
+2025-01-27T17:15:27.683948Z [debug    ] Visiting CatalogNode.METADATA at '.streams[7].metadata[1]'.
+2025-01-27T17:15:27.684031Z [debug    ] Visiting metadata node for tap_stream_id 'region', breadcrumb '['properties', 'region_description']'
+2025-01-27T17:15:27.684126Z [debug    ] Setting '.streams[7].metadata[1].metadata.selected' to 'False'
+2025-01-27T17:15:27.684205Z [debug    ] Setting '.streams[7].metadata[1].metadata.selected' to 'True'
+2025-01-27T17:15:27.684289Z [debug    ] Skipping node at '.streams[7].metadata[1].breadcrumb[0]'
+2025-01-27T17:15:27.684371Z [debug    ] Skipping node at '.streams[7].metadata[1].breadcrumb[1]'
+2025-01-27T17:15:27.684458Z [debug    ] Skipping node at '.streams[7].metadata[1].metadata.inclusion'
+2025-01-27T17:15:27.684548Z [debug    ] Skipping node at '.streams[7].metadata[1].metadata.selected'
+2025-01-27T17:15:27.684635Z [debug    ] Visiting CatalogNode.METADATA at '.streams[7].metadata[2]'.
+2025-01-27T17:15:27.684726Z [debug    ] Visiting metadata node for tap_stream_id 'region', breadcrumb '[]'
+2025-01-27T17:15:27.684817Z [debug    ] Setting '.streams[7].metadata[2].metadata.selected' to 'False'
+2025-01-27T17:15:27.684895Z [debug    ] Setting '.streams[7].metadata[2].metadata.selected' to 'True'
+2025-01-27T17:15:27.684984Z [debug    ] Skipping node at '.streams[7].metadata[2].metadata.inclusion'
+2025-01-27T17:15:27.685068Z [debug    ] Skipping node at '.streams[7].metadata[2].metadata.selected'
+2025-01-27T17:15:27.685152Z [debug    ] Skipping node at '.streams[7].metadata[2].metadata.selected-by-default'
+2025-01-27T17:15:27.685236Z [debug    ] Skipping node at '.streams[7].metadata[2].metadata.table-key-properties[0]'
+2025-01-27T17:15:27.685321Z [debug    ] Skipping node at '.streams[7].selected'
+2025-01-27T17:15:27.685410Z [debug    ] Visiting CatalogNode.STREAM at '.streams[8]'.
+2025-01-27T17:15:27.685520Z [debug    ] Setting '.streams[8].selected' to 'False'
+2025-01-27T17:15:27.685614Z [debug    ] Setting '.streams[8].selected' to 'True'
+2025-01-27T17:15:27.685704Z [debug    ] Skipping node at '.streams[8].tap_stream_id'
+2025-01-27T17:15:27.685784Z [debug    ] Skipping node at '.streams[8].replication_method'
+2025-01-27T17:15:27.685865Z [debug    ] Skipping node at '.streams[8].key_properties[0]'
+2025-01-27T17:15:27.685971Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[8].schema.properties.shipper_id'.
+2025-01-27T17:15:27.686075Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[8].schema.properties.company_name'.
+2025-01-27T17:15:27.686169Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[8].schema.properties.phone'.
+2025-01-27T17:15:27.686257Z [debug    ] Skipping node at '.streams[8].schema.type'
+2025-01-27T17:15:27.686335Z [debug    ] Skipping node at '.streams[8].schema.$schema'
+2025-01-27T17:15:27.686412Z [debug    ] Skipping node at '.streams[8].stream'
+2025-01-27T17:15:27.686495Z [debug    ] Visiting CatalogNode.METADATA at '.streams[8].metadata[0]'.
+2025-01-27T17:15:27.686588Z [debug    ] Visiting metadata node for tap_stream_id 'shippers', breadcrumb '['properties', 'shipper_id']'
+2025-01-27T17:15:27.686683Z [debug    ] Setting '.streams[8].metadata[0].metadata.selected' to 'False'
+2025-01-27T17:15:27.686757Z [debug    ] Setting '.streams[8].metadata[0].metadata.selected' to 'True'
+2025-01-27T17:15:27.686837Z [debug    ] Skipping node at '.streams[8].metadata[0].breadcrumb[0]'
+2025-01-27T17:15:27.686916Z [debug    ] Skipping node at '.streams[8].metadata[0].breadcrumb[1]'
+2025-01-27T17:15:27.687001Z [debug    ] Skipping node at '.streams[8].metadata[0].metadata.inclusion'
+2025-01-27T17:15:27.687090Z [debug    ] Skipping node at '.streams[8].metadata[0].metadata.selected'
+2025-01-27T17:15:27.687182Z [debug    ] Visiting CatalogNode.METADATA at '.streams[8].metadata[1]'.
+2025-01-27T17:15:27.687263Z [debug    ] Visiting metadata node for tap_stream_id 'shippers', breadcrumb '['properties', 'company_name']'
+2025-01-27T17:15:27.687356Z [debug    ] Setting '.streams[8].metadata[1].metadata.selected' to 'False'
+2025-01-27T17:15:27.687433Z [debug    ] Setting '.streams[8].metadata[1].metadata.selected' to 'True'
+2025-01-27T17:15:27.687519Z [debug    ] Skipping node at '.streams[8].metadata[1].breadcrumb[0]'
+2025-01-27T17:15:27.687603Z [debug    ] Skipping node at '.streams[8].metadata[1].breadcrumb[1]'
+2025-01-27T17:15:27.687691Z [debug    ] Skipping node at '.streams[8].metadata[1].metadata.inclusion'
+2025-01-27T17:15:27.687759Z [debug    ] Skipping node at '.streams[8].metadata[1].metadata.selected'
+2025-01-27T17:15:27.687820Z [debug    ] Visiting CatalogNode.METADATA at '.streams[8].metadata[2]'.
+2025-01-27T17:15:27.687878Z [debug    ] Visiting metadata node for tap_stream_id 'shippers', breadcrumb '['properties', 'phone']'
+2025-01-27T17:15:27.687944Z [debug    ] Setting '.streams[8].metadata[2].metadata.selected' to 'False'
+2025-01-27T17:15:27.688010Z [debug    ] Setting '.streams[8].metadata[2].metadata.selected' to 'True'
+2025-01-27T17:15:27.688100Z [debug    ] Skipping node at '.streams[8].metadata[2].breadcrumb[0]'
+2025-01-27T17:15:27.688200Z [debug    ] Skipping node at '.streams[8].metadata[2].breadcrumb[1]'
+2025-01-27T17:15:27.688289Z [debug    ] Skipping node at '.streams[8].metadata[2].metadata.inclusion'
+2025-01-27T17:15:27.688378Z [debug    ] Skipping node at '.streams[8].metadata[2].metadata.selected'
+2025-01-27T17:15:27.688464Z [debug    ] Visiting CatalogNode.METADATA at '.streams[8].metadata[3]'.
+2025-01-27T17:15:27.688553Z [debug    ] Visiting metadata node for tap_stream_id 'shippers', breadcrumb '[]'
+2025-01-27T17:15:27.688633Z [debug    ] Setting '.streams[8].metadata[3].metadata.selected' to 'False'
+2025-01-27T17:15:27.688700Z [debug    ] Setting '.streams[8].metadata[3].metadata.selected' to 'True'
+2025-01-27T17:15:27.688796Z [debug    ] Skipping node at '.streams[8].metadata[3].metadata.inclusion'
+2025-01-27T17:15:27.688887Z [debug    ] Skipping node at '.streams[8].metadata[3].metadata.selected'
+2025-01-27T17:15:27.688964Z [debug    ] Skipping node at '.streams[8].metadata[3].metadata.selected-by-default'
+2025-01-27T17:15:27.689057Z [debug    ] Skipping node at '.streams[8].metadata[3].metadata.table-key-properties[0]'
+2025-01-27T17:15:27.689159Z [debug    ] Skipping node at '.streams[8].selected'
+2025-01-27T17:15:27.689260Z [debug    ] Visiting CatalogNode.STREAM at '.streams[9]'.
+2025-01-27T17:15:27.689379Z [debug    ] Setting '.streams[9].selected' to 'False'
+2025-01-27T17:15:27.689453Z [debug    ] Setting '.streams[9].selected' to 'True'
+2025-01-27T17:15:27.689538Z [debug    ] Skipping node at '.streams[9].tap_stream_id'
+2025-01-27T17:15:27.689624Z [debug    ] Skipping node at '.streams[9].replication_method'
+2025-01-27T17:15:27.689710Z [debug    ] Skipping node at '.streams[9].key_properties[0]'
+2025-01-27T17:15:27.689796Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[9].schema.properties.supplier_id'.
+2025-01-27T17:15:27.689884Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[9].schema.properties.company_name'.
+2025-01-27T17:15:27.689992Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[9].schema.properties.contact_name'.
+2025-01-27T17:15:27.690074Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[9].schema.properties.contact_title'.
+2025-01-27T17:15:27.690154Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[9].schema.properties.address'.
+2025-01-27T17:15:27.690255Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[9].schema.properties.city'.
+2025-01-27T17:15:27.690370Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[9].schema.properties.region'.
+2025-01-27T17:15:27.690478Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[9].schema.properties.postal_code'.
+2025-01-27T17:15:27.690599Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[9].schema.properties.country'.
+2025-01-27T17:15:27.690707Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[9].schema.properties.phone'.
+2025-01-27T17:15:27.690803Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[9].schema.properties.fax'.
+2025-01-27T17:15:27.690903Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[9].schema.properties.homepage'.
+2025-01-27T17:15:27.691032Z [debug    ] Skipping node at '.streams[9].schema.type'
+2025-01-27T17:15:27.691119Z [debug    ] Skipping node at '.streams[9].schema.$schema'
+2025-01-27T17:15:27.691223Z [debug    ] Skipping node at '.streams[9].stream'
+2025-01-27T17:15:27.691326Z [debug    ] Visiting CatalogNode.METADATA at '.streams[9].metadata[0]'.
+2025-01-27T17:15:27.691419Z [debug    ] Visiting metadata node for tap_stream_id 'suppliers', breadcrumb '['properties', 'supplier_id']'
+2025-01-27T17:15:27.691541Z [debug    ] Setting '.streams[9].metadata[0].metadata.selected' to 'False'
+2025-01-27T17:15:27.691634Z [debug    ] Setting '.streams[9].metadata[0].metadata.selected' to 'True'
+2025-01-27T17:15:27.691733Z [debug    ] Skipping node at '.streams[9].metadata[0].breadcrumb[0]'
+2025-01-27T17:15:27.691825Z [debug    ] Skipping node at '.streams[9].metadata[0].breadcrumb[1]'
+2025-01-27T17:15:27.691927Z [debug    ] Skipping node at '.streams[9].metadata[0].metadata.inclusion'
+2025-01-27T17:15:27.692033Z [debug    ] Skipping node at '.streams[9].metadata[0].metadata.selected'
+2025-01-27T17:15:27.692134Z [debug    ] Visiting CatalogNode.METADATA at '.streams[9].metadata[1]'.
+2025-01-27T17:15:27.692226Z [debug    ] Visiting metadata node for tap_stream_id 'suppliers', breadcrumb '['properties', 'company_name']'
+2025-01-27T17:15:27.692341Z [debug    ] Setting '.streams[9].metadata[1].metadata.selected' to 'False'
+2025-01-27T17:15:27.692430Z [debug    ] Setting '.streams[9].metadata[1].metadata.selected' to 'True'
+2025-01-27T17:15:27.692521Z [debug    ] Skipping node at '.streams[9].metadata[1].breadcrumb[0]'
+2025-01-27T17:15:27.692613Z [debug    ] Skipping node at '.streams[9].metadata[1].breadcrumb[1]'
+2025-01-27T17:15:27.692688Z [debug    ] Skipping node at '.streams[9].metadata[1].metadata.inclusion'
+2025-01-27T17:15:27.692772Z [debug    ] Skipping node at '.streams[9].metadata[1].metadata.selected'
+2025-01-27T17:15:27.692860Z [debug    ] Visiting CatalogNode.METADATA at '.streams[9].metadata[2]'.
+2025-01-27T17:15:27.692942Z [debug    ] Visiting metadata node for tap_stream_id 'suppliers', breadcrumb '['properties', 'contact_name']'
+2025-01-27T17:15:27.693035Z [debug    ] Setting '.streams[9].metadata[2].metadata.selected' to 'False'
+2025-01-27T17:15:27.693114Z [debug    ] Setting '.streams[9].metadata[2].metadata.selected' to 'True'
+2025-01-27T17:15:27.693207Z [debug    ] Skipping node at '.streams[9].metadata[2].breadcrumb[0]'
+2025-01-27T17:15:27.693296Z [debug    ] Skipping node at '.streams[9].metadata[2].breadcrumb[1]'
+2025-01-27T17:15:27.693382Z [debug    ] Skipping node at '.streams[9].metadata[2].metadata.inclusion'
+2025-01-27T17:15:27.693461Z [debug    ] Skipping node at '.streams[9].metadata[2].metadata.selected'
+2025-01-27T17:15:27.693560Z [debug    ] Visiting CatalogNode.METADATA at '.streams[9].metadata[3]'.
+2025-01-27T17:15:27.693642Z [debug    ] Visiting metadata node for tap_stream_id 'suppliers', breadcrumb '['properties', 'contact_title']'
+2025-01-27T17:15:27.693734Z [debug    ] Setting '.streams[9].metadata[3].metadata.selected' to 'False'
+2025-01-27T17:15:27.693810Z [debug    ] Setting '.streams[9].metadata[3].metadata.selected' to 'True'
+2025-01-27T17:15:27.693892Z [debug    ] Skipping node at '.streams[9].metadata[3].breadcrumb[0]'
+2025-01-27T17:15:27.693969Z [debug    ] Skipping node at '.streams[9].metadata[3].breadcrumb[1]'
+2025-01-27T17:15:27.694054Z [debug    ] Skipping node at '.streams[9].metadata[3].metadata.inclusion'
+2025-01-27T17:15:27.694130Z [debug    ] Skipping node at '.streams[9].metadata[3].metadata.selected'
+2025-01-27T17:15:27.694209Z [debug    ] Visiting CatalogNode.METADATA at '.streams[9].metadata[4]'.
+2025-01-27T17:15:27.694287Z [debug    ] Visiting metadata node for tap_stream_id 'suppliers', breadcrumb '['properties', 'address']'
+2025-01-27T17:15:27.694376Z [debug    ] Setting '.streams[9].metadata[4].metadata.selected' to 'False'
+2025-01-27T17:15:27.694453Z [debug    ] Setting '.streams[9].metadata[4].metadata.selected' to 'True'
+2025-01-27T17:15:27.694544Z [debug    ] Skipping node at '.streams[9].metadata[4].breadcrumb[0]'
+2025-01-27T17:15:27.694621Z [debug    ] Skipping node at '.streams[9].metadata[4].breadcrumb[1]'
+2025-01-27T17:15:27.694701Z [debug    ] Skipping node at '.streams[9].metadata[4].metadata.inclusion'
+2025-01-27T17:15:27.694773Z [debug    ] Skipping node at '.streams[9].metadata[4].metadata.selected'
+2025-01-27T17:15:27.694849Z [debug    ] Visiting CatalogNode.METADATA at '.streams[9].metadata[5]'.
+2025-01-27T17:15:27.694927Z [debug    ] Visiting metadata node for tap_stream_id 'suppliers', breadcrumb '['properties', 'city']'
+2025-01-27T17:15:27.695022Z [debug    ] Setting '.streams[9].metadata[5].metadata.selected' to 'False'
+2025-01-27T17:15:27.695098Z [debug    ] Setting '.streams[9].metadata[5].metadata.selected' to 'True'
+2025-01-27T17:15:27.695179Z [debug    ] Skipping node at '.streams[9].metadata[5].breadcrumb[0]'
+2025-01-27T17:15:27.695258Z [debug    ] Skipping node at '.streams[9].metadata[5].breadcrumb[1]'
+2025-01-27T17:15:27.695354Z [debug    ] Skipping node at '.streams[9].metadata[5].metadata.inclusion'
+2025-01-27T17:15:27.695434Z [debug    ] Skipping node at '.streams[9].metadata[5].metadata.selected'
+2025-01-27T17:15:27.695522Z [debug    ] Visiting CatalogNode.METADATA at '.streams[9].metadata[6]'.
+2025-01-27T17:15:27.695605Z [debug    ] Visiting metadata node for tap_stream_id 'suppliers', breadcrumb '['properties', 'region']'
+2025-01-27T17:15:27.695699Z [debug    ] Setting '.streams[9].metadata[6].metadata.selected' to 'False'
+2025-01-27T17:15:27.695775Z [debug    ] Setting '.streams[9].metadata[6].metadata.selected' to 'True'
+2025-01-27T17:15:27.695853Z [debug    ] Skipping node at '.streams[9].metadata[6].breadcrumb[0]'
+2025-01-27T17:15:27.695931Z [debug    ] Skipping node at '.streams[9].metadata[6].breadcrumb[1]'
+2025-01-27T17:15:27.696012Z [debug    ] Skipping node at '.streams[9].metadata[6].metadata.inclusion'
+2025-01-27T17:15:27.696092Z [debug    ] Skipping node at '.streams[9].metadata[6].metadata.selected'
+2025-01-27T17:15:27.696176Z [debug    ] Visiting CatalogNode.METADATA at '.streams[9].metadata[7]'.
+2025-01-27T17:15:27.696256Z [debug    ] Visiting metadata node for tap_stream_id 'suppliers', breadcrumb '['properties', 'postal_code']'
+2025-01-27T17:15:27.696351Z [debug    ] Setting '.streams[9].metadata[7].metadata.selected' to 'False'
+2025-01-27T17:15:27.696435Z [debug    ] Setting '.streams[9].metadata[7].metadata.selected' to 'True'
+2025-01-27T17:15:27.696523Z [debug    ] Skipping node at '.streams[9].metadata[7].breadcrumb[0]'
+2025-01-27T17:15:27.696605Z [debug    ] Skipping node at '.streams[9].metadata[7].breadcrumb[1]'
+2025-01-27T17:15:27.696687Z [debug    ] Skipping node at '.streams[9].metadata[7].metadata.inclusion'
+2025-01-27T17:15:27.696760Z [debug    ] Skipping node at '.streams[9].metadata[7].metadata.selected'
+2025-01-27T17:15:27.696837Z [debug    ] Visiting CatalogNode.METADATA at '.streams[9].metadata[8]'.
+2025-01-27T17:15:27.696915Z [debug    ] Visiting metadata node for tap_stream_id 'suppliers', breadcrumb '['properties', 'country']'
+2025-01-27T17:15:27.697002Z [debug    ] Setting '.streams[9].metadata[8].metadata.selected' to 'False'
+2025-01-27T17:15:27.697075Z [debug    ] Setting '.streams[9].metadata[8].metadata.selected' to 'True'
+2025-01-27T17:15:27.697152Z [debug    ] Skipping node at '.streams[9].metadata[8].breadcrumb[0]'
+2025-01-27T17:15:27.697227Z [debug    ] Skipping node at '.streams[9].metadata[8].breadcrumb[1]'
+2025-01-27T17:15:27.697309Z [debug    ] Skipping node at '.streams[9].metadata[8].metadata.inclusion'
+2025-01-27T17:15:27.697386Z [debug    ] Skipping node at '.streams[9].metadata[8].metadata.selected'
+2025-01-27T17:15:27.697468Z [debug    ] Visiting CatalogNode.METADATA at '.streams[9].metadata[9]'.
+2025-01-27T17:15:27.697557Z [debug    ] Visiting metadata node for tap_stream_id 'suppliers', breadcrumb '['properties', 'phone']'
+2025-01-27T17:15:27.697657Z [debug    ] Setting '.streams[9].metadata[9].metadata.selected' to 'False'
+2025-01-27T17:15:27.697745Z [debug    ] Setting '.streams[9].metadata[9].metadata.selected' to 'True'
+2025-01-27T17:15:27.697832Z [debug    ] Skipping node at '.streams[9].metadata[9].breadcrumb[0]'
+2025-01-27T17:15:27.697910Z [debug    ] Skipping node at '.streams[9].metadata[9].breadcrumb[1]'
+2025-01-27T17:15:27.697990Z [debug    ] Skipping node at '.streams[9].metadata[9].metadata.inclusion'
+2025-01-27T17:15:27.698071Z [debug    ] Skipping node at '.streams[9].metadata[9].metadata.selected'
+2025-01-27T17:15:27.698152Z [debug    ] Visiting CatalogNode.METADATA at '.streams[9].metadata[10]'.
+2025-01-27T17:15:27.698233Z [debug    ] Visiting metadata node for tap_stream_id 'suppliers', breadcrumb '['properties', 'fax']'
+2025-01-27T17:15:27.698320Z [debug    ] Setting '.streams[9].metadata[10].metadata.selected' to 'False'
+2025-01-27T17:15:27.698396Z [debug    ] Setting '.streams[9].metadata[10].metadata.selected' to 'True'
+2025-01-27T17:15:27.698477Z [debug    ] Skipping node at '.streams[9].metadata[10].breadcrumb[0]'
+2025-01-27T17:15:27.698599Z [debug    ] Skipping node at '.streams[9].metadata[10].breadcrumb[1]'
+2025-01-27T17:15:27.698688Z [debug    ] Skipping node at '.streams[9].metadata[10].metadata.inclusion'
+2025-01-27T17:15:27.698767Z [debug    ] Skipping node at '.streams[9].metadata[10].metadata.selected'
+2025-01-27T17:15:27.698847Z [debug    ] Visiting CatalogNode.METADATA at '.streams[9].metadata[11]'.
+2025-01-27T17:15:27.698928Z [debug    ] Visiting metadata node for tap_stream_id 'suppliers', breadcrumb '['properties', 'homepage']'
+2025-01-27T17:15:27.699019Z [debug    ] Setting '.streams[9].metadata[11].metadata.selected' to 'False'
+2025-01-27T17:15:27.699097Z [debug    ] Setting '.streams[9].metadata[11].metadata.selected' to 'True'
+2025-01-27T17:15:27.699174Z [debug    ] Skipping node at '.streams[9].metadata[11].breadcrumb[0]'
+2025-01-27T17:15:27.699251Z [debug    ] Skipping node at '.streams[9].metadata[11].breadcrumb[1]'
+2025-01-27T17:15:27.699340Z [debug    ] Skipping node at '.streams[9].metadata[11].metadata.inclusion'
+2025-01-27T17:15:27.699417Z [debug    ] Skipping node at '.streams[9].metadata[11].metadata.selected'
+2025-01-27T17:15:27.699501Z [debug    ] Visiting CatalogNode.METADATA at '.streams[9].metadata[12]'.
+2025-01-27T17:15:27.699594Z [debug    ] Visiting metadata node for tap_stream_id 'suppliers', breadcrumb '[]'
+2025-01-27T17:15:27.699685Z [debug    ] Setting '.streams[9].metadata[12].metadata.selected' to 'False'
+2025-01-27T17:15:27.699763Z [debug    ] Setting '.streams[9].metadata[12].metadata.selected' to 'True'
+2025-01-27T17:15:27.699849Z [debug    ] Skipping node at '.streams[9].metadata[12].metadata.inclusion'
+2025-01-27T17:15:27.699925Z [debug    ] Skipping node at '.streams[9].metadata[12].metadata.selected'
+2025-01-27T17:15:27.700001Z [debug    ] Skipping node at '.streams[9].metadata[12].metadata.selected-by-default'
+2025-01-27T17:15:27.700080Z [debug    ] Skipping node at '.streams[9].metadata[12].metadata.table-key-properties[0]'
+2025-01-27T17:15:27.700161Z [debug    ] Skipping node at '.streams[9].selected'
+2025-01-27T17:15:27.700244Z [debug    ] Visiting CatalogNode.STREAM at '.streams[10]'.
+2025-01-27T17:15:27.700344Z [debug    ] Setting '.streams[10].selected' to 'False'
+2025-01-27T17:15:27.700421Z [debug    ] Setting '.streams[10].selected' to 'True'
+2025-01-27T17:15:27.700499Z [debug    ] Skipping node at '.streams[10].tap_stream_id'
+2025-01-27T17:15:27.700586Z [debug    ] Skipping node at '.streams[10].replication_method'
+2025-01-27T17:15:27.700670Z [debug    ] Skipping node at '.streams[10].key_properties[0]'
+2025-01-27T17:15:27.700746Z [debug    ] Skipping node at '.streams[10].key_properties[1]'
+2025-01-27T17:15:27.700840Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[10].schema.properties.territory_id'.
+2025-01-27T17:15:27.700937Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[10].schema.properties.territory_description'.
+2025-01-27T17:15:27.701030Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[10].schema.properties.region_id'.
+2025-01-27T17:15:27.701116Z [debug    ] Skipping node at '.streams[10].schema.type'
+2025-01-27T17:15:27.701194Z [debug    ] Skipping node at '.streams[10].schema.$schema'
+2025-01-27T17:15:27.701272Z [debug    ] Skipping node at '.streams[10].stream'
+2025-01-27T17:15:27.701357Z [debug    ] Visiting CatalogNode.METADATA at '.streams[10].metadata[0]'.
+2025-01-27T17:15:27.701441Z [debug    ] Visiting metadata node for tap_stream_id 'territories', breadcrumb '['properties', 'territory_id']'
+2025-01-27T17:15:27.701545Z [debug    ] Setting '.streams[10].metadata[0].metadata.selected' to 'False'
+2025-01-27T17:15:27.701635Z [debug    ] Setting '.streams[10].metadata[0].metadata.selected' to 'True'
+2025-01-27T17:15:27.701724Z [debug    ] Skipping node at '.streams[10].metadata[0].breadcrumb[0]'
+2025-01-27T17:15:27.701819Z [debug    ] Skipping node at '.streams[10].metadata[0].breadcrumb[1]'
+2025-01-27T17:15:27.701923Z [debug    ] Skipping node at '.streams[10].metadata[0].metadata.inclusion'
+2025-01-27T17:15:27.702023Z [debug    ] Skipping node at '.streams[10].metadata[0].metadata.selected'
+2025-01-27T17:15:27.702112Z [debug    ] Visiting CatalogNode.METADATA at '.streams[10].metadata[1]'.
+2025-01-27T17:15:27.702200Z [debug    ] Visiting metadata node for tap_stream_id 'territories', breadcrumb '['properties', 'territory_description']'
+2025-01-27T17:15:27.702315Z [debug    ] Setting '.streams[10].metadata[1].metadata.selected' to 'False'
+2025-01-27T17:15:27.702395Z [debug    ] Setting '.streams[10].metadata[1].metadata.selected' to 'True'
+2025-01-27T17:15:27.702476Z [debug    ] Skipping node at '.streams[10].metadata[1].breadcrumb[0]'
+2025-01-27T17:15:27.702568Z [debug    ] Skipping node at '.streams[10].metadata[1].breadcrumb[1]'
+2025-01-27T17:15:27.702655Z [debug    ] Skipping node at '.streams[10].metadata[1].metadata.inclusion'
+2025-01-27T17:15:27.702736Z [debug    ] Skipping node at '.streams[10].metadata[1].metadata.selected'
+2025-01-27T17:15:27.702831Z [debug    ] Visiting CatalogNode.METADATA at '.streams[10].metadata[2]'.
+2025-01-27T17:15:27.702919Z [debug    ] Visiting metadata node for tap_stream_id 'territories', breadcrumb '['properties', 'region_id']'
+2025-01-27T17:15:27.703024Z [debug    ] Setting '.streams[10].metadata[2].metadata.selected' to 'False'
+2025-01-27T17:15:27.703111Z [debug    ] Setting '.streams[10].metadata[2].metadata.selected' to 'True'
+2025-01-27T17:15:27.703193Z [debug    ] Skipping node at '.streams[10].metadata[2].breadcrumb[0]'
+2025-01-27T17:15:27.703273Z [debug    ] Skipping node at '.streams[10].metadata[2].breadcrumb[1]'
+2025-01-27T17:15:27.703354Z [debug    ] Skipping node at '.streams[10].metadata[2].metadata.inclusion'
+2025-01-27T17:15:27.703425Z [debug    ] Skipping node at '.streams[10].metadata[2].metadata.selected'
+2025-01-27T17:15:27.703502Z [debug    ] Visiting CatalogNode.METADATA at '.streams[10].metadata[3]'.
+2025-01-27T17:15:27.703595Z [debug    ] Visiting metadata node for tap_stream_id 'territories', breadcrumb '[]'
+2025-01-27T17:15:27.703688Z [debug    ] Setting '.streams[10].metadata[3].metadata.selected' to 'False'
+2025-01-27T17:15:27.703759Z [debug    ] Setting '.streams[10].metadata[3].metadata.selected' to 'True'
+2025-01-27T17:15:27.703840Z [debug    ] Skipping node at '.streams[10].metadata[3].metadata.inclusion'
+2025-01-27T17:15:27.703913Z [debug    ] Skipping node at '.streams[10].metadata[3].metadata.selected'
+2025-01-27T17:15:27.703983Z [debug    ] Skipping node at '.streams[10].metadata[3].metadata.selected-by-default'
+2025-01-27T17:15:27.704060Z [debug    ] Skipping node at '.streams[10].metadata[3].metadata.table-key-properties[0]'
+2025-01-27T17:15:27.704136Z [debug    ] Skipping node at '.streams[10].metadata[3].metadata.table-key-properties[1]'
+2025-01-27T17:15:27.704216Z [debug    ] Skipping node at '.streams[10].selected'
+2025-01-27T17:15:27.704303Z [debug    ] Visiting CatalogNode.STREAM at '.streams[11]'.
+2025-01-27T17:15:27.704403Z [debug    ] Setting '.streams[11].selected' to 'False'
+2025-01-27T17:15:27.704485Z [debug    ] Setting '.streams[11].selected' to 'True'
+2025-01-27T17:15:27.704586Z [debug    ] Skipping node at '.streams[11].tap_stream_id'
+2025-01-27T17:15:27.704671Z [debug    ] Skipping node at '.streams[11].replication_method'
+2025-01-27T17:15:27.704751Z [debug    ] Skipping node at '.streams[11].key_properties[0]'
+2025-01-27T17:15:27.704846Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[11].schema.properties.state_id'.
+2025-01-27T17:15:27.704944Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[11].schema.properties.state_name'.
+2025-01-27T17:15:27.705037Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[11].schema.properties.state_abbr'.
+2025-01-27T17:15:27.705130Z [debug    ] Visiting CatalogNode.PROPERTY at '.streams[11].schema.properties.state_region'.
+2025-01-27T17:15:27.705219Z [debug    ] Skipping node at '.streams[11].schema.type'
+2025-01-27T17:15:27.705298Z [debug    ] Skipping node at '.streams[11].schema.$schema'
+2025-01-27T17:15:27.705376Z [debug    ] Skipping node at '.streams[11].stream'
+2025-01-27T17:15:27.705472Z [debug    ] Visiting CatalogNode.METADATA at '.streams[11].metadata[0]'.
+2025-01-27T17:15:27.705569Z [debug    ] Visiting metadata node for tap_stream_id 'us_states', breadcrumb '['properties', 'state_id']'
+2025-01-27T17:15:27.705669Z [debug    ] Setting '.streams[11].metadata[0].metadata.selected' to 'False'
+2025-01-27T17:15:27.705748Z [debug    ] Setting '.streams[11].metadata[0].metadata.selected' to 'True'
+2025-01-27T17:15:27.705832Z [debug    ] Skipping node at '.streams[11].metadata[0].breadcrumb[0]'
+2025-01-27T17:15:27.705914Z [debug    ] Skipping node at '.streams[11].metadata[0].breadcrumb[1]'
+2025-01-27T17:15:27.705994Z [debug    ] Skipping node at '.streams[11].metadata[0].metadata.inclusion'
+2025-01-27T17:15:27.706073Z [debug    ] Skipping node at '.streams[11].metadata[0].metadata.selected'
+2025-01-27T17:15:27.706157Z [debug    ] Visiting CatalogNode.METADATA at '.streams[11].metadata[1]'.
+2025-01-27T17:15:27.706238Z [debug    ] Visiting metadata node for tap_stream_id 'us_states', breadcrumb '['properties', 'state_name']'
+2025-01-27T17:15:27.706337Z [debug    ] Setting '.streams[11].metadata[1].metadata.selected' to 'False'
+2025-01-27T17:15:27.706423Z [debug    ] Setting '.streams[11].metadata[1].metadata.selected' to 'True'
+2025-01-27T17:15:27.706490Z [debug    ] Skipping node at '.streams[11].metadata[1].breadcrumb[0]'
+2025-01-27T17:15:27.706566Z [debug    ] Skipping node at '.streams[11].metadata[1].breadcrumb[1]'
+2025-01-27T17:15:27.706632Z [debug    ] Skipping node at '.streams[11].metadata[1].metadata.inclusion'
+2025-01-27T17:15:27.706703Z [debug    ] Skipping node at '.streams[11].metadata[1].metadata.selected'
+2025-01-27T17:15:27.706769Z [debug    ] Visiting CatalogNode.METADATA at '.streams[11].metadata[2]'.
+2025-01-27T17:15:27.706843Z [debug    ] Visiting metadata node for tap_stream_id 'us_states', breadcrumb '['properties', 'state_abbr']'
+2025-01-27T17:15:27.706927Z [debug    ] Setting '.streams[11].metadata[2].metadata.selected' to 'False'
+2025-01-27T17:15:27.706989Z [debug    ] Setting '.streams[11].metadata[2].metadata.selected' to 'True'
+2025-01-27T17:15:27.707052Z [debug    ] Skipping node at '.streams[11].metadata[2].breadcrumb[0]'
+2025-01-27T17:15:27.707113Z [debug    ] Skipping node at '.streams[11].metadata[2].breadcrumb[1]'
+2025-01-27T17:15:27.707176Z [debug    ] Skipping node at '.streams[11].metadata[2].metadata.inclusion'
+2025-01-27T17:15:27.707238Z [debug    ] Skipping node at '.streams[11].metadata[2].metadata.selected'
+2025-01-27T17:15:27.707303Z [debug    ] Visiting CatalogNode.METADATA at '.streams[11].metadata[3]'.
+2025-01-27T17:15:27.707365Z [debug    ] Visiting metadata node for tap_stream_id 'us_states', breadcrumb '['properties', 'state_region']'
+2025-01-27T17:15:27.707436Z [debug    ] Setting '.streams[11].metadata[3].metadata.selected' to 'False'
+2025-01-27T17:15:27.707498Z [debug    ] Setting '.streams[11].metadata[3].metadata.selected' to 'True'
+2025-01-27T17:15:27.707579Z [debug    ] Skipping node at '.streams[11].metadata[3].breadcrumb[0]'
+2025-01-27T17:15:27.707642Z [debug    ] Skipping node at '.streams[11].metadata[3].breadcrumb[1]'
+2025-01-27T17:15:27.707706Z [debug    ] Skipping node at '.streams[11].metadata[3].metadata.inclusion'
+2025-01-27T17:15:27.707766Z [debug    ] Skipping node at '.streams[11].metadata[3].metadata.selected'
+2025-01-27T17:15:27.707830Z [debug    ] Visiting CatalogNode.METADATA at '.streams[11].metadata[4]'.
+2025-01-27T17:15:27.707891Z [debug    ] Visiting metadata node for tap_stream_id 'us_states', breadcrumb '[]'
+2025-01-27T17:15:27.707960Z [debug    ] Setting '.streams[11].metadata[4].metadata.selected' to 'False'
+2025-01-27T17:15:27.708019Z [debug    ] Setting '.streams[11].metadata[4].metadata.selected' to 'True'
+2025-01-27T17:15:27.708084Z [debug    ] Skipping node at '.streams[11].metadata[4].metadata.inclusion'
+2025-01-27T17:15:27.708144Z [debug    ] Skipping node at '.streams[11].metadata[4].metadata.selected'
+2025-01-27T17:15:27.708203Z [debug    ] Skipping node at '.streams[11].metadata[4].metadata.selected-by-default'
+2025-01-27T17:15:27.708270Z [debug    ] Skipping node at '.streams[11].metadata[4].metadata.table-key-properties[0]'
+2025-01-27T17:15:27.708367Z [debug    ] Skipping node at '.streams[11].selected'
+2025-01-27T17:15:27.711422Z [debug    ] Invoking: ['/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/bin/tap-csv', '--config', '/home/victor/Desktop/TESTE/code-challenge/.meltano/run/tap-csv/tap.84888a67-9856-47c6-a4d9-1b9eca3b4562.config.json', '--catalog', '/home/victor/Desktop/TESTE/code-challenge/.meltano/run/tap-csv/tap.properties.json']
+2025-01-27T17:15:27.879343Z [debug    ] Variable '$TARGET_POSTGRES_SCHEMA' is not set in the provided env dictionary.
+2025-01-27T17:15:27.916907Z [debug    ] Variable '$TARGET_POSTGRES_SCHEMA' is not set in the provided env dictionary.
+2025-01-27T17:15:27.918234Z [debug    ] Created configuration at /home/victor/Desktop/TESTE/code-challenge/.meltano/run/target-postgres/target.cf864e29-710a-4313-af53-78fe26acedb1.config.json
+2025-01-27T17:15:27.919632Z [debug    ] Invoking: ['/home/victor/Desktop/TESTE/code-challenge/.meltano/loaders/target-postgres/venv/bin/target-postgres', '--config', '/home/victor/Desktop/TESTE/code-challenge/.meltano/run/target-postgres/target.cf864e29-710a-4313-af53-78fe26acedb1.config.json']
+2025-01-27T17:15:27.922134Z [debug    ] waiting for process completion or exception
+2025-01-27T17:15:28.066774Z [info     ] Traceback (most recent call last): cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.067182Z [info     ]   File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/bin/tap-csv", line 8, in <module> cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.067378Z [info     ]     sys.exit(TapCSV.cli())     cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.067494Z [info     ]              ^^^^^^^^^^^^      cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.067609Z [info     ]   File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/click/core.py", line 1161, in __call__ cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.067757Z [info     ]     return self.main(*args, **kwargs) cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.067852Z [info     ]            ^^^^^^^^^^^^^^^^^^^^^^^^^^ cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.067942Z [info     ]   File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/click/core.py", line 1082, in main cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.068031Z [info     ]     rv = self.invoke(ctx)      cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.068116Z [info     ]          ^^^^^^^^^^^^^^^^      cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.068210Z [info     ]   File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/singer_sdk/plugin_base.py", line 87, in invoke cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.068299Z [info     ]     return super().invoke(ctx) cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.068382Z [info     ]            ^^^^^^^^^^^^^^^^^^^ cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.068464Z [info     ]   File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/click/core.py", line 1443, in invoke cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.068560Z [info     ]     return ctx.invoke(self.callback, **ctx.params) cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.068647Z [info     ]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.068729Z [info     ]   File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/click/core.py", line 788, in invoke cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.068819Z [info     ]     return __callback(*args, **kwargs) cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.068902Z [info     ]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^ cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.068983Z [info     ]   File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/singer_sdk/tap_base.py", line 522, in invoke cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.069065Z [info     ]     tap.sync_all()             cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.069153Z [info     ]   File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/singer_sdk/tap_base.py", line 462, in sync_all cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.069238Z [info     ]     self._set_compatible_replication_methods() cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.069323Z [info     ]   File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/singer_sdk/tap_base.py", line 441, in _set_compatible_replication_methods cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.069414Z [info     ]     for stream in self.streams.values(): cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.069500Z [info     ]                   ^^^^^^^^^^^^ cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.069602Z [info     ]   File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/singer_sdk/tap_base.py", line 149, in streams cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.069687Z [info     ]     for stream in self.load_streams(): cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.069770Z [info     ]                   ^^^^^^^^^^^^^^^^^^^ cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.069851Z [info     ]   File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/singer_sdk/tap_base.py", line 373, in load_streams cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.069934Z [info     ]     for stream in self.discover_streams(): cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.070017Z [info     ]                   ^^^^^^^^^^^^^^^^^^^^^^^ cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.070100Z [info     ]   File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/tap_csv/tap.py", line 89, in discover_streams cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.070182Z [info     ]     return [                   cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.070263Z [info     ]            ^                   cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.070345Z [info     ]   File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/tap_csv/tap.py", line 90, in <listcomp> cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.070427Z [info     ]     CSVStream(                 cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.070515Z [info     ]   File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/tap_csv/client.py", line 32, in __init__ cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.070610Z [info     ]     super().__init__(*args, **kwargs) cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.070695Z [info     ]   File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/singer_sdk/streams/core.py", line 182, in __init__ cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.070777Z [info     ]     if not self.schema:        cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.070859Z [info     ]            ^^^^^^^^^^^         cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.070941Z [info     ]   File "/usr/lib/python3.11/functools.py", line 1001, in __get__ cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.071062Z [info     ]     val = self.func(instance)  cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.071154Z [info     ]           ^^^^^^^^^^^^^^^^^^^  cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.071238Z [info     ]   File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/tap_csv/client.py", line 137, in schema cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.071352Z [info     ]     for file_path in self.get_file_paths(): cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.071440Z [info     ]                      ^^^^^^^^^^^^^^^^^^^^^ cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.071544Z [info     ]   File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-csv/venv/lib/python3.11/site-packages/tap_csv/client.py", line 82, in get_file_paths cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.071632Z [info     ]     raise Exception(f"File path does not exist {file_path}") cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.071717Z [info     ] Exception: File path does not exist data/postgres/public-categories/2025-01-27/categories.csv cmd_type=elb consumer=False job_name=dev:tap-csv-to-target-postgres name=tap-csv producer=True run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=tap-csv
+2025-01-27T17:15:28.149034Z [debug    ] head producer completed first as expected name=tap-csv
+2025-01-27T17:15:28.149325Z [debug    ] tail consumer is next block, wrapping up
+2025-01-27T17:15:28.303234Z [info     ] 2025-01-27 14:15:28,303 | INFO     | target-postgres      | Target 'target-postgres' is listening for input from tap. cmd_type=elb consumer=True job_name=dev:tap-csv-to-target-postgres name=target-postgres producer=False run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=target-postgres
+2025-01-27T17:15:28.303522Z [info     ] 2025-01-27 14:15:28,303 | INFO     | target-postgres      | Target 'target-postgres' completed reading 0 lines of input (0 schemas, 0 records, 0 batch manifests, 0 state messages). cmd_type=elb consumer=True job_name=dev:tap-csv-to-target-postgres name=target-postgres producer=False run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=target-postgres
+2025-01-27T17:15:28.303679Z [info     ] 2025-01-27 14:15:28,303 | INFO     | target-postgres      | Emitting completed target state {} cmd_type=elb consumer=True job_name=dev:tap-csv-to-target-postgres name=target-postgres producer=False run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stderr string_id=target-postgres
+2025-01-27T17:15:28.349372Z [debug    ] Added to state dev:tap-csv-to-target-postgres state payload {'singer_state': {}}
+2025-01-27T17:15:28.405982Z [info     ] Incremental state has been updated at 2025-01-27 17:15:28.405948+00:00.
+2025-01-27T17:15:28.406380Z [debug    ] Incremental state: {}
+2025-01-27T17:15:28.406501Z [info     ] {}                             cmd_type=elb consumer=True job_name=dev:tap-csv-to-target-postgres name=target-postgres producer=False run_id=66de3903-cea6-4dfc-acaa-942088cdf0d9 stdio=stdout string_id=target-postgres
+2025-01-27T17:15:28.407028Z [debug    ] Deleted configuration at /home/victor/Desktop/TESTE/code-challenge/.meltano/run/tap-csv/tap.84888a67-9856-47c6-a4d9-1b9eca3b4562.config.json
+2025-01-27T17:15:28.407199Z [debug    ] Deleted configuration at /home/victor/Desktop/TESTE/code-challenge/.meltano/run/target-postgres/target.cf864e29-710a-4313-af53-78fe26acedb1.config.json
+2025-01-27T17:15:28.448223Z [error    ] Extractor failed
+2025-01-27T17:15:28.448382Z [error    ] Block run completed.           block_type=ExtractLoadBlocks err=RunnerError('Extractor failed') exit_codes={<PluginType.EXTRACTORS: 'extractors'>: 1} set_number=0 success=False
+2025-01-27T17:15:28.449556Z [debug    ] Need help fixing this problem? Visit http://melta.no/ for troubleshooting steps, or to
+join our friendly Slack community.
+
+Run invocation could not be completed as block failed: Extractor failed
+Traceback (most recent call last):
+  File "/home/victor/Desktop/TESTE/code-challenge/.venv/lib/python3.11/site-packages/meltano/cli/run.py", line 218, in _run_blocks
+    await blk.run()
+  File "/home/victor/Desktop/TESTE/code-challenge/.venv/lib/python3.11/site-packages/meltano/core/block/extract_load.py", line 509, in run
+    await self.run_with_job()
+  File "/home/victor/Desktop/TESTE/code-challenge/.venv/lib/python3.11/site-packages/meltano/core/block/extract_load.py", line 546, in run_with_job
+    await self.execute()
+  File "/home/victor/Desktop/TESTE/code-challenge/.venv/lib/python3.11/site-packages/meltano/core/block/extract_load.py", line 501, in execute
+    await manager.run()
+  File "/home/victor/Desktop/TESTE/code-challenge/.venv/lib/python3.11/site-packages/meltano/core/block/extract_load.py", line 714, in run
+    _check_exit_codes(
+  File "/home/victor/Desktop/TESTE/code-challenge/.venv/lib/python3.11/site-packages/meltano/core/block/extract_load.py", line 883, in _check_exit_codes
+    raise RunnerError("Extractor failed", {PluginType.EXTRACTORS: producer_code})  # noqa: EM101
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+meltano.core.runner.RunnerError: Extractor failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/victor/Desktop/TESTE/code-challenge/.venv/lib/python3.11/site-packages/meltano/cli/__init__.py", line 103, in _run_cli
+    cli(obj={"project": None})
+  File "/home/victor/Desktop/TESTE/code-challenge/.venv/lib/python3.11/site-packages/click/core.py", line 1161, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.venv/lib/python3.11/site-packages/meltano/cli/cli.py", line 46, in main
+    return super().main(*args, windows_expand_args=False, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.venv/lib/python3.11/site-packages/click/core.py", line 1082, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.venv/lib/python3.11/site-packages/meltano/cli/utils.py", line 582, in invoke
+    super().invoke(ctx)  # type: ignore[misc]
+    ^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.venv/lib/python3.11/site-packages/click/core.py", line 1697, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.venv/lib/python3.11/site-packages/meltano/cli/utils.py", line 631, in invoke
+    super().invoke(ctx)
+  File "/home/victor/Desktop/TESTE/code-challenge/.venv/lib/python3.11/site-packages/click/core.py", line 1443, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.venv/lib/python3.11/site-packages/click/core.py", line 788, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.venv/lib/python3.11/site-packages/meltano/cli/params.py", line 76, in decorate
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.venv/lib/python3.11/site-packages/meltano/cli/params.py", line 166, in decorate
+    func(project, *args, **kwargs)
+  File "/home/victor/Desktop/TESTE/code-challenge/.venv/lib/python3.11/site-packages/click/decorators.py", line 33, in new_func
+    return f(get_current_context(), *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.venv/lib/python3.11/site-packages/meltano/core/utils/__init__.py", line 68, in wrapper
+    return asyncio.run(func(*args, **kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/asyncio/base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.venv/lib/python3.11/site-packages/meltano/cli/run.py", line 186, in run
+    raise err
+  File "/home/victor/Desktop/TESTE/code-challenge/.venv/lib/python3.11/site-packages/meltano/cli/run.py", line 183, in run
+    await _run_blocks(tracker, parsed_blocks, dry_run=dry_run)
+  File "/home/victor/Desktop/TESTE/code-challenge/.venv/lib/python3.11/site-packages/meltano/cli/run.py", line 230, in _run_blocks
+    raise CliError(
+meltano.cli.utils.CliError: Run invocation could not be completed as block failed: Extractor failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/victor/Desktop/TESTE/code-challenge/.venv/lib/python3.11/site-packages/meltano/cli/__init__.py", line 113, in _run_cli
+    raise CliError(f"{troubleshooting_message}\n{err}") from err  # noqa: EM102
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+meltano.cli.utils.CliError: Need help fixing this problem? Visit http://melta.no/ for troubleshooting steps, or to
+join our friendly Slack community.
+
+Run invocation could not be completed as block failed: Extractor failed

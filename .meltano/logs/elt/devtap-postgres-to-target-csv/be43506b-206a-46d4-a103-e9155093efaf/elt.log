@@ -1,0 +1,32 @@
+2025-01-26T19:53:42.744900Z [warning  ] No state was found, complete import.
+2025-01-26T19:53:43.516757Z [error    ] Cannot start plugin tap-postgres: Catalog discovery failed: command ['/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/bin/tap-postgres', '--config', '/home/victor/Desktop/TESTE/code-challenge/.meltano/run/tap-postgres/tap.49635243-ff73-44f7-bcfd-87cbd2f1a58c.config.json', '--discover'] returned 1 with stderr:
+ Traceback (most recent call last):
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/bin/tap-postgres", line 8, in <module>
+    sys.exit(TapPostgres.cli())
+             ^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/click/core.py", line 1161, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/click/core.py", line 1081, in main
+    with self.make_context(prog_name, args, **extra) as ctx:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/click/core.py", line 949, in make_context
+    self.parse_args(ctx, args)
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/click/core.py", line 1417, in parse_args
+    value, args = param.handle_parse_result(ctx, opts, args)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/click/core.py", line 2403, in handle_parse_result
+    value = self.process_value(ctx, value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/click/core.py", line 2365, in process_value
+    value = self.callback(ctx, self, value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/singer_sdk/tap_base.py", line 544, in cb_discover
+    tap = cls(
+          ^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/tap_postgres/tap.py", line 56, in __init__
+    assert (self.config.get("sqlalchemy_url") is not None) or (
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Need either the sqlalchemy_url to be set or host, port, user, and password to be set
+
+2025-01-26T19:53:43.516905Z [error    ] Block run completed.           block_type=ExtractLoadBlocks err=RunnerError('Cannot start plugin tap-postgres: Catalog discovery failed: command [\'/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/bin/tap-postgres\', \'--config\', \'/home/victor/Desktop/TESTE/code-challenge/.meltano/run/tap-postgres/tap.49635243-ff73-44f7-bcfd-87cbd2f1a58c.config.json\', \'--discover\'] returned 1 with stderr:\n Traceback (most recent call last):\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/bin/tap-postgres", line 8, in <module>\n    sys.exit(TapPostgres.cli())\n             ^^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/click/core.py", line 1161, in __call__\n    return self.main(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/click/core.py", line 1081, in main\n    with self.make_context(prog_name, args, **extra) as ctx:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/click/core.py", line 949, in make_context\n    self.parse_args(ctx, args)\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/click/core.py", line 1417, in parse_args\n    value, args = param.handle_parse_result(ctx, opts, args)\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/click/core.py", line 2403, in handle_parse_result\n    value = self.process_value(ctx, value)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/click/core.py", line 2365, in process_value\n    value = self.callback(ctx, self, value)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/singer_sdk/tap_base.py", line 544, in cb_discover\n    tap = cls(\n          ^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/tap_postgres/tap.py", line 56, in __init__\n    assert (self.config.get("sqlalchemy_url") is not None) or (\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Need either the sqlalchemy_url to be set or host, port, user, and password to be set\n') exit_codes={} set_number=0 success=False

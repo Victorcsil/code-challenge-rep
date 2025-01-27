@@ -1,0 +1,1005 @@
+[2025-01-27T19:21:26.298-0300] {processor.py:161} INFO - Started process (PID=191484) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:21:26.298-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:21:26.299-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:21:26.299-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:21:26.305-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:21:26.508-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:21:26.507-0300] {override.py:1769} INFO - Created Permission View: can edit on DAG:load_data_manual
+[2025-01-27T19:21:26.574-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:21:26.574-0300] {override.py:1769} INFO - Created Permission View: can delete on DAG:load_data_manual
+[2025-01-27T19:21:26.632-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:21:26.632-0300] {override.py:1769} INFO - Created Permission View: can read on DAG:load_data_manual
+[2025-01-27T19:21:26.633-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:21:26.633-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:21:26.639-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:21:26.639-0300] {dag.py:3058} INFO - Creating ORM DAG for load_data_manual
+[2025-01-27T19:21:26.643-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:21:26.643-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-26 00:00:00+00:00, run_after=2025-01-27 00:00:00+00:00
+[2025-01-27T19:21:26.753-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.457 seconds
+[2025-01-27T19:21:57.561-0300] {processor.py:161} INFO - Started process (PID=191705) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:21:57.643-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:21:57.644-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:21:57.643-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:21:57.650-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:21:57.661-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:21:57.661-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:21:57.671-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:21:57.671-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:21:57.744-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.185 seconds
+[2025-01-27T19:22:28.162-0300] {processor.py:161} INFO - Started process (PID=191790) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:22:28.174-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:22:28.175-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:22:28.175-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:22:28.182-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:22:28.192-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:22:28.192-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:22:28.201-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:22:28.201-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:22:28.275-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.115 seconds
+[2025-01-27T19:22:58.832-0300] {processor.py:161} INFO - Started process (PID=191841) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:22:58.859-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:22:58.859-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:22:58.859-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:22:58.865-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:22:58.876-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:22:58.876-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:22:58.886-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:22:58.886-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:22:58.947-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.118 seconds
+[2025-01-27T19:23:29.472-0300] {processor.py:161} INFO - Started process (PID=191945) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:23:29.482-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:23:29.483-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:23:29.482-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:23:29.489-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:23:29.499-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:23:29.499-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:23:29.508-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:23:29.508-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:23:29.562-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.093 seconds
+[2025-01-27T19:24:00.277-0300] {processor.py:161} INFO - Started process (PID=192007) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:24:00.296-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:24:00.297-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:24:00.297-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:24:00.303-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:24:00.314-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:24:00.314-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:24:00.324-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:24:00.324-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:24:00.385-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.110 seconds
+[2025-01-27T19:24:31.000-0300] {processor.py:161} INFO - Started process (PID=192148) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:24:31.022-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:24:31.023-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:24:31.022-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:24:31.029-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:24:31.041-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:24:31.041-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:24:31.051-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:24:31.051-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:24:31.124-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.126 seconds
+[2025-01-27T19:25:01.939-0300] {processor.py:161} INFO - Started process (PID=192247) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:25:01.945-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:25:01.945-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:25:01.945-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:25:01.951-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:25:01.961-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:25:01.961-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:25:01.971-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:25:01.971-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:25:02.039-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.102 seconds
+[2025-01-27T19:25:32.477-0300] {processor.py:161} INFO - Started process (PID=192309) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:25:32.477-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:25:32.478-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:25:32.478-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:25:32.484-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:25:32.494-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:25:32.494-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:25:32.503-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:25:32.503-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:25:32.570-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.096 seconds
+[2025-01-27T19:26:02.862-0300] {processor.py:161} INFO - Started process (PID=192361) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:26:02.882-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:26:02.882-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:26:02.882-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:26:02.889-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:26:02.900-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:26:02.899-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:26:02.909-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:26:02.909-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:26:02.968-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.108 seconds
+[2025-01-27T19:26:33.345-0300] {processor.py:161} INFO - Started process (PID=192530) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:26:33.345-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:26:33.346-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:26:33.346-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:26:33.352-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:26:33.362-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:26:33.362-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:26:33.371-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:26:33.371-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:26:33.499-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.157 seconds
+[2025-01-27T19:27:03.827-0300] {processor.py:161} INFO - Started process (PID=192620) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:27:03.854-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:27:03.854-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:27:03.854-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:27:03.861-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:27:03.872-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:27:03.872-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:27:03.881-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:27:03.881-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:27:03.947-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.122 seconds
+[2025-01-27T19:27:34.310-0300] {processor.py:161} INFO - Started process (PID=192709) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:27:34.311-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:27:34.312-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:27:34.312-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:27:34.318-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:27:34.328-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:27:34.328-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:27:34.337-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:27:34.337-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:27:34.403-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.095 seconds
+[2025-01-27T19:28:04.452-0300] {processor.py:161} INFO - Started process (PID=192795) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:28:04.453-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:28:04.453-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:28:04.453-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:28:04.459-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:28:04.469-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:28:04.469-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:28:04.479-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:28:04.479-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:28:04.610-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.160 seconds
+[2025-01-27T19:28:35.005-0300] {processor.py:161} INFO - Started process (PID=192876) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:28:35.018-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:28:35.019-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:28:35.019-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:28:35.026-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:28:35.037-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:28:35.037-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:28:35.047-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:28:35.047-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:28:35.116-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.114 seconds
+[2025-01-27T19:29:05.553-0300] {processor.py:161} INFO - Started process (PID=192932) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:29:05.554-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:29:05.554-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:29:05.554-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:29:05.560-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:29:05.570-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:29:05.570-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:29:05.579-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:29:05.579-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:29:05.647-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.097 seconds
+[2025-01-27T19:29:35.939-0300] {processor.py:161} INFO - Started process (PID=192985) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:29:35.960-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:29:35.961-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:29:35.961-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:29:35.967-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:29:35.979-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:29:35.979-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:29:35.988-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:29:35.988-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:29:36.053-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.117 seconds
+[2025-01-27T19:30:06.324-0300] {processor.py:161} INFO - Started process (PID=193035) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:30:06.324-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:30:06.325-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:30:06.325-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:30:06.331-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:30:06.341-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:30:06.341-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:30:06.350-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:30:06.350-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:30:06.418-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.096 seconds
+[2025-01-27T19:30:36.710-0300] {processor.py:161} INFO - Started process (PID=193129) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:30:36.723-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:30:36.724-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:30:36.724-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:30:36.730-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:30:36.742-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:30:36.742-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:30:36.752-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:30:36.751-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:30:36.808-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.100 seconds
+[2025-01-27T19:31:06.916-0300] {processor.py:161} INFO - Started process (PID=193186) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:31:06.917-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:31:06.918-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:31:06.917-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:31:06.923-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:31:06.933-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:31:06.933-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:31:06.943-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:31:06.943-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:31:07.006-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.092 seconds
+[2025-01-27T19:31:37.276-0300] {processor.py:161} INFO - Started process (PID=193278) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:31:37.299-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:31:37.300-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:31:37.300-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:31:37.307-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:31:37.318-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:31:37.317-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:31:37.327-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:31:37.327-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:31:37.387-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.113 seconds
+[2025-01-27T19:32:07.554-0300] {processor.py:161} INFO - Started process (PID=193323) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:32:07.555-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:32:07.555-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:32:07.555-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:32:07.561-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:32:07.571-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:32:07.571-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:32:07.581-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:32:07.581-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:32:07.643-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.091 seconds
+[2025-01-27T19:32:37.922-0300] {processor.py:161} INFO - Started process (PID=193432) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:32:37.941-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:32:37.942-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:32:37.942-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:32:37.948-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:32:37.959-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:32:37.959-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:32:37.969-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:32:37.969-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:32:38.032-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.113 seconds
+[2025-01-27T19:33:08.407-0300] {processor.py:161} INFO - Started process (PID=193477) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:33:08.407-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:33:08.408-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:33:08.408-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:33:08.414-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:33:08.424-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:33:08.424-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:33:08.433-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:33:08.433-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:33:08.506-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.101 seconds
+[2025-01-27T19:33:38.891-0300] {processor.py:161} INFO - Started process (PID=193537) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:33:38.912-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:33:38.913-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:33:38.913-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:33:38.919-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:33:38.930-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:33:38.930-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:33:38.940-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:33:38.940-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:33:39.003-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.115 seconds
+[2025-01-27T19:34:09.373-0300] {processor.py:161} INFO - Started process (PID=193597) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:34:09.374-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:34:09.375-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:34:09.374-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:34:09.380-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:34:09.391-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:34:09.391-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:34:09.400-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:34:09.400-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:34:09.468-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.097 seconds
+[2025-01-27T19:34:39.761-0300] {processor.py:161} INFO - Started process (PID=193653) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:34:39.775-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:34:39.776-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:34:39.775-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:34:39.782-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:34:39.793-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:34:39.793-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:34:39.803-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:34:39.802-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:34:39.866-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.107 seconds
+[2025-01-27T19:35:10.048-0300] {processor.py:161} INFO - Started process (PID=193705) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:35:10.048-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:35:10.049-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:35:10.049-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:35:10.055-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:35:10.065-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:35:10.065-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:35:10.074-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:35:10.074-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:35:10.156-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.110 seconds
+[2025-01-27T19:35:40.562-0300] {processor.py:161} INFO - Started process (PID=194138) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:35:40.563-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:35:40.564-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:35:40.563-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:35:40.570-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:35:40.580-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:35:40.580-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:35:40.589-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:35:40.589-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:35:40.654-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.094 seconds
+[2025-01-27T19:36:10.946-0300] {processor.py:161} INFO - Started process (PID=194195) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:36:10.947-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:36:10.947-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:36:10.947-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:36:10.953-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:36:10.963-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:36:10.963-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:36:10.973-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:36:10.973-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:36:11.044-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.100 seconds
+[2025-01-27T19:36:41.432-0300] {processor.py:161} INFO - Started process (PID=194285) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:36:41.443-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:36:41.443-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:36:41.443-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:36:41.450-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:36:41.460-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:36:41.460-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:36:41.470-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:36:41.469-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:36:41.525-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.095 seconds
+[2025-01-27T19:37:11.616-0300] {processor.py:161} INFO - Started process (PID=194327) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:37:11.616-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:37:11.617-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:37:11.617-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:37:11.624-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:37:11.635-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:37:11.635-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:37:11.645-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:37:11.645-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:37:11.865-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.252 seconds
+[2025-01-27T19:37:42.438-0300] {processor.py:161} INFO - Started process (PID=194426) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:37:42.456-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:37:42.457-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:37:42.456-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:37:42.463-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:37:42.474-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:37:42.474-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:37:42.484-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:37:42.483-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:37:42.562-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.126 seconds
+[2025-01-27T19:38:13.352-0300] {processor.py:161} INFO - Started process (PID=194513) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:38:13.353-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:38:13.354-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:38:13.353-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:38:13.359-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:38:13.370-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:38:13.370-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:38:13.380-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:38:13.380-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:38:13.444-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.093 seconds
+[2025-01-27T19:38:43.815-0300] {processor.py:161} INFO - Started process (PID=194602) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:38:43.835-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:38:43.836-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:38:43.836-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:38:43.842-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:38:43.853-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:38:43.853-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:38:43.863-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:38:43.863-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:38:43.933-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.120 seconds
+[2025-01-27T19:39:14.449-0300] {processor.py:161} INFO - Started process (PID=194655) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:39:14.450-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:39:14.451-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:39:14.450-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:39:14.456-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:39:14.466-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:39:14.466-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:39:14.476-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:39:14.476-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:39:14.548-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.101 seconds
+[2025-01-27T19:39:44.838-0300] {processor.py:161} INFO - Started process (PID=194739) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:39:44.843-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:39:44.843-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:39:44.843-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:39:44.849-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:39:44.859-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:39:44.858-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:39:44.868-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:39:44.868-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:39:44.938-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.102 seconds
+[2025-01-27T19:40:15.117-0300] {processor.py:161} INFO - Started process (PID=194789) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:40:15.118-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:40:15.119-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:40:15.118-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:40:15.124-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:40:15.135-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:40:15.134-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:40:15.144-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:40:15.144-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:40:15.210-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.095 seconds
+[2025-01-27T19:40:45.502-0300] {processor.py:161} INFO - Started process (PID=194959) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:40:45.517-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:40:45.518-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:40:45.518-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:40:45.525-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:40:45.536-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:40:45.536-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:40:45.546-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:40:45.546-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:40:45.658-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.159 seconds
+[2025-01-27T19:41:15.887-0300] {processor.py:161} INFO - Started process (PID=195022) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:41:15.888-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:41:15.889-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:41:15.888-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:41:15.894-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:41:15.904-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:41:15.904-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:41:15.914-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:41:15.913-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:41:15.981-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.096 seconds
+[2025-01-27T19:41:46.152-0300] {processor.py:161} INFO - Started process (PID=195079) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:41:46.230-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:41:46.231-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:41:46.230-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:41:46.237-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:41:46.248-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:41:46.248-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:41:46.257-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:41:46.257-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:41:46.321-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.172 seconds
+[2025-01-27T19:42:16.635-0300] {processor.py:161} INFO - Started process (PID=195125) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:42:16.636-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:42:16.637-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:42:16.636-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:42:16.643-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:42:16.653-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:42:16.653-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:42:16.662-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:42:16.662-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:42:16.735-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.102 seconds
+[2025-01-27T19:42:47.019-0300] {processor.py:161} INFO - Started process (PID=195247) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:42:47.039-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:42:47.039-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:42:47.039-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:42:47.045-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:42:47.055-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:42:47.055-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:42:47.065-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:42:47.065-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:42:47.124-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.107 seconds
+[2025-01-27T19:43:17.612-0300] {processor.py:161} INFO - Started process (PID=195600) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:43:17.612-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:43:17.613-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:43:17.613-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:43:17.619-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:43:17.629-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:43:17.629-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:43:17.638-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:43:17.638-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:43:17.698-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.089 seconds
+[2025-01-27T19:43:48.271-0300] {processor.py:161} INFO - Started process (PID=195733) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:43:48.285-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:43:48.286-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:43:48.286-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:43:48.293-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:43:48.304-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:43:48.304-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:43:48.315-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:43:48.315-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:43:48.471-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.202 seconds
+[2025-01-27T19:44:19.392-0300] {processor.py:161} INFO - Started process (PID=196032) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:44:19.393-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:44:19.393-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:44:19.393-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:44:19.399-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:44:19.410-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:44:19.410-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:44:19.420-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:44:19.420-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:44:19.503-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.114 seconds
+[2025-01-27T19:44:50.089-0300] {processor.py:161} INFO - Started process (PID=196283) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:44:50.168-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:44:50.169-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:44:50.169-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:44:50.176-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:44:50.187-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:44:50.187-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:44:50.197-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:44:50.196-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:44:50.284-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.197 seconds
+[2025-01-27T19:45:21.015-0300] {processor.py:161} INFO - Started process (PID=196912) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:45:21.024-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:45:21.025-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:45:21.025-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:45:21.031-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:45:21.042-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:45:21.042-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:45:21.053-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:45:21.053-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:45:21.115-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.102 seconds
+[2025-01-27T19:45:51.922-0300] {processor.py:161} INFO - Started process (PID=197038) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:45:51.923-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:45:51.924-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:45:51.923-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:45:51.929-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:45:51.940-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:45:51.940-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:45:51.950-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:45:51.950-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:45:52.138-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.218 seconds
+[2025-01-27T19:46:22.445-0300] {processor.py:161} INFO - Started process (PID=197183) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:46:22.462-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:46:22.463-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:46:22.462-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:46:22.469-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:46:22.480-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:46:22.480-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:46:22.490-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:46:22.489-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:46:22.553-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.110 seconds
+[2025-01-27T19:46:53.534-0300] {processor.py:161} INFO - Started process (PID=197246) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:46:53.535-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:46:53.535-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:46:53.535-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:46:53.541-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:46:53.552-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:46:53.552-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:46:53.562-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:46:53.562-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:46:53.625-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.094 seconds
+[2025-01-27T19:47:24.248-0300] {processor.py:161} INFO - Started process (PID=197343) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:47:24.280-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:47:24.281-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:47:24.281-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:47:24.287-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:47:24.299-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:47:24.298-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:47:24.309-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:47:24.309-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:47:24.364-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.118 seconds
+[2025-01-27T19:47:54.945-0300] {processor.py:161} INFO - Started process (PID=197406) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:47:54.946-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:47:54.947-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:47:54.946-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:47:54.953-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:47:54.965-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:47:54.965-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:47:54.975-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:47:54.975-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:47:55.037-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.094 seconds
+[2025-01-27T19:48:25.098-0300] {processor.py:161} INFO - Started process (PID=197602) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:48:25.109-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:48:25.110-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:48:25.110-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:48:25.116-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:48:25.126-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:48:25.126-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:48:25.136-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:48:25.136-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:48:25.202-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.106 seconds
+[2025-01-27T19:48:55.351-0300] {processor.py:161} INFO - Started process (PID=197742) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:48:55.352-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:48:55.352-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:48:55.352-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:48:55.358-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:48:55.369-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:48:55.369-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:48:55.379-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:48:55.379-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:48:55.442-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.093 seconds
+[2025-01-27T19:49:25.502-0300] {processor.py:161} INFO - Started process (PID=197838) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:49:25.502-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:49:25.503-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:49:25.503-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:49:25.509-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:49:25.520-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:49:25.520-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:49:25.529-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:49:25.529-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:49:25.599-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.099 seconds
+[2025-01-27T19:49:55.753-0300] {processor.py:161} INFO - Started process (PID=198017) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:49:55.766-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:49:55.766-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:49:55.766-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:49:55.772-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:49:55.783-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:49:55.783-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:49:55.793-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:49:55.792-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:49:55.863-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.112 seconds
+[2025-01-27T19:50:26.004-0300] {processor.py:161} INFO - Started process (PID=198135) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:50:26.004-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:50:26.005-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:50:26.005-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:50:26.011-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:50:26.022-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:50:26.022-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:50:26.033-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:50:26.032-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:50:26.103-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.102 seconds
+[2025-01-27T19:50:56.256-0300] {processor.py:161} INFO - Started process (PID=198205) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:50:56.269-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:50:56.270-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:50:56.269-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:50:56.276-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:50:56.287-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:50:56.287-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:50:56.297-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:50:56.296-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:50:56.367-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.113 seconds
+[2025-01-27T19:51:26.510-0300] {processor.py:161} INFO - Started process (PID=198332) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:51:26.510-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:51:26.511-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:51:26.511-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:51:26.517-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:51:26.527-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:51:26.527-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:51:26.537-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:51:26.537-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:51:26.607-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.100 seconds
+[2025-01-27T19:51:56.763-0300] {processor.py:161} INFO - Started process (PID=198555) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:51:56.773-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:51:56.774-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:51:56.773-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:51:56.780-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:51:56.791-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:51:56.791-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:51:56.802-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:51:56.801-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:51:56.864-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.103 seconds
+[2025-01-27T19:52:27.106-0300] {processor.py:161} INFO - Started process (PID=198813) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:52:27.106-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:52:27.107-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:52:27.107-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:52:27.113-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:52:27.123-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:52:27.123-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:52:27.133-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:52:27.133-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:52:27.212-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.109 seconds
+[2025-01-27T19:52:57.435-0300] {processor.py:161} INFO - Started process (PID=199007) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:52:57.444-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:52:57.445-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:52:57.444-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:52:57.450-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:52:57.461-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:52:57.461-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:52:57.471-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:52:57.471-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:52:57.609-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.176 seconds
+[2025-01-27T19:53:27.693-0300] {processor.py:161} INFO - Started process (PID=199177) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:53:27.694-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:53:27.695-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:53:27.694-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:53:27.703-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:53:27.716-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:53:27.716-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:53:27.732-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:53:27.732-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:53:27.798-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.108 seconds
+[2025-01-27T19:53:57.944-0300] {processor.py:161} INFO - Started process (PID=199331) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:53:57.945-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:53:57.946-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:53:57.945-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:53:57.951-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:53:57.961-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:53:57.961-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:53:57.971-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:53:57.971-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:53:58.063-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.122 seconds
+[2025-01-27T19:54:28.196-0300] {processor.py:161} INFO - Started process (PID=199461) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:54:28.197-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:54:28.198-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:54:28.197-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:54:28.203-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:54:28.213-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:54:28.213-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:54:28.223-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:54:28.223-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:54:28.295-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.101 seconds
+[2025-01-27T19:54:58.415-0300] {processor.py:161} INFO - Started process (PID=199654) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:54:58.415-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:54:58.416-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:54:58.416-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:54:58.422-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:54:58.433-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:54:58.433-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:54:58.444-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:54:58.444-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:54:58.509-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.097 seconds
+[2025-01-27T19:55:28.571-0300] {processor.py:161} INFO - Started process (PID=199876) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:55:28.585-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:55:28.586-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:55:28.585-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:55:28.592-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:55:28.603-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:55:28.603-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:55:28.614-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:55:28.614-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:55:28.675-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.106 seconds
+[2025-01-27T19:55:58.824-0300] {processor.py:161} INFO - Started process (PID=200087) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:55:58.825-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:55:58.825-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:55:58.825-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:55:58.831-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:55:58.842-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:55:58.842-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:55:58.852-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:55:58.852-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:55:58.922-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.101 seconds
+[2025-01-27T19:56:29.076-0300] {processor.py:161} INFO - Started process (PID=200326) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:56:29.077-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:56:29.077-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:56:29.077-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:56:29.083-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:56:29.094-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:56:29.093-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:56:29.105-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:56:29.105-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:56:29.179-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.105 seconds
+[2025-01-27T19:56:59.327-0300] {processor.py:161} INFO - Started process (PID=200872) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:56:59.354-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:56:59.355-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:56:59.355-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:56:59.361-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:56:59.373-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:56:59.373-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:56:59.383-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:56:59.383-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:56:59.493-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.169 seconds
+[2025-01-27T19:57:29.653-0300] {processor.py:161} INFO - Started process (PID=201013) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:57:29.654-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:57:29.654-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:57:29.654-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:57:29.660-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:57:29.671-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:57:29.671-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:57:29.682-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:57:29.681-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:57:29.774-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.124 seconds
+[2025-01-27T19:57:59.906-0300] {processor.py:161} INFO - Started process (PID=201183) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:57:59.906-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:57:59.907-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:57:59.907-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:57:59.913-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:57:59.924-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:57:59.924-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:57:59.934-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:57:59.934-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:58:00.049-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.145 seconds
+[2025-01-27T19:58:30.163-0300] {processor.py:161} INFO - Started process (PID=201320) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:58:30.164-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:58:30.164-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:58:30.164-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:58:30.171-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:58:30.182-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:58:30.182-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:58:30.194-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:58:30.194-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:58:30.322-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.161 seconds
+[2025-01-27T19:59:00.420-0300] {processor.py:161} INFO - Started process (PID=201688) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:59:00.427-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:59:00.427-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:59:00.427-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:59:00.433-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:59:00.444-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:59:00.443-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:59:00.454-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:59:00.454-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:59:00.587-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.169 seconds
+[2025-01-27T19:59:30.673-0300] {processor.py:161} INFO - Started process (PID=202045) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:59:30.673-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T19:59:30.674-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:59:30.674-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:59:30.680-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T19:59:30.690-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:59:30.690-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T19:59:30.701-0300] {logging_mixin.py:188} INFO - [2025-01-27T19:59:30.700-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T19:59:30.767-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.097 seconds
+[2025-01-27T20:00:00.917-0300] {processor.py:161} INFO - Started process (PID=202397) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:00:00.918-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:00:00.919-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:00:00.919-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:00:00.925-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:00:00.935-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:00:00.935-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:00:00.946-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:00:00.946-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:00:01.024-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.109 seconds
+[2025-01-27T20:00:31.173-0300] {processor.py:161} INFO - Started process (PID=202696) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:00:31.174-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:00:31.174-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:00:31.174-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:00:31.181-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:00:31.192-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:00:31.192-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:00:31.202-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:00:31.202-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:00:31.288-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.117 seconds
+[2025-01-27T20:01:01.434-0300] {processor.py:161} INFO - Started process (PID=203010) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:01:01.447-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:01:01.447-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:01:01.447-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:01:01.454-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:01:01.466-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:01:01.466-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:01:01.477-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:01:01.477-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:01:01.545-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.114 seconds
+[2025-01-27T20:01:31.686-0300] {processor.py:161} INFO - Started process (PID=203406) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:01:31.687-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:01:31.687-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:01:31.687-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:01:31.696-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:01:31.712-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:01:31.712-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:01:31.729-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:01:31.729-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:01:31.810-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.127 seconds
+[2025-01-27T20:02:03.016-0300] {processor.py:161} INFO - Started process (PID=203791) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:02:03.027-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:02:03.028-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:02:03.027-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:02:03.036-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:02:03.048-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:02:03.048-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:02:03.061-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:02:03.061-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:02:03.233-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.219 seconds
+[2025-01-27T20:02:33.626-0300] {processor.py:161} INFO - Started process (PID=204067) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:02:33.626-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:02:33.627-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:02:33.627-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:02:33.633-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:02:33.646-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:02:33.645-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:02:33.657-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:02:33.656-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:02:33.732-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.108 seconds
+[2025-01-27T20:03:04.251-0300] {processor.py:161} INFO - Started process (PID=204228) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:03:04.265-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:03:04.265-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:03:04.265-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:03:04.272-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:03:04.283-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:03:04.283-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:03:04.295-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:03:04.295-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:03:04.362-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.113 seconds
+[2025-01-27T20:03:35.018-0300] {processor.py:161} INFO - Started process (PID=204637) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:03:35.038-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:03:35.038-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:03:35.038-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:03:35.045-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:03:35.056-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:03:35.056-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:03:35.067-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:03:35.067-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:03:35.135-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.119 seconds
+[2025-01-27T20:04:05.813-0300] {processor.py:161} INFO - Started process (PID=205046) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:04:05.827-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:04:05.828-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:04:05.828-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:04:05.834-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:04:05.845-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:04:05.845-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:04:05.856-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:04:05.855-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:04:05.926-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.115 seconds
+[2025-01-27T20:04:36.114-0300] {processor.py:161} INFO - Started process (PID=205274) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:04:36.159-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:04:36.159-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:04:36.159-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:04:36.170-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:04:36.183-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:04:36.183-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:04:36.194-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:04:36.194-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:04:36.255-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.144 seconds
+[2025-01-27T20:05:07.181-0300] {processor.py:161} INFO - Started process (PID=205658) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:05:07.207-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:05:07.208-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:05:07.207-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:05:07.214-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:05:07.226-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:05:07.226-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:05:07.238-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:05:07.238-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:05:07.331-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.152 seconds
+[2025-01-27T20:05:38.015-0300] {processor.py:161} INFO - Started process (PID=206196) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:05:38.016-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:05:38.017-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:05:38.017-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:05:38.023-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:05:38.035-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:05:38.035-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:05:38.047-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:05:38.046-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:05:38.111-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.098 seconds
+[2025-01-27T20:06:08.464-0300] {processor.py:161} INFO - Started process (PID=206372) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:06:08.540-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:06:08.541-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:06:08.540-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:06:08.547-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:06:08.559-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:06:08.559-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:06:08.570-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:06:08.570-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:06:08.651-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.189 seconds
+[2025-01-27T20:06:38.975-0300] {processor.py:161} INFO - Started process (PID=206458) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:06:38.976-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:06:38.976-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:06:38.976-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:06:38.982-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:06:38.993-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:06:38.993-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:06:39.003-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:06:39.003-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:06:39.081-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.108 seconds
+[2025-01-27T20:07:09.385-0300] {processor.py:161} INFO - Started process (PID=206693) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:07:09.436-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:07:09.437-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:07:09.436-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:07:09.443-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:07:09.455-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:07:09.455-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:07:09.466-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:07:09.466-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:07:09.571-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.189 seconds
+[2025-01-27T20:07:39.867-0300] {processor.py:161} INFO - Started process (PID=206793) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:07:39.868-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:07:39.869-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:07:39.868-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:07:39.875-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:07:39.885-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:07:39.885-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:07:39.895-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:07:39.895-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:07:39.986-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.121 seconds
+[2025-01-27T20:08:10.350-0300] {processor.py:161} INFO - Started process (PID=206844) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:08:10.351-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:08:10.352-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:08:10.352-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:08:10.358-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:08:10.369-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:08:10.369-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:08:10.379-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:08:10.379-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:08:10.451-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.103 seconds
+[2025-01-27T20:08:40.790-0300] {processor.py:161} INFO - Started process (PID=206899) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:08:40.791-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:08:40.792-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:08:40.791-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:08:40.797-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:08:40.809-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:08:40.809-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:08:40.820-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:08:40.820-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:08:41.165-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.377 seconds
+[2025-01-27T20:09:11.477-0300] {processor.py:161} INFO - Started process (PID=206947) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:09:11.478-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:09:11.479-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:09:11.478-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:09:11.484-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:09:11.495-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:09:11.495-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:09:11.506-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:09:11.506-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:09:11.622-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.147 seconds
+[2025-01-27T20:09:41.742-0300] {processor.py:161} INFO - Started process (PID=207147) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:09:41.742-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:09:41.743-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:09:41.743-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:09:41.749-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:09:41.760-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:09:41.760-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:09:41.771-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:09:41.770-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:09:41.956-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.216 seconds
+[2025-01-27T20:10:12.333-0300] {processor.py:161} INFO - Started process (PID=207199) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:10:12.358-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:10:12.359-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:10:12.358-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:10:12.365-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:10:12.376-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:10:12.376-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:10:12.386-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:10:12.386-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:10:12.468-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.138 seconds
+[2025-01-27T20:10:43.118-0300] {processor.py:161} INFO - Started process (PID=207289) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:10:43.118-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:10:43.119-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:10:43.119-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:10:43.125-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:10:43.136-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:10:43.136-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:10:43.146-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:10:43.146-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:10:43.240-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.125 seconds
+[2025-01-27T20:11:13.528-0300] {processor.py:161} INFO - Started process (PID=207795) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:11:13.529-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:11:13.529-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:11:13.529-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:11:13.535-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:11:13.546-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:11:13.546-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:11:13.557-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:11:13.557-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:11:13.631-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.105 seconds
+[2025-01-27T20:11:44.011-0300] {processor.py:161} INFO - Started process (PID=208012) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:11:44.012-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:11:44.012-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:11:44.012-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:11:44.018-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:11:44.028-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:11:44.028-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:11:44.038-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:11:44.038-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:11:44.112-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.103 seconds
+[2025-01-27T20:12:14.556-0300] {processor.py:161} INFO - Started process (PID=208091) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:12:14.557-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:12:14.558-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:12:14.558-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:12:14.564-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:12:14.574-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:12:14.574-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:12:14.584-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:12:14.584-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:12:14.701-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.147 seconds
+[2025-01-27T20:12:44.898-0300] {processor.py:161} INFO - Started process (PID=208290) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:12:44.899-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:12:44.899-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:12:44.899-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:12:44.905-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:12:44.916-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:12:44.915-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:12:44.925-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:12:44.925-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:12:45.008-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.112 seconds
+[2025-01-27T20:13:15.378-0300] {processor.py:161} INFO - Started process (PID=208398) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:13:15.378-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:13:15.379-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:13:15.379-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:13:15.385-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:13:15.395-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:13:15.395-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:13:15.406-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:13:15.406-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:13:15.481-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.105 seconds
+[2025-01-27T20:13:45.658-0300] {processor.py:161} INFO - Started process (PID=208746) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:13:45.659-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:13:45.659-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:13:45.659-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:13:45.665-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:13:45.676-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:13:45.675-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:13:45.685-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:13:45.685-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:13:45.753-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.097 seconds
+[2025-01-27T20:14:16.058-0300] {processor.py:161} INFO - Started process (PID=208922) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:14:16.059-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:14:16.060-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:14:16.059-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:14:16.065-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:14:16.075-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:14:16.075-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:14:16.085-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:14:16.085-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:14:16.194-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.138 seconds
+[2025-01-27T20:14:46.839-0300] {processor.py:161} INFO - Started process (PID=208995) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:14:46.860-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:14:46.860-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:14:46.860-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:14:46.867-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:14:46.878-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:14:46.878-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:14:46.887-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:14:46.887-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:14:46.958-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.121 seconds
+[2025-01-27T20:15:17.321-0300] {processor.py:161} INFO - Started process (PID=209056) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:15:17.321-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:15:17.322-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:15:17.322-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:15:17.328-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:15:17.339-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:15:17.338-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:15:17.350-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:15:17.350-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:15:17.415-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.096 seconds
+[2025-01-27T20:15:47.706-0300] {processor.py:161} INFO - Started process (PID=209114) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:15:47.888-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:15:47.889-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:15:47.888-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:15:47.895-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:15:47.907-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:15:47.907-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:15:47.917-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:15:47.917-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:15:48.362-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.658 seconds
+[2025-01-27T20:16:18.483-0300] {processor.py:161} INFO - Started process (PID=209311) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:16:18.484-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:16:18.484-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:16:18.484-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:16:18.490-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:16:18.501-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:16:18.501-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:16:18.511-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:16:18.510-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:16:18.586-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.105 seconds
+[2025-01-27T20:16:48.761-0300] {processor.py:161} INFO - Started process (PID=209518) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:16:48.780-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:16:48.781-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:16:48.781-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:16:48.787-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:16:48.798-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:16:48.798-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:16:48.809-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:16:48.809-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:16:48.883-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.124 seconds
+[2025-01-27T20:17:19.344-0300] {processor.py:161} INFO - Started process (PID=209853) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:17:19.345-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:17:19.346-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:17:19.345-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:17:19.352-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:17:19.362-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:17:19.362-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:17:19.372-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:17:19.372-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:17:19.707-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.365 seconds
+[2025-01-27T20:17:49.821-0300] {processor.py:161} INFO - Started process (PID=210172) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:17:49.843-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:17:49.844-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:17:49.844-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:17:49.852-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:17:49.863-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:17:49.863-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:17:49.873-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:17:49.873-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:17:49.954-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.136 seconds
+[2025-01-27T20:18:20.405-0300] {processor.py:161} INFO - Started process (PID=210256) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:18:20.405-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:18:20.406-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:18:20.406-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:18:20.411-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:18:20.424-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:18:20.424-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:18:20.436-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:18:20.436-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:18:20.520-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.118 seconds
+[2025-01-27T20:18:50.815-0300] {processor.py:161} INFO - Started process (PID=210309) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:18:50.815-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:18:50.816-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:18:50.816-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:18:50.822-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:18:50.833-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:18:50.833-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:18:50.842-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:18:50.842-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:18:50.917-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.105 seconds
+[2025-01-27T20:19:21.150-0300] {processor.py:161} INFO - Started process (PID=210396) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:19:21.158-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:19:21.159-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:19:21.159-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:19:21.164-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:19:21.175-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:19:21.175-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:19:21.185-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:19:21.185-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:19:21.323-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.176 seconds
+[2025-01-27T20:19:51.988-0300] {processor.py:161} INFO - Started process (PID=210447) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:19:51.988-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:19:51.989-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:19:51.989-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:19:51.995-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:19:52.006-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:19:52.006-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:19:52.016-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:19:52.016-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:19:52.105-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.119 seconds
+[2025-01-27T20:20:22.528-0300] {processor.py:161} INFO - Started process (PID=210569) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:20:22.541-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:20:22.542-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:20:22.542-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:20:22.548-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:20:22.558-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:20:22.558-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:20:22.569-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:20:22.568-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:20:22.644-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.119 seconds
+[2025-01-27T20:20:53.012-0300] {processor.py:161} INFO - Started process (PID=210626) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:20:53.012-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:20:53.013-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:20:53.013-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:20:53.019-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:20:53.030-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:20:53.030-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:20:53.040-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:20:53.039-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:20:53.118-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.108 seconds
+[2025-01-27T20:21:23.495-0300] {processor.py:161} INFO - Started process (PID=210688) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:21:23.495-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:21:23.496-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:21:23.496-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:21:23.502-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:21:23.512-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:21:23.512-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:21:23.522-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:21:23.522-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:21:23.616-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.124 seconds
+[2025-01-27T20:21:53.975-0300] {processor.py:161} INFO - Started process (PID=210735) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:21:53.975-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:21:53.976-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:21:53.976-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:21:53.981-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:21:53.992-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:21:53.992-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:21:54.001-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:21:54.001-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:21:54.138-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.165 seconds
+[2025-01-27T20:22:24.323-0300] {processor.py:161} INFO - Started process (PID=210855) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:22:24.323-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:22:24.324-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:22:24.324-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:22:24.330-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:22:24.340-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:22:24.340-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:22:24.350-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:22:24.350-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:22:24.428-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.108 seconds
+[2025-01-27T20:22:54.808-0300] {processor.py:161} INFO - Started process (PID=210925) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:22:54.808-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:22:54.809-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:22:54.809-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:22:54.814-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:22:54.824-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:22:54.824-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:22:54.833-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:22:54.833-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:22:54.926-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.121 seconds
+[2025-01-27T20:26:32.073-0300] {processor.py:161} INFO - Started process (PID=215548) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:26:32.182-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:26:32.182-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:26:32.182-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:26:32.188-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:26:32.199-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:26:32.199-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:26:32.209-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:26:32.209-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:26:32.694-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.624 seconds
+[2025-01-27T20:27:02.824-0300] {processor.py:161} INFO - Started process (PID=218007) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:27:02.825-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:27:02.826-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:27:02.825-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:27:02.832-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:27:02.843-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:27:02.843-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:27:02.853-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:27:02.853-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:27:02.925-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.103 seconds
+[2025-01-27T20:27:33.077-0300] {processor.py:161} INFO - Started process (PID=218164) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:27:33.086-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:27:33.087-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:27:33.086-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:27:33.092-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:27:33.103-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:27:33.103-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:27:33.113-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:27:33.112-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:27:33.182-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.107 seconds
+[2025-01-27T20:28:03.328-0300] {processor.py:161} INFO - Started process (PID=219740) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:28:03.329-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:28:03.330-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:28:03.329-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:28:03.335-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:28:03.347-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:28:03.347-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:28:03.358-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:28:03.358-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:28:03.455-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.129 seconds
+[2025-01-27T20:28:33.539-0300] {processor.py:161} INFO - Started process (PID=221891) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:28:33.550-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:28:33.550-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:28:33.550-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:28:33.557-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:28:33.569-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:28:33.569-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:28:33.581-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:28:33.581-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:28:33.653-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.117 seconds
+[2025-01-27T20:29:03.792-0300] {processor.py:161} INFO - Started process (PID=223999) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:29:03.792-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:29:03.793-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:29:03.792-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:29:03.798-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:29:03.809-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:29:03.809-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:29:03.819-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:29:03.819-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:29:03.893-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.103 seconds
+[2025-01-27T20:29:34.043-0300] {processor.py:161} INFO - Started process (PID=226224) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:29:34.064-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:29:34.065-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:29:34.064-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:29:34.071-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:29:34.083-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:29:34.082-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:29:34.094-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:29:34.093-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:29:34.166-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.125 seconds
+[2025-01-27T20:30:04.297-0300] {processor.py:161} INFO - Started process (PID=228422) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:30:04.297-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:30:04.298-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:30:04.298-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:30:04.304-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:30:04.315-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:30:04.315-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:30:04.326-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:30:04.326-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:30:04.406-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.112 seconds
+[2025-01-27T20:30:34.549-0300] {processor.py:161} INFO - Started process (PID=229553) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:30:34.568-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:30:34.569-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:30:34.569-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:30:34.575-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:30:34.586-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:30:34.585-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:30:34.595-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:30:34.595-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:30:34.671-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.124 seconds
+[2025-01-27T20:31:04.873-0300] {processor.py:161} INFO - Started process (PID=229778) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:31:04.933-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:31:04.934-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:31:04.933-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:31:04.940-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:31:04.952-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:31:04.952-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:31:04.962-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:31:04.962-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:31:05.037-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.166 seconds
+[2025-01-27T20:31:35.187-0300] {processor.py:161} INFO - Started process (PID=229976) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:31:35.187-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:31:35.188-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:31:35.188-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:31:35.194-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:31:35.204-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:31:35.204-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:31:35.215-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:31:35.214-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:31:35.291-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.106 seconds
+[2025-01-27T20:32:05.439-0300] {processor.py:161} INFO - Started process (PID=230078) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:32:05.440-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:32:05.441-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:32:05.440-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:32:05.447-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:32:05.457-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:32:05.457-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:32:05.467-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:32:05.467-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:32:05.556-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.119 seconds
+[2025-01-27T20:32:35.690-0300] {processor.py:161} INFO - Started process (PID=230217) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:32:35.691-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:32:35.692-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:32:35.691-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:32:35.697-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:32:35.707-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:32:35.707-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:32:35.717-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:32:35.717-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:32:35.804-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.116 seconds
+[2025-01-27T20:33:05.940-0300] {processor.py:161} INFO - Started process (PID=230539) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:33:05.941-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:33:05.942-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:33:05.941-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:33:05.947-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:33:05.958-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:33:05.958-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:33:05.968-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:33:05.968-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:33:06.068-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.130 seconds
+[2025-01-27T20:33:36.158-0300] {processor.py:161} INFO - Started process (PID=230676) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:33:36.178-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:33:36.179-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:33:36.178-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:33:36.185-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:33:36.197-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:33:36.196-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:33:36.207-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:33:36.207-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:33:36.283-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.128 seconds
+[2025-01-27T20:34:06.412-0300] {processor.py:161} INFO - Started process (PID=230736) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:34:06.413-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:34:06.414-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:34:06.413-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:34:06.419-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:34:06.430-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:34:06.430-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:34:06.440-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:34:06.440-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:34:06.540-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.130 seconds
+[2025-01-27T20:34:36.666-0300] {processor.py:161} INFO - Started process (PID=230785) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:34:36.681-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:34:36.682-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:34:36.681-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:34:36.688-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:34:36.699-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:34:36.698-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:34:36.709-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:34:36.709-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:34:36.805-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.142 seconds
+[2025-01-27T20:35:06.918-0300] {processor.py:161} INFO - Started process (PID=230918) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:35:06.919-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:35:06.920-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:35:06.919-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:35:06.926-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:35:06.938-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:35:06.937-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:35:06.947-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:35:06.947-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:35:07.019-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.103 seconds
+[2025-01-27T20:35:37.206-0300] {processor.py:161} INFO - Started process (PID=231027) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:35:37.219-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:35:37.219-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:35:37.219-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:35:37.225-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:35:37.237-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:35:37.236-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:35:37.248-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:35:37.247-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:35:37.317-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.113 seconds
+[2025-01-27T20:36:07.528-0300] {processor.py:161} INFO - Started process (PID=231194) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:36:07.529-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:36:07.530-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:36:07.530-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:36:07.536-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:36:07.546-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:36:07.546-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:36:07.556-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:36:07.556-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:36:07.632-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.106 seconds
+[2025-01-27T20:36:37.782-0300] {processor.py:161} INFO - Started process (PID=231274) to work on /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:36:37.791-0300] {processor.py:830} INFO - Processing file /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py for tasks to queue
+[2025-01-27T20:36:37.792-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:36:37.791-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:36:37.797-0300] {processor.py:840} INFO - DAG(s) 'load_data_manual' retrieved from /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py
+[2025-01-27T20:36:37.808-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:36:37.808-0300] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-27T20:36:37.819-0300] {logging_mixin.py:188} INFO - [2025-01-27T20:36:37.819-0300] {dag.py:3823} INFO - Setting next_dagrun for load_data_manual to 2025-01-27 00:00:00+00:00, run_after=2025-01-28 00:00:00+00:00
+[2025-01-27T20:36:38.163-0300] {processor.py:183} INFO - Processing /home/victor/Desktop/TESTE/code-challenge/orchestrate/airflow/dags/step2_manual.py took 0.384 seconds

@@ -1,0 +1,156 @@
+2025-01-26T19:54:29.251795Z [warning  ] No state was found, complete import.
+2025-01-26T19:54:30.046853Z [error    ] Cannot start plugin tap-postgres: Catalog discovery failed: command ['/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/bin/tap-postgres', '--config', '/home/victor/Desktop/TESTE/code-challenge/.meltano/run/tap-postgres/tap.226c4aaa-96b9-4335-bb97-f08afd2aa827.config.json', '--discover'] returned 1 with stderr:
+ Traceback (most recent call last):
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 146, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 3298, in raw_connection
+    return self.pool.connect()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 449, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 1263, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 712, in checkout
+    rec = pool._do_get()
+          ^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/pool/impl.py", line 179, in _do_get
+    with util.safe_reraise():
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/util/langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/pool/impl.py", line 177, in _do_get
+    return self._create_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 390, in _create_connection
+    return _ConnectionRecord(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 674, in __init__
+    self.__connect()
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 900, in __connect
+    with util.safe_reraise():
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/util/langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 896, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/engine/create.py", line 646, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 622, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/bin/tap-postgres", line 8, in <module>
+    sys.exit(TapPostgres.cli())
+             ^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/click/core.py", line 1161, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/click/core.py", line 1081, in main
+    with self.make_context(prog_name, args, **extra) as ctx:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/click/core.py", line 949, in make_context
+    self.parse_args(ctx, args)
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/click/core.py", line 1417, in parse_args
+    value, args = param.handle_parse_result(ctx, opts, args)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/click/core.py", line 2403, in handle_parse_result
+    value = self.process_value(ctx, value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/click/core.py", line 2365, in process_value
+    value = self.callback(ctx, self, value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/singer_sdk/tap_base.py", line 554, in cb_discover
+    tap.run_discovery()
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/singer_sdk/tap_base.py", line 309, in run_discovery
+    catalog_text = self.catalog_json_text
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/singer_sdk/tap_base.py", line 329, in catalog_json_text
+    return dump_json(self.catalog_dict, indent=2)
+                     ^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/tap_postgres/tap.py", line 549, in catalog_dict
+    result["streams"].extend(self.connector.discover_catalog_entries())
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/singer_sdk/connectors/sql.py", line 996, in discover_catalog_entries
+    inspected = sa.inspect(engine)
+                ^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/inspection.py", line 140, in inspect
+    ret = reg(subject)
+          ^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/engine/reflection.py", line 313, in _engine_insp
+    return Inspector._construct(Inspector._init_engine, bind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/engine/reflection.py", line 246, in _construct
+    init(self, bind)
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/engine/reflection.py", line 257, in _init_engine
+    engine.connect().close()
+    ^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 3274, in connect
+    return self._connection_cls(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 148, in __init__
+    Connection._handle_dbapi_exception_noconnection(
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 2439, in _handle_dbapi_exception_noconnection
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 146, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 3298, in raw_connection
+    return self.pool.connect()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 449, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 1263, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 712, in checkout
+    rec = pool._do_get()
+          ^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/pool/impl.py", line 179, in _do_get
+    with util.safe_reraise():
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/util/langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/pool/impl.py", line 177, in _do_get
+    return self._create_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 390, in _create_connection
+    return _ConnectionRecord(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 674, in __init__
+    self.__connect()
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 900, in __connect
+    with util.safe_reraise():
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/util/langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 896, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/engine/create.py", line 646, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 622, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+
+2025-01-26T19:54:30.047010Z [error    ] Block run completed.           block_type=ExtractLoadBlocks err=RunnerError('Cannot start plugin tap-postgres: Catalog discovery failed: command [\'/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/bin/tap-postgres\', \'--config\', \'/home/victor/Desktop/TESTE/code-challenge/.meltano/run/tap-postgres/tap.226c4aaa-96b9-4335-bb97-f08afd2aa827.config.json\', \'--discover\'] returned 1 with stderr:\n Traceback (most recent call last):\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 146, in __init__\n    self._dbapi_connection = engine.raw_connection()\n                             ^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 3298, in raw_connection\n    return self.pool.connect()\n           ^^^^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 449, in connect\n    return _ConnectionFairy._checkout(self)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 1263, in _checkout\n    fairy = _ConnectionRecord.checkout(pool)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 712, in checkout\n    rec = pool._do_get()\n          ^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/pool/impl.py", line 179, in _do_get\n    with util.safe_reraise():\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/util/langhelpers.py", line 146, in __exit__\n    raise exc_value.with_traceback(exc_tb)\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/pool/impl.py", line 177, in _do_get\n    return self._create_connection()\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 390, in _create_connection\n    return _ConnectionRecord(self)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 674, in __init__\n    self.__connect()\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 900, in __connect\n    with util.safe_reraise():\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/util/langhelpers.py", line 146, in __exit__\n    raise exc_value.with_traceback(exc_tb)\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 896, in __connect\n    self.dbapi_connection = connection = pool._invoke_creator(self)\n                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/engine/create.py", line 646, in connect\n    return dialect.connect(*cargs, **cparams)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 622, in connect\n    return self.loaded_dbapi.connect(*cargs, **cparams)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/psycopg2/__init__.py", line 122, in connect\n    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npsycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.\n\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/bin/tap-postgres", line 8, in <module>\n    sys.exit(TapPostgres.cli())\n             ^^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/click/core.py", line 1161, in __call__\n    return self.main(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/click/core.py", line 1081, in main\n    with self.make_context(prog_name, args, **extra) as ctx:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/click/core.py", line 949, in make_context\n    self.parse_args(ctx, args)\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/click/core.py", line 1417, in parse_args\n    value, args = param.handle_parse_result(ctx, opts, args)\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/click/core.py", line 2403, in handle_parse_result\n    value = self.process_value(ctx, value)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/click/core.py", line 2365, in process_value\n    value = self.callback(ctx, self, value)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/singer_sdk/tap_base.py", line 554, in cb_discover\n    tap.run_discovery()\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/singer_sdk/tap_base.py", line 309, in run_discovery\n    catalog_text = self.catalog_json_text\n                   ^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/singer_sdk/tap_base.py", line 329, in catalog_json_text\n    return dump_json(self.catalog_dict, indent=2)\n                     ^^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/tap_postgres/tap.py", line 549, in catalog_dict\n    result["streams"].extend(self.connector.discover_catalog_entries())\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/singer_sdk/connectors/sql.py", line 996, in discover_catalog_entries\n    inspected = sa.inspect(engine)\n                ^^^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/inspection.py", line 140, in inspect\n    ret = reg(subject)\n          ^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/engine/reflection.py", line 313, in _engine_insp\n    return Inspector._construct(Inspector._init_engine, bind)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/engine/reflection.py", line 246, in _construct\n    init(self, bind)\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/engine/reflection.py", line 257, in _init_engine\n    engine.connect().close()\n    ^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 3274, in connect\n    return self._connection_cls(self)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 148, in __init__\n    Connection._handle_dbapi_exception_noconnection(\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 2439, in _handle_dbapi_exception_noconnection\n    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 146, in __init__\n    self._dbapi_connection = engine.raw_connection()\n                             ^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 3298, in raw_connection\n    return self.pool.connect()\n           ^^^^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 449, in connect\n    return _ConnectionFairy._checkout(self)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 1263, in _checkout\n    fairy = _ConnectionRecord.checkout(pool)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 712, in checkout\n    rec = pool._do_get()\n          ^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/pool/impl.py", line 179, in _do_get\n    with util.safe_reraise():\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/util/langhelpers.py", line 146, in __exit__\n    raise exc_value.with_traceback(exc_tb)\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/pool/impl.py", line 177, in _do_get\n    return self._create_connection()\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 390, in _create_connection\n    return _ConnectionRecord(self)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 674, in __init__\n    self.__connect()\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 900, in __connect\n    with util.safe_reraise():\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/util/langhelpers.py", line 146, in __exit__\n    raise exc_value.with_traceback(exc_tb)\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 896, in __connect\n    self.dbapi_connection = connection = pool._invoke_creator(self)\n                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/engine/create.py", line 646, in connect\n    return dialect.connect(*cargs, **cparams)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 622, in connect\n    return self.loaded_dbapi.connect(*cargs, **cparams)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/extractors/tap-postgres/venv/lib/python3.11/site-packages/psycopg2/__init__.py", line 122, in connect\n    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nsqlalchemy.exc.OperationalError: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: server closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.\n\n(Background on this error at: https://sqlalche.me/e/20/e3q8)\n') exit_codes={} set_number=0 success=False

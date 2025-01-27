@@ -1,0 +1,29 @@
+[2025-01-27T15:25:38.886-0300] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_and_organize_data.extract_csv scheduled__2025-01-26T00:00:00+00:00 [queued]>
+[2025-01-27T15:25:38.889-0300] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_and_organize_data.extract_csv scheduled__2025-01-26T00:00:00+00:00 [queued]>
+[2025-01-27T15:25:38.889-0300] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-01-27T15:25:38.996-0300] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): extract_csv> on 2025-01-26 00:00:00+00:00
+[2025-01-27T15:25:39.001-0300] {standard_task_runner.py:60} INFO - Started process 111519 to run task
+[2025-01-27T15:25:39.004-0300] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'extract_and_organize_data', 'extract_csv', 'scheduled__2025-01-26T00:00:00+00:00', '--job-id', '38', '--raw', '--subdir', 'DAGS_FOLDER/stage1.py', '--cfg-path', '/tmp/tmp6koxzvq0']
+[2025-01-27T15:25:39.005-0300] {standard_task_runner.py:88} INFO - Job 38: Subtask extract_csv
+[2025-01-27T15:25:39.135-0300] {task_command.py:423} INFO - Running <TaskInstance: extract_and_organize_data.extract_csv scheduled__2025-01-26T00:00:00+00:00 [running]> on host victor-MS-7C52
+[2025-01-27T15:25:39.338-0300] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='extract_and_organize_data' AIRFLOW_CTX_TASK_ID='extract_csv' AIRFLOW_CTX_EXECUTION_DATE='2025-01-26T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-01-26T00:00:00+00:00'
+[2025-01-27T15:25:39.339-0300] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-01-27T15:25:39.339-0300] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /home/victor/Desktop/TESTE/code-challenge; .meltano/run/bin run tap-csv --order-details target-csv']
+[2025-01-27T15:25:39.346-0300] {subprocess.py:86} INFO - Output:
+[2025-01-27T15:25:40.017-0300] {subprocess.py:93} INFO - Usage: bin run [OPTIONS] [BLOCKS]...
+[2025-01-27T15:25:40.017-0300] {subprocess.py:93} INFO - Try 'bin run --help' for help.
+[2025-01-27T15:25:40.017-0300] {subprocess.py:93} INFO - 
+[2025-01-27T15:25:40.017-0300] {subprocess.py:93} INFO - Error: No such option: --order-details
+[2025-01-27T15:25:40.825-0300] {subprocess.py:97} INFO - Command exited with return code 2
+[2025-01-27T15:25:40.831-0300] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/utilities/airflow/venv/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/victor/Desktop/TESTE/code-challenge/.meltano/utilities/airflow/venv/lib/python3.11/site-packages/airflow/operators/bash.py", line 212, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 2.
+[2025-01-27T15:25:40.833-0300] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=extract_and_organize_data, task_id=extract_csv, execution_date=20250126T000000, start_date=20250127T182538, end_date=20250127T182540
+[2025-01-27T15:25:40.938-0300] {standard_task_runner.py:107} ERROR - Failed to execute job 38 for task extract_csv (Bash command failed. The command returned a non-zero exit code 2.; 111519)
+[2025-01-27T15:25:40.980-0300] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-01-27T15:25:40.990-0300] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

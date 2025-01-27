@@ -1,0 +1,78 @@
+version: 1
+default_environment: dev
+project_id: 37763484-f1cb-4410-856f-1de13d44c5b9
+environments:
+- name: dev
+- name: staging
+- name: prod
+plugins:
+  extractors:
+  - name: tap-postgres
+    variant: meltanolabs
+    pip_url: git+https://github.com/MeltanoLabs/tap-postgres.git
+    config:
+      host: localhost
+      database: northwind
+      port: 5433
+      user: northwind_user
+      filter_schemas:
+      - public
+      stream_maps:
+        '*':
+          __alias__: __stream_name__.split('-')[1]
+  - name: tap-csv
+    variant: meltanolabs
+    pip_url: git+https://github.com/MeltanoLabs/tap-csv.git
+    config:
+      add_metadata_columns: false
+      csv_files_definition: json_file.json
+    select:
+    - '*.*'
+  - name: tap-csv--order-details
+    inherit_from: tap-csv
+    config:
+      csv_files_definition: json_file_order_details.json
+  loaders:
+  - name: target-csv
+    variant: meltanolabs
+    pip_url: git+https://github.com/MeltanoLabs/target-csv.git
+    config:
+      add_record_metadata: false
+      output_path: data/dump/
+  - name: target-postgres
+    variant: meltanolabs
+    pip_url: meltanolabs-target-postgres
+    config:
+      host: localhost
+      port: 5434
+      user: dbfinal_user
+      database: dbfinal
+      activate_version: false
+      add_record_metadata: false
+      default_target_schema: public
+  utilities:
+  - name: airflow
+    variant: apache
+    pip_url: git+https://github.com/meltano/airflow-ext.git@main apache-airflow==2.8.1
+      --constraint 
+      https://raw.githubusercontent.com/apache/airflow/constraints-2.8.1/constraints-no-providers-${MELTANO__PYTHON_VERSION}.txt
+jobs:
+- name: extract_data
+  tasks:
+  - tap-csv--order-details target-csv
+- name: extract_postgres_data
+  tasks:
+  - tap-postgres target-csv
+- name: load_data
+  tasks:
+  - tap-csv target-postgres
+schedules:
+- name: extract_data_schedule
+  interval: '@daily'
+  job: extract_data
+- name: extract_postgres_data_schedule
+  interval: '@daily'
+  job: extract_postgres_data
+- name: load_data_schedule
+  interval: '@daily'
+  job: load_data
