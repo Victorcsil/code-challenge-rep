@@ -6,6 +6,7 @@ from airflow.operators.bash import BashOperator
 from airflow.operators.python import PythonOperator
 from airflow.models.param import Param
 
+PROJ_DIR= os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), os.pardir, os.pardir, os.pardir))
 
 def organize_files(date):
     """Organiza os arquivos extraídos para diretórios correspondentes."""
@@ -56,13 +57,13 @@ with DAG(
     # Tarefa para extrair dados do arquivo CSV
     extract_csv = BashOperator(
         task_id="extract_csv",
-        bash_command="cd /home/victor/Desktop/TESTE/code-challenge; .meltano/run/bin run tap-csv--order-details target-csv",
+        bash_command=f"cd {PROJ_DIR} && . .venv/bin/activate && meltano run tap-csv--order-details target-csv"
     )
 
     # Tarefa para extrair dados do PostgreSQL
     extract_postgres = BashOperator(
         task_id="extract_postgres",
-        bash_command="cd /home/victor/Desktop/TESTE/code-challenge; .meltano/run/bin run tap-postgres target-csv",
+        bash_command=f"cd {PROJ_DIR} && . .venv/bin/activate && meltano run tap-postgres target-csv",
     )
 
     # Tarefa para organizar os arquivos

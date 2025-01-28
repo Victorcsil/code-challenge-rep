@@ -6,6 +6,8 @@ from airflow.operators.bash import BashOperator
 from airflow.operators.python import PythonOperator
 from airflow.models.param import Param
 
+PROJ_DIR= os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), os.pardir, os.pardir, os.pardir))
+
 def update_json_paths(date):
     """Essa função verifica se os diretórios existem e, se estiverem presentes, altera o arquivo JSON usado na extração dos CSVs."""
     # Variáveis
@@ -66,7 +68,7 @@ with DAG(
     dag_id="load_data_manual",
     start_date=datetime(2021, 1, 1),
     catchup=False,
-    schedule_interval='@daily',
+    schedule_interval=None,
     params={
         "date": Param(
             default=datetime.now().strftime("%Y-%m-%d"), type="string", format="date"
@@ -83,7 +85,7 @@ with DAG(
     # Tarefa para carregar os dados no Postgres
     load_data = BashOperator(
         task_id="load_data_manual",
-        bash_command="cd /home/victor/Desktop/TESTE/code-challenge; .meltano/run/bin run tap-csv target-postgres"
+        bash_command=f"cd {PROJ_DIR} && . .venv/bin/activate && meltano run tap-csv target-postgres"
     )
 
     # Definir a ordem de execução das tarefas
